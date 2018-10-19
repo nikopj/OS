@@ -7,38 +7,52 @@
 
 int main(int argc, char **argv)
 {
+	char *delimiter = " \t\n";
+	char *line;
+	char *ptokes[1024]; // stores pointers to tokens
+	if( !(line = malloc(4069)) )
+	{
+		perror("line malloc failure");
+		exit(-1);
+	}
 
 	while(1)
 	{
-		char *line;
-		if( !(line = malloc(4069)) )
-		{
-			perror("line malloc failure");
-			break;
-		}
-
 		printf("$ ");
+
 		if( fgets(line, 4096, stdin) != NULL )
 		{
-			printf("read: %s\n", line);
-			if( strcmp(line,"exit") == 0 )
-				break;
 
-			char *tok = strtok(line, " ");
-			fprintf(stderr, "going into while\n");
-			while(tok!=NULL)
+			int i;
+			ptokes[i=0] = strtok(line, delimiter);
+			while(ptokes[i]!=NULL)
 			{
-				printf("tok: %s\n", tok);
-				tok = strtok(NULL, " ");
+				ptokes[++i] = strtok(NULL, delimiter);
 			}
-			fprintf(stderr, "out of while\n");
 
+			if( strcmp(ptokes[0],"exit") == 0 ) // EXIT
+				break;
+			else if( strncmp(ptokes[0],"#",1) == 0 ) // COMMENT
+				continue;
+			else // CMD
+			{
+				if( strcmp(ptokes[0],"cd")==0 && ptokes[1]!=NULL)
+				{
+					if( !(chdir( ptokes[1] )) )
+						perror("cd");
+				}
+
+				fprintf(stderr, "+ cmd: ");
+				i=0;
+				while(ptokes[i]!=NULL)
+					fprintf(stderr, "%s ", ptokes[i++]);
+				fprintf(stderr, "\n");
+			}
 		} 
 		else 
-			perror("scanf");
-
-		free(line);
+			perror("fgets line");
 	}
-	
+
+	free(line);
 	return 0;
 }

@@ -9,6 +9,8 @@
 #include <sys/time.h>
 #include <sys/resource.h>
 #include <sys/wait.h>
+// for ftime()
+#include <sys/timeb.h>
 
 #define BUFF_SIZE 2048
 
@@ -17,7 +19,10 @@ void eprint_tokens(const char *msg, char **tokv);
 int main(int argc, char **argv)
 {
 	pid_t pid;
-	int wstatus;
+	int wstatus, exstat, tcheck;
+	struct timeb tstart, tstop;
+	time_t elps_ts;
+	unsigned short elps_tm;
 	char *delimiter = " \t\n";
 	char *line;
 	char *ptokes[BUFF_SIZE]; // pointers to tokens
@@ -50,7 +55,14 @@ int main(int argc, char **argv)
 			
 			// parse tokens
 			if( strcmp(ptokes[0],"exit") == 0 ) // EXIT
-				break;
+			{
+				if( ptokes[1]!=NULL )
+					exstat = strtol(ptokes[1], NULL, 10);
+				else
+					exstat = 0;
+				free(line);
+				exit(exstat);
+			}
 			else if( strncmp(ptokes[0],"#",1) == 0 ) // COMMENT
 				continue;
 			else if( strcmp(ptokes[0],"cd")==0 && ptokes[1]!=NULL ) // CD
@@ -76,14 +88,13 @@ int main(int argc, char **argv)
 					free(cwd);
 				}
 			}
-			else
+			else // FORK -> EXEC
 			{
 				switch( pid=fork() )
 				{
 				case -1:
 					perror("fork error");
-					free(line);
-					exit(-1);
+					break;
 
 				case 0:
 					fprintf(stderr, "+ in child, cmd:");
@@ -95,24 +106,41 @@ int main(int argc, char **argv)
 
 				default:
 					fprintf(stderr, "+ in parent, child pid is %d\n", pid);
+					if( (tcheck = ftime(&tstart)) == -1 )
+						perror("ftime error @ start");
 					if( wait3(&wstatus, 0, &usage) == -1 )
-						perror("wait4 error");
+						perror("wait3 error");
 					else
+					{
+						if( tcheck==-1 || ftime(&tstop)==-1 )
+						{
+							elps_ts=-1; elps_tm=0;
+							perror("ftime error @ stop, real time <- -1.0");
+						}
+						else
+						{
+							elps_ts = tstop.time - tstart.time;
+							elps_tm = tstop.millitm - tstart.millitm;
+						}
 						fprintf(stderr, "+ child process %d:\n\texit status: %d\n"
-							"\tusr time: %ld.%.6ld \n\tsys time: %ld.%.6ld \n", \
+							"\tusr time: %ld.%.6lds \n\tsys time: %ld.%.6lds \n"
+							"\treal time: %ld.%.6ds\n", \
 							pid, WEXITSTATUS(wstatus), usage.ru_utime.tv_sec, \
 							usage.ru_utime.tv_usec, usage.ru_stime.tv_sec,   \
-							usage.ru_stime.tv_usec);
+							usage.ru_stime.tv_usec, elps_ts, elps_tm);
+					}
 				}
 			}
 		}
-		else 
+		else if( errno !=0 ) 
 			perror("fgets line");
+		else printf("\n"); // continue to next line
 	}
 	free(line);
 	return 0;
 }
-
+// prints tokens pointed to by tokv to stderr
+// msg is printed before tokens
 void eprint_tokens(const char *msg, char **tokv)
 {
 	int i=0;

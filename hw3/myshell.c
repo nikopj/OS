@@ -11,10 +11,15 @@
 #include <sys/wait.h>
 // for ftime()
 #include <sys/timeb.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
 
 #define BUFF_SIZE 2048
 
 void eprint_tokens(const char *msg, char **tokv);
+void io_case(char **tokv);
+int io_redir(const char *filename, const int rfd, int flags, mode_t mode);
 
 int main(int argc, char **argv)
 {
@@ -42,6 +47,7 @@ int main(int argc, char **argv)
 		{
 			// tokenize input
 			int i;
+			char *io;
 			ptokes[i=0] = strtok(line, delimiter);
 			while(ptokes[i]!=NULL)
 			{
@@ -90,6 +96,8 @@ int main(int argc, char **argv)
 			}
 			else // FORK -> EXEC
 			{
+				if( (tcheck = ftime(&tstart)) == -1 )
+					perror("ftime error @ start");
 				switch( pid=fork() )
 				{
 				case -1:
@@ -97,8 +105,9 @@ int main(int argc, char **argv)
 					break;
 
 				case 0:
-					fprintf(stderr, "+ in child, cmd:");
-					eprint_tokens(" ", ptokes);
+					eprint_tokens("+ child tokes before: ", ptokes);
+					io_case(ptokes);
+					eprint_tokens("+ child tokes after: ", ptokes);
 					execvp(ptokes[0], ptokes);
 					perror("exec failed");
 					free(line);
@@ -106,8 +115,6 @@ int main(int argc, char **argv)
 
 				default:
 					fprintf(stderr, "+ in parent, child pid is %d\n", pid);
-					if( (tcheck = ftime(&tstart)) == -1 )
-						perror("ftime error @ start");
 					if( wait3(&wstatus, 0, &usage) == -1 )
 						perror("wait3 error");
 					else
@@ -122,7 +129,7 @@ int main(int argc, char **argv)
 							elps_ts = tstop.time - tstart.time;
 							elps_tm = tstop.millitm - tstart.millitm;
 						}
-						fprintf(stderr, "+ child process %d:\n\texit status: %d\n"
+						fprintf(stderr,"+ child process %d:\n\texit status: %d\n"
 							"\tusr time: %ld.%.6lds \n\tsys time: %ld.%.6lds \n"
 							"\treal time: %ld.%.6ds\n", \
 							pid, WEXITSTATUS(wstatus), usage.ru_utime.tv_sec, \
@@ -148,4 +155,68 @@ void eprint_tokens(const char *msg, char **tokv)
 	while(tokv[i]!=NULL)
 		fprintf(stderr, "%s ", tokv[i++]);
 	fprintf(stderr, "\n");
+}
+
+void io_case(char **tokv)
+{
+	int i=0;
+	while(tokv[i]!=NULL)
+	{
+		if(tokv[i+1]!=NULL)
+		{
+			if(strcmp(tokv[i],"<")==0)
+			{
+				fprintf(stderr,"+ rd stdin to %s\n",tokv[i+1]);
+				io_redir(tokv[i+1], STDIN_FILENO, O_RDONLY, 0444);
+				i++;
+			}
+			else if(strcmp(tokv[i],">")==0)
+			{
+				fprintf(stderr,"+ rd stdout to %s\n",tokv[i+1]);
+				io_redir(tokv[i+1],STDOUT_FILENO,O_CREAT|O_TRUNC|O_WRONLY,0666);
+				tokv[i]=NULL;
+				i++;
+			}
+			else if(strcmp(tokv[i],"2>")==0)
+			{
+				fprintf(stderr,"+ rd stdder to %s\n",tokv[i+1]);
+				io_redir(tokv[i+1],STDERR_FILENO,O_CREAT|O_TRUNC|O_WRONLY,0666);
+				tokv[i]=NULL;
+				i++;
+			}
+			else if(strcmp(tokv[i],">>")==0)
+			{
+				fprintf(stderr,"+ rd stout to %s\n",tokv[i+1]);
+				io_redir(tokv[i+1],STDOUT_FILENO,O_CREAT|O_APPEND|O_WRONLY,0666);
+				tokv[i]=NULL;
+				i++;
+			}
+			else if(strcmp(tokv[i],"2>>")==0)
+			{
+				fprintf(stderr,"+ rd stdin to %s\n",tokv[i+1]);
+				io_redir(tokv[i+1],STDERR_FILENO,O_CREAT|O_APPEND|O_WRONLY,0666);
+				tokv[i]=NULL;
+				i++;
+			}
+		}
+		i++;
+	}
+}
+
+int io_redir(const char *filename, const int rfd, int flags, mode_t mode)
+{
+	int ofd;
+	if( (ofd=open(filename, flags, mode)) < 0 )
+	{
+		fprintf(stderr,"%s open error: %s\n",filename,strerror(errno));
+		return -1;
+	}
+	else if( dup2(ofd,rfd)!=-1 )
+	{
+		close(ofd);
+		return 0;
+	}
+	else 
+		fprintf(stderr,"%s to fd=%d, dup2 error: %s\n",filename,rfd,strerror(errno));
+	return -1;
 }

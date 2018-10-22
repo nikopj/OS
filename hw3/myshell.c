@@ -9,45 +9,50 @@
 #include <sys/time.h>
 #include <sys/resource.h>
 #include <sys/wait.h>
-// for ftime()
-#include <sys/timeb.h>
 #include <sys/stat.h>
 #include <fcntl.h>
 
-
 #define BUFF_SIZE 2048
+#define DEBUG 0
 
 void eprint_tokens(const char *msg, char **tokv);
-void io_case(char **tokv);
+int io_handle(char **tokv);
 int io_redir(const char *filename, const int rfd, int flags, mode_t mode);
 
 int main(int argc, char **argv)
 {
 	pid_t pid;
 	int wstatus, exstat, tcheck;
-	struct timeb tstart, tstop;
-	time_t elps_ts;
-	unsigned short elps_tm;
+	struct timeval tstart, tstop; time_t elps_ts; suseconds_t elps_tu;
 	char *delimiter = " \t\n";
 	char *line;
 	char *ptokes[BUFF_SIZE]; // pointers to tokens
 	struct rusage usage;
+	FILE *fstream;
 
 	if( (line = malloc(BUFF_SIZE)) == NULL )
 	{
 		perror("line malloc failure");
 		exit(-1);
 	}
+	
+	// if no input file is given or it cannot be opened
+	// set the input to stdin
+	if( argv[1]==NULL || (fstream=fopen(argv[1],"r"))==NULL )
+	{
+		if( argv[1]!=NULL )
+			perror("fopen input error");
+		fstream = stdin;
+	}
 
 	while(1)
 	{
 		printf("$ ");
 
-		if( fgets(line, BUFF_SIZE, stdin) != NULL )
+		if( fgets(line, BUFF_SIZE, fstream) != NULL )
 		{
 			// tokenize input
 			int i;
-			char *io;
 			ptokes[i=0] = strtok(line, delimiter);
 			while(ptokes[i]!=NULL)
 			{
@@ -57,15 +62,14 @@ int main(int argc, char **argv)
 				continue;
 
 			// DEBUGGING
-			eprint_tokens("+ cmd: ", ptokes);
+			if(DEBUG)
+				eprint_tokens("+ cmd: ", ptokes);
 			
 			// parse tokens
 			if( strcmp(ptokes[0],"exit") == 0 ) // EXIT
 			{
 				if( ptokes[1]!=NULL )
 					exstat = strtol(ptokes[1], NULL, 10);
-				else
-					exstat = 0;
 				free(line);
 				exit(exstat);
 			}
@@ -96,8 +100,8 @@ int main(int argc, char **argv)
 			}
 			else // FORK -> EXEC
 			{
-				if( (tcheck = ftime(&tstart)) == -1 )
-					perror("ftime error @ start");
+				if( (tcheck = gettimeofday(&tstart,NULL)) == -1 )
+					perror("gettimeofday error @ start");
 				switch( pid=fork() )
 				{
 				case -1:
@@ -105,36 +109,53 @@ int main(int argc, char **argv)
 					break;
 
 				case 0:
-					eprint_tokens("+ child tokes before: ", ptokes);
-					io_case(ptokes);
-					eprint_tokens("+ child tokes after: ", ptokes);
+					// close input file
+					if( fclose(fstream)!=0 )
+					{
+						perror("input filestream close in child failed");
+						free(line);
+						exit(-1);
+					}
+					if(DEBUG)
+						eprint_tokens("+ child tokes before: ", ptokes);
+					if( io_handle(ptokes)!=0 ) // IO REDIRECTION HANDLER
+					{
+						fprintf(stderr,"IO redirection failure\n");
+						free(line);
+						exit(-1);
+					}
+					if(DEBUG)
+						eprint_tokens("+ child tokes after: ", ptokes);
 					execvp(ptokes[0], ptokes);
 					perror("exec failed");
 					free(line);
 					exit(-1);
 
 				default:
-					fprintf(stderr, "+ in parent, child pid is %d\n", pid);
+					if(DEBUG)
+						fprintf(stderr, "+ in parent, child pid is %d\n", pid);
 					if( wait3(&wstatus, 0, &usage) == -1 )
 						perror("wait3 error");
 					else
 					{
-						if( tcheck==-1 || ftime(&tstop)==-1 )
+						if( tcheck==-1 || gettimeofday(&tstop,NULL)==-1 )
 						{
-							elps_ts=-1; elps_tm=0;
-							perror("ftime error @ stop, real time <- -1.0");
+							elps_ts=-1; elps_tu=0;
+							perror("gettimeofday error @ stop, real time <- -1.0");
 						}
 						else
 						{
-							elps_ts = tstop.time - tstart.time;
-							elps_tm = tstop.millitm - tstart.millitm;
+							elps_ts = tstop.tv_sec - tstart.tv_sec;
+							elps_tu = 1000000*tstop.tv_sec + tstop.tv_usec \
+								- 1000000*tstart.tv_sec - tstart.tv_usec;
 						}
-						fprintf(stderr,"+ child process %d:\n\texit status: %d\n"
-							"\tusr time: %ld.%.6lds \n\tsys time: %ld.%.6lds \n"
-							"\treal time: %ld.%.6ds\n", \
-							pid, WEXITSTATUS(wstatus), usage.ru_utime.tv_sec, \
-							usage.ru_utime.tv_usec, usage.ru_stime.tv_sec,   \
-							usage.ru_stime.tv_usec, elps_ts, elps_tm);
+						fprintf(stderr,"child process %d:\n\texit status: %d\n"
+							"\t usr time: %ld.%06lds \n\t sys time: %ld.%06ld\n"
+							"\treal time: %ld.%06lds\n", \
+							pid, exstat=WEXITSTATUS(wstatus), \
+							usage.ru_utime.tv_sec, usage.ru_utime.tv_usec, \
+							usage.ru_stime.tv_sec, usage.ru_stime.tv_usec, \
+							elps_ts, elps_tu);
 					}
 				}
 			}
@@ -157,52 +178,58 @@ void eprint_tokens(const char *msg, char **tokv)
 	fprintf(stderr, "\n");
 }
 
-void io_case(char **tokv)
+// switch cases for IO redirection
+// calls io_redir() if necessary
+int io_handle(char **tokv)
 {
 	int i=0;
+	int ret=0;
 	while(tokv[i]!=NULL)
 	{
 		if(tokv[i+1]!=NULL)
 		{
 			if(strcmp(tokv[i],"<")==0)
 			{
-				fprintf(stderr,"+ rd stdin to %s\n",tokv[i+1]);
-				io_redir(tokv[i+1], STDIN_FILENO, O_RDONLY, 0444);
-				i++;
+				if(DEBUG)
+					fprintf(stderr,"+ rd stdin to %s\n",tokv[i+1]);
+				ret = ret + io_redir(tokv[i+1], STDIN_FILENO, O_RDONLY, 0444);
+				tokv[i++]=NULL;
 			}
 			else if(strcmp(tokv[i],">")==0)
 			{
-				fprintf(stderr,"+ rd stdout to %s\n",tokv[i+1]);
-				io_redir(tokv[i+1],STDOUT_FILENO,O_CREAT|O_TRUNC|O_WRONLY,0666);
-				tokv[i]=NULL;
-				i++;
+				if(DEBUG)
+					fprintf(stderr,"+ rd stdout to %s\n",tokv[i+1]);
+				ret = ret + io_redir(tokv[i+1],STDOUT_FILENO,O_CREAT|O_TRUNC|O_WRONLY,0666);
+				tokv[i++]=NULL;
 			}
 			else if(strcmp(tokv[i],"2>")==0)
 			{
-				fprintf(stderr,"+ rd stdder to %s\n",tokv[i+1]);
-				io_redir(tokv[i+1],STDERR_FILENO,O_CREAT|O_TRUNC|O_WRONLY,0666);
-				tokv[i]=NULL;
-				i++;
+				if(DEBUG)
+					fprintf(stderr,"+ rd stdder to %s\n",tokv[i+1]);
+				ret = ret + io_redir(tokv[i+1],STDERR_FILENO,O_CREAT|O_TRUNC|O_WRONLY,0666);
+				tokv[i++]=NULL;
 			}
 			else if(strcmp(tokv[i],">>")==0)
 			{
-				fprintf(stderr,"+ rd stout to %s\n",tokv[i+1]);
-				io_redir(tokv[i+1],STDOUT_FILENO,O_CREAT|O_APPEND|O_WRONLY,0666);
-				tokv[i]=NULL;
-				i++;
+				if(DEBUG)
+					fprintf(stderr,"+ rd stout to %s\n",tokv[i+1]);
+				ret = ret + io_redir(tokv[i+1],STDOUT_FILENO,O_CREAT|O_APPEND|O_WRONLY,0666);
+				tokv[i++]=NULL;
 			}
 			else if(strcmp(tokv[i],"2>>")==0)
 			{
-				fprintf(stderr,"+ rd stdin to %s\n",tokv[i+1]);
-				io_redir(tokv[i+1],STDERR_FILENO,O_CREAT|O_APPEND|O_WRONLY,0666);
-				tokv[i]=NULL;
-				i++;
+				if(DEBUG)
+					fprintf(stderr,"+ rd stdin to %s\n",tokv[i+1]);
+				ret = ret + io_redir(tokv[i+1],STDERR_FILENO,O_CREAT|O_APPEND|O_WRONLY,0666);
+				tokv[i++]=NULL;
 			}
 		}
 		i++;
 	}
+	return ret;
 }
 
+// IO redirection
 int io_redir(const char *filename, const int rfd, int flags, mode_t mode)
 {
 	int ofd;

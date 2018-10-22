@@ -1,0 +1,42 @@
+nikopj@s15:~/Documents/OS/hw3$ ./myshell.out
+$ echo hello!
+hello!
+child process 28924:
+	exit status: 0
+	 usr time: 0.000000s 
+	 sys time: 0.001332
+	real time: 0.001451s
+$ pwd
+/home/nikopj/Documents/OS/hw3
+$ cd ..
+$ ls -la > ls.out
+child process 28930:
+	exit status: 0
+	 usr time: 0.000000s 
+	 sys time: 0.003688
+	real time: 0.003801s
+$ cat ls.out
+total 28
+drwxrwxr-x 6 nikopj nikopj 4096 Oct 21 21:07 .
+drwxr-xr-x 7 nikopj nikopj 4096 Oct 18 21:50 ..
+drwxrwxr-x 8 nikopj nikopj 4096 Oct 21 15:27 .git
+drwxrwxr-x 3 nikopj nikopj 4096 Oct 17 16:04 hw2
+drwxrwxr-x 2 nikopj nikopj 4096 Oct 21 21:11 hw3
+-rw-rw-r-- 1 nikopj nikopj    0 Oct 21 21:14 ls.out
+drwxrwxr-x 4 nikopj nikopj 4096 Oct 17 16:04 MINICAT
+-rw-rw-r-- 1 nikopj nikopj   40 Oct 17 16:04 README.md
+child process 28931:
+	exit status: 0
+	 usr time: 0.001332s 
+	 sys time: 0.000000
+	real time: 0.001523s
+$ cat doesnt_exist.txt
+cat: doesnt_exist.txt: No such file or directory
+child process 28934:
+	exit status: 1
+	 usr time: 0.001404s 
+	 sys time: 0.000000
+	real time: 0.001602s
+$ exit
+nikopj@s15:~/Documents/OS/hw3$ echo $?
+1

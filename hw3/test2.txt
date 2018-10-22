@@ -1,0 +1,18 @@
+nikopj@s15:~/Documents/OS/hw3$ ./test.sh
+hello!
+bye!
+child process 28966:
+	exit status: 0
+	 usr time: 0.001555s 
+	 sys time: 0.000000
+	real time: 7.7359062s
+hello!
+bye!
+child process 28967:
+	exit status: 0
+	 usr time: 0.001335s 
+	 sys time: 0.000000
+	real time: 0.001482s
+$ $ $ $ $ nikopj@s15:~/Documents/OS/hw3$ echo $?
+123
+

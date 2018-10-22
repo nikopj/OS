@@ -1,0 +1,22 @@
+nikopj@s15:~/Documents/OS/hw3$ ./test2.sh < p1.txt 2> log.out
+$ $ $ $ nikopj@s15:~/Documents/OS/hw3$ ls
+cat2.out  cat.out  log.out  Makefile  myshell.c  myshell_debug.out  myshell.out  p1.txt  test1.txt  test2.sh  test2.txt  test.sh
+nikopj@s15:~/Documents/OS/hw3$ cat cat2.out
+OS PS3 P1
+Nikola Janjusevic
+1)
+/bin/sh
+2)
+argv = ["sh","-vx","/tmp/script.sh","file1.c","file2.c"]
+argc = 5
+3)
+/bin/ls
+4)
+argv = ["ls","-l","file1.c","file2.c"]
+argc = 4
+nikopj@s15:~/Documents/OS/hw3$ cat log.out
+child process 28977:
+	exit status: 0
+	 usr time: 0.000000s 
+	 sys time: 0.001220
+	real time: 0.001304s

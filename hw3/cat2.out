@@ -1,0 +1,12 @@
+OS PS3 P1
+Nikola Janjusevic
+1)
+/bin/sh
+2)
+argv = ["sh","-vx","/tmp/script.sh","file1.c","file2.c"]
+argc = 5
+3)
+/bin/ls
+4)
+argv = ["ls","-l","file1.c","file2.c"]
+argc = 4

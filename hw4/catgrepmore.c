@@ -1,11 +1,8 @@
 /*
 Nikola Janjusevic
 Operating Systems Assignment 4
-minicat.c -b -o infile
-concatenates files with optional buffer size argument -b, and output file
-argument -o. Files to cat are specified at the infile position.
-Special character '-' (a single hyphen) may be used to allow for input from
-the standard input.
+catgrepmore pattern infile
+cat infile | grep pattern | more
 */
 // argument parsing adapted from gnu.org example of getopt
 # include <ctype.h>
@@ -16,9 +13,18 @@ the standard input.
 # include <string.h>
 # include <errno.h>
 # include <sys/wait.h>
+# include <setjmp.h>
 
 # define DEBUG 1
 # define BUFFSIZE 4069
+
+int byte_count=0;
+jmp_buf int_jb;
+
+void int_handler(int sn)
+{
+	longjmp(int_jb,1);
+}
 
 pid_t execPipeIO(const char *cmd, const char *arg, int ifd, int ofd, \
 	const int *close_fds, const int n);
@@ -78,7 +84,7 @@ int main(int argc, char **argv)
 		// FORK -> EXEC GREP
 		// array of file descriptors for child process to close
 		const int close_fds1[3] = {pipes[1],pipes[2],fd_in};
-		pid1 = execPipeIO("grep",argv[1],pipes[0],STDOUT_FILENO,close_fds1,3);
+		pid1 = execPipeIO("grep",argv[1],pipes[0],pipes[3],close_fds1,3);
 		if(DEBUG)
 			fprintf(stderr,"+ grep pid: %d\n",pid1);
 
@@ -185,6 +191,8 @@ void cat(int fdi, int fdo, char *buf, int buff_size)
 				fdo, strerror(errno));
 			temp+=m;
 		}
+		// updating byte count global
+		byte_count+=n;
 	}
 	if(n<0)
 	{

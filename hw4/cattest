@@ -1,0 +1,1006 @@
+/*
+Nikola Janjusevic
+Operating Systems Assignment 4
+minicat.c -b -o infile
+concatenates files with optional buffer size argument -b, and output file
+argument -o. Files to cat are specified at the infile position.
+Special character '-' (a single hyphen) may be used to allow for input from
+the standard input.
+*/
+// argument parsing adapted from gnu.org example of getopt
+# include <ctype.h>
+# include <stdio.h>
+# include <stdlib.h>
+# include <unistd.h>
+# include <fcntl.h>
+# include <string.h>
+# include <errno.h>
+# include <sys/wait.h>
+
+# define DEBUG 1
+# define BUFFSIZE 4069
+
+pid_t execPipeIO(const char *cmd, const char *arg, int ifd, int ofd, \
+	const int *close_fds, const int n);
+void cat(int fdi, int fdo, char *buf, int buff_size);
+
+int main(int argc, char **argv)
+{
+	pid_t pid1, pid2;
+	int i, fd_in;
+	int pipes[4];
+	int bs = BUFFSIZE;
+	char *buf;
+	int wstatus;
+
+	// argument parsing
+	if( argc<3 )
+	{
+		fprintf(stderr,"%s: must specify grep pattern and infile\n",argv[0]);
+		exit(-1);
+	}
+
+	// buffer allocation
+	if( (buf=malloc(bs)) < 0 )
+	{
+		perror("malloc error");
+		exit(-1);
+	}
+
+
+	// loop over infiles
+	for(i=2; i<argc; i++)
+	{
+		// open infile
+		if( (fd_in=open(argv[i], O_RDONLY)) < 0)
+		{
+			fprintf(stderr,"infile %s open error: %s\n", \
+				argv[i], strerror(errno));
+			exit(-1);
+		}
+		
+		// pipe creation
+		if(pipe(pipes)<0 || pipe(pipes+2)<0)
+		{
+			perror("error creating pipes");
+			exit(-1);
+		}
+		// pipe[0] grep read
+		// pipe[1] cat write
+		// pipe[2] more read
+		// pipe[3] grep write
+		if(DEBUG)
+		{
+			fprintf(stderr,"+ pipes[]={%d,%d,%d,%d}\n", \
+				pipes[0],pipes[1],pipes[2],pipes[3]);
+		}
+
+		// FORK -> EXEC GREP
+		// array of file descriptors for child process to close
+		const int close_fds1[3] = {pipes[1],pipes[2],fd_in};
+		pid1 = execPipeIO("grep",argv[1],pipes[0],STDOUT_FILENO,close_fds1,3);
+		if(DEBUG)
+			fprintf(stderr,"+ grep pid: %d\n",pid1);
+
+		// FORK -> EXEC MORE
+		const int close_fds2[4] = {pipes[0],pipes[1],pipes[3],fd_in};
+		pid2 = execPipeIO("more",NULL,pipes[2],STDOUT_FILENO,close_fds2,4);
+		if(DEBUG)
+			fprintf(stderr,"+ more pid: %d\n",pid2);
+
+		// close pipe references
+		if( close(pipes[0])==-1 || close(pipes[2])==-1 || close(pipes[3])==-1 )
+			perror("error, parent couldn't close pipe references");
+
+		fprintf(stderr,"+ catting infile %s\n",argv[i]);
+		// actual concatenation
+		cat(fd_in, pipes[1], buf, bs);
+
+		// close the infile
+		if(fd_in != STDIN_FILENO && close(fd_in) < 0) 
+		{
+			fprintf(stderr, "infile %s close error: %s\n", \
+				argv[i], strerror(errno));
+			exit(-1);
+		}
+		
+		if( close(pipes[1])<0 )
+		{
+			fprintf(stderr,"cat write pipe close error: %s\n",strerror(errno));
+			exit(-1);
+		}
+
+		// wait for ALL child processes to terminate
+		int p;
+		while( (p=wait(&wstatus))>0 )
+		{
+			if(DEBUG)
+				fprintf(stderr,"+ terminated pid: %d\n",p);
+		}
+	}
+
+
+	free(buf);
+	return 0;
+}
+
+// pipeIO redirection and execution of cmd
+// uses execlp with only one argument, arg
+pid_t execPipeIO(const char *cmd, const char *arg, int ifd, int ofd, \
+	const int *close_fds, const int n)
+{
+	pid_t pid;
+	int i;
+	switch( pid=fork() )
+	{
+	case -1:
+		fprintf(stderr,"%s fork error: %s\n", cmd, strerror(errno));
+		return -1;
+	case 0:
+
+		// redirect IO to pipes
+		if( dup2(ifd,STDIN_FILENO)==-1 )
+		{
+			fprintf(stderr,"%s in-pipe failure: %s\n", cmd, strerror(errno));
+			exit(-1);
+		}
+		if( dup2(ofd,STDOUT_FILENO)==-1 )
+		{
+			fprintf(stderr,"%s out-pipe failure: %s\n", cmd, strerror(errno));
+			exit(-1);
+		}
+
+		// close dangling files
+		for(i=0; i<n; i++)
+		{
+			if( close(close_fds[i])==-1 )
+			{
+				perror("error closing dangling fds in child");
+				exit(-1);
+			}
+		}
+
+		// execute
+		execlp(cmd,cmd,arg,NULL);
+		fprintf(stderr,"%s cmd exec failed: %s\n", cmd, strerror(errno));
+		exit(-1);
+
+	default:
+		return pid;
+	}		
+}
+
+
+// performs concatenation of infile to outfile
+void cat(int fdi, int fdo, char *buf, int buff_size)
+{
+	int n,m;
+	char *temp;
+	while( (n=read(fdi, buf, buff_size)) > 0 )
+	{
+		temp = buf;
+		while( (m = write(fdo, temp, n)) !=n )
+		{
+			fprintf(stderr,"outfile with fd=%d write error: %s\n", \
+				fdo, strerror(errno));
+			temp+=m;
+		}
+	}
+	if(n<0)
+	{
+		fprintf(stderr,"infile with fd=%d read error: %s\n", \
+			fdi, strerror(errno));
+		exit(-1);
+	}
+}
+
+#include <unistd.h>
+#include <stdio.h>
+#include <sys/signal.h>
+#include <sys/wait.h>
+#include <errno.h>
+
+int signo,nsig,counter;
+int rcvr_pid;
+
+void handler(s)
+{
+	if(s==signo)
+		counter++;
+	fprintf(stderr,"%d\n",counter);
+}
+
+int main(ac,av)
+char **av;
+{
+struct sigaction sa;
+int pid,status,nchild,i;
+	signo=SIGUSR1;
+	nsig=10000;
+	rcvr_pid=getpid();
+	sa.sa_handler=handler;
+	/* WHAT would happen if I forgot this line below? */
+	sa.sa_flags=0;
+	/* or this line below? */
+	sigemptyset(&sa.sa_mask);
+	if(sigaction(signo,&sa,0)==-1)
+	{
+		perror("sigaction");
+		return -1;
+	}
+	switch(pid=fork())
+	{
+	 case -1:
+		perror("fork");
+		return -1;
+	 case 0:
+	 	sender();
+		return 0;
+	}
+	fprintf(stderr,"Waiting for sender\n");
+	/* WHY do i have this thing with EINTR below?? */
+	while( wait(&status)>0 || errno==EINTR )
+		;
+	fprintf(stderr,"Received a total of %d of signal #%d\n",counter,signo);
+}
+
+sender()
+{
+int i;
+	for(i=0;i<nsig;i++)
+	{
+		kill(rcvr_pid,signo);
+		//fprintf(stdout,"%d,",i);
+	}
+}
+/*
+Nikola Janjusevic
+Operating Systems Assignment 4
+minicat.c -b -o infile
+concatenates files with optional buffer size argument -b, and output file
+argument -o. Files to cat are specified at the infile position.
+Special character '-' (a single hyphen) may be used to allow for input from
+the standard input.
+*/
+// argument parsing adapted from gnu.org example of getopt
+# include <ctype.h>
+# include <stdio.h>
+# include <stdlib.h>
+# include <unistd.h>
+# include <fcntl.h>
+# include <string.h>
+# include <errno.h>
+
+# define BUFFSIZE 4069
+
+void cat(int fdi, int fdo, char *buf, int buff_size);
+
+int main(int argc, char **argv)
+{
+	int i, fd_in;
+	int bs = BUFFSIZE;
+	int fd_out = STDOUT_FILENO;
+	char *outfile = "";
+	char *buf;
+	char c;
+
+	// argument parsing
+	while( (c=getopt(argc,argv,"b:o:"))!=-1 )
+	{
+		switch(c)
+		{
+		 case 'b':
+			if( (bs = atoi(optarg)) < 1 )
+			perror("invalid buffer-size");
+			break;
+		 case 'o':
+			outfile = optarg;
+			if( (fd_out = open(outfile, O_CREAT|O_WRONLY|O_TRUNC, 0666)) < 0)
+			{
+			fprintf(stderr, "outfile %s open error: %s\n", \
+				outfile, strerror(errno));
+			exit(-1);
+			}
+			break;
+		}
+	}
+	// buffer allocation
+	if( (buf=malloc(bs)) < 0 )
+	{
+		perror("malloc error");
+		exit(-1);
+	}
+	// if no infiles given
+	if(optind == argc)
+		cat(STDIN_FILENO, STDOUT_FILENO, buf, bs);
+	else // infiles given
+	{
+		// loop over infiles
+		for(i=optind; i<argc; i++)
+		{
+			// hyphen specifies stdin
+			if(strcmp(argv[i],"-") == 0)
+				fd_in = STDIN_FILENO;
+			else if( (fd_in=open(argv[i], O_RDONLY)) < 0)
+			{
+				fprintf(stderr,"infile %s open error: %s\n", \
+					argv[i], strerror(errno));
+				exit(-1);
+			}
+			if(strcmp(argv[i], outfile) == 0)
+			{
+				fprintf(stderr, "error: infile %s is also outfile\n",outfile);
+				exit(-1);
+			}
+
+			// actual concatenation
+			cat(fd_in, fd_out, buf, bs);
+
+			// close the infile
+			if(fd_in != STDIN_FILENO && close(fd_in) < 0) 
+			{
+				fprintf(stderr, "infile %s close error: %s\n", \
+					argv[i], strerror(errno));
+				exit(-1);
+			}
+		}
+	}
+
+	if(fd_out != STDOUT_FILENO && close(fd_out) < 0)
+	{
+		fprintf(stderr, "outfile %s close error: %s\n", \
+			outfile, strerror(errno));
+		exit(-1);
+	}
+
+	free(buf);
+	return 0;
+}
+
+// performs concatenation of infile to outfile
+void cat(int fdi, int fdo, char *buf, int buff_size)
+{
+	int n,m;
+	char *temp;
+	while( (n=read(fdi, buf, buff_size)) > 0 )
+	{
+		temp = buf;
+		while( (m = write(fdo, temp, n)) !=n )
+		{
+			fprintf(stderr,"outfile with fd=%d write error: %s\n", \
+				fdo, strerror(errno));
+			temp+=m;
+		}
+	}
+	if(n<0)
+	{
+		fprintf(stderr,"infile with fd=%d read error: %s\n", \
+			fdi, strerror(errno));
+		exit(-1);
+	}
+}
+
+// myshell.c
+#include <unistd.h>
+#include <stdio.h>
+#include <errno.h>
+#include <string.h>
+#include <stdlib.h>
+// for wait3()
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/wait.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+#define BUFF_SIZE 2048
+#define DEBUG 0
+
+void eprint_tokens(const char *msg, char **tokv);
+int io_handle(char **tokv);
+int io_redir(const char *filename, const int rfd, int flags, mode_t mode);
+
+int main(int argc, char **argv)
+{
+	pid_t pid;
+	int wstatus, exstat, tcheck;
+	struct timeval tstart, tstop; time_t elps_ts; suseconds_t elps_tu;
+	char *delimiter = " \t\n";
+	char *line;
+	char *ptokes[BUFF_SIZE]; // pointers to tokens
+	struct rusage usage;
+	FILE *fstream;
+
+	if( (line = malloc(BUFF_SIZE)) == NULL )
+	{
+		perror("line malloc failure");
+		exit(-1);
+	}
+	
+	// if no input file is given or it cannot be opened
+	// set the input to stdin
+	if( argv[1]==NULL || (fstream=fopen(argv[1],"r"))==NULL )
+	{
+		if( argv[1]!=NULL )
+			perror("fopen input error");
+		fstream = stdin;
+	}
+
+	while(1)
+	{
+		printf("$ ");
+
+		if( fgets(line, BUFF_SIZE, fstream) != NULL )
+		{
+			// tokenize input
+			int i;
+			ptokes[i=0] = strtok(line, delimiter);
+			while(ptokes[i]!=NULL)
+			{
+				ptokes[++i] = strtok(NULL, delimiter);
+			}
+			if( ptokes[0]==NULL )
+				continue;
+
+			// DEBUGGING
+			if(DEBUG)
+				eprint_tokens("+ cmd: ", ptokes);
+			
+			// parse tokens
+			if( strcmp(ptokes[0],"exit") == 0 ) // EXIT
+			{
+				if( ptokes[1]!=NULL )
+					exstat = strtol(ptokes[1], NULL, 10);
+				free(line);
+				exit(exstat);
+			}
+			else if( strncmp(ptokes[0],"#",1) == 0 ) // COMMENT
+				continue;
+			else if( strcmp(ptokes[0],"cd")==0 && ptokes[1]!=NULL ) // CD
+			{
+				if( chdir(ptokes[1]) == -1 )
+					perror("cd");
+				continue;
+			}
+			else if( strcmp(ptokes[0],"pwd")==0 && ptokes[1]==NULL ) // PWD 
+			{
+				char *cwd;
+				if( (cwd = malloc(BUFF_SIZE)) == NULL )
+				{
+					perror("cwd malloc failure");
+					continue;
+				}
+				else
+				{
+					if( (getcwd(cwd, BUFF_SIZE)) != NULL )
+						printf("%s\n",cwd);
+					else
+						perror("getcwd error");
+					free(cwd);
+				}
+			}
+			else // FORK -> EXEC
+			{
+				if( (tcheck = gettimeofday(&tstart,NULL)) == -1 )
+					perror("gettimeofday error @ start");
+				switch( pid=fork() )
+				{
+				case -1:
+					perror("fork error");
+					break;
+
+				case 0:
+					// close input file
+					if( fclose(fstream)!=0 )
+					{
+						perror("input filestream close in child failed");
+						free(line);
+						exit(-1);
+					}
+					if(DEBUG)
+						eprint_tokens("+ child tokes before: ", ptokes);
+					if( io_handle(ptokes)!=0 ) // IO REDIRECTION HANDLER
+					{
+						fprintf(stderr,"IO redirection failure\n");
+						free(line);
+						exit(-1);
+					}
+					if(DEBUG)
+						eprint_tokens("+ child tokes after: ", ptokes);
+					execvp(ptokes[0], ptokes);
+					perror("exec failed");
+					free(line);
+					exit(-1);
+
+				default:
+					if(DEBUG)
+						fprintf(stderr, "+ in parent, child pid is %d\n", pid);
+					if( wait3(&wstatus, 0, &usage) == -1 )
+						perror("wait3 error");
+					else
+					{
+						if( tcheck==-1 || gettimeofday(&tstop,NULL)==-1 )
+						{
+							elps_ts=-1; elps_tu=0;
+							perror("gettimeofday error @ stop, real time <- -1.0");
+						}
+						else
+						{
+							elps_ts = tstop.tv_sec - tstart.tv_sec;
+							elps_tu = 1000000*tstop.tv_sec + tstop.tv_usec \
+								- 1000000*tstart.tv_sec - tstart.tv_usec;
+						}
+						fprintf(stderr,"child process %d:\n\texit status: %d\n"
+							"\t usr time: %ld.%06lds \n\t sys time: %ld.%06ld\n"
+							"\treal time: %ld.%06lds\n", \
+							pid, exstat=WEXITSTATUS(wstatus), \
+							usage.ru_utime.tv_sec, usage.ru_utime.tv_usec, \
+							usage.ru_stime.tv_sec, usage.ru_stime.tv_usec, \
+							elps_ts, elps_tu);
+					}
+				}
+			}
+		}
+		else if( errno !=0 ) 
+			perror("fgets line");
+		else printf("\n"); // continue to next line
+	}
+	free(line);
+	return 0;
+}
+// prints tokens pointed to by tokv to stderr
+// msg is printed before tokens
+void eprint_tokens(const char *msg, char **tokv)
+{
+	int i=0;
+	fprintf(stderr, "%s", msg);
+	while(tokv[i]!=NULL)
+		fprintf(stderr, "%s ", tokv[i++]);
+	fprintf(stderr, "\n");
+}
+
+// switch cases for IO redirection
+// calls io_redir() if necessary
+int io_handle(char **tokv)
+{
+	int i=0;
+	int ret=0;
+	while(tokv[i]!=NULL)
+	{
+		if(tokv[i+1]!=NULL)
+		{
+			if(strcmp(tokv[i],"<")==0)
+			{
+				if(DEBUG)
+					fprintf(stderr,"+ rd stdin to %s\n",tokv[i+1]);
+				ret = ret + io_redir(tokv[i+1], STDIN_FILENO, O_RDONLY, 0444);
+				tokv[i++]=NULL;
+			}
+			else if(strcmp(tokv[i],">")==0)
+			{
+				if(DEBUG)
+					fprintf(stderr,"+ rd stdout to %s\n",tokv[i+1]);
+				ret = ret + io_redir(tokv[i+1],STDOUT_FILENO,O_CREAT|O_TRUNC|O_WRONLY,0666);
+				tokv[i++]=NULL;
+			}
+			else if(strcmp(tokv[i],"2>")==0)
+			{
+				if(DEBUG)
+					fprintf(stderr,"+ rd stdder to %s\n",tokv[i+1]);
+				ret = ret + io_redir(tokv[i+1],STDERR_FILENO,O_CREAT|O_TRUNC|O_WRONLY,0666);
+				tokv[i++]=NULL;
+			}
+			else if(strcmp(tokv[i],">>")==0)
+			{
+				if(DEBUG)
+					fprintf(stderr,"+ rd stout to %s\n",tokv[i+1]);
+				ret = ret + io_redir(tokv[i+1],STDOUT_FILENO,O_CREAT|O_APPEND|O_WRONLY,0666);
+				tokv[i++]=NULL;
+			}
+			else if(strcmp(tokv[i],"2>>")==0)
+			{
+				if(DEBUG)
+					fprintf(stderr,"+ rd stdin to %s\n",tokv[i+1]);
+				ret = ret + io_redir(tokv[i+1],STDERR_FILENO,O_CREAT|O_APPEND|O_WRONLY,0666);
+				tokv[i++]=NULL;
+			}
+		}
+		i++;
+	}
+	return ret;
+}
+
+// IO redirection
+int io_redir(const char *filename, const int rfd, int flags, mode_t mode)
+{
+	int ofd;
+	if( (ofd=open(filename, flags, mode)) < 0 )
+	{
+		fprintf(stderr,"%s open error: %s\n",filename,strerror(errno));
+		return -1;
+	}
+	else if( dup2(ofd,rfd)!=-1 )
+	{
+		close(ofd);
+		return 0;
+	}
+	else 
+		fprintf(stderr,"%s to fd=%d, dup2 error: %s\n",filename,rfd,strerror(errno));
+	return -1;
+}
+/*
+Nikola Janjusevic 2018
+rrdir.c -- recursively traverses directory, printing out meta data stats
+*/
+
+#include <dirent.h>
+#include <stdio.h>
+#include <string.h>
+#include <errno.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <unistd.h>
+#include <libgen.h>
+#include <stdlib.h>
+#include <pwd.h>
+#include <grp.h>
+#include <time.h>
+
+#define BUFFSIZE 256
+
+// recursively read directories (and print stats)
+int rrdir(char *dn);
+
+int main(int argc, char **argv)
+{
+  char *path;
+  if(argc == 2)
+  {
+    path = argv[1];
+    // remove any leading slashes for nicer printing
+    while(path[strlen(path)-1] == '/')
+      path[strlen(path)-1] = '\0';
+    rrdir(argv[1]);
+  }
+  else
+    printf("Usage: %s [staring directory]\n", argv[0]);
+  return 0;
+}
+
+// returns char corresponding to filetype given by st_mode from stat struct
+char charftype(mode_t st_mode)
+{
+  switch( st_mode & S_IFMT )
+  {
+    case S_IFSOCK: return 's';
+    case S_IFLNK:  return 'l';
+    case S_IFREG:  return '-';
+    case S_IFBLK:  return 'b';
+    case S_IFDIR:  return 'd';
+    case S_IFCHR:  return 'c';
+    case S_IFIFO:  return 'p';
+    default:       return '?';
+  }
+}
+
+// returns string of file permission in rwx format (puts in dest)
+// (for user, group, and others)
+char *strfperm(mode_t st_mode, char *dest)
+{
+  char octperm[4];
+  char *cptr;
+  sprintf(octperm, "%03o", st_mode & ~S_IFMT);
+
+  int i;
+  for(i=0; i<3; i++)
+  {
+    cptr = dest + 3*i;
+    switch(octperm[i])
+    {
+      case '0': strcpy(cptr, "---");
+        break;
+      case '1': strcpy(cptr, "--x");
+        break;
+      case '2': strcpy(cptr, "-w-");
+        break;
+      case '4': strcpy(cptr, "r--");
+        break;
+      case '5': strcpy(cptr, "r-x");
+        break;
+      case '6': strcpy(cptr, "rw-");
+        break;
+      case '7': strcpy(cptr, "rwx");
+        break;
+      default:  strcpy(cptr, "???");
+        break;
+    }
+  }
+  return dest;
+}
+
+// puts name corresponding to uid into dest string.
+// if correspondence found, uid number is put into dest string.
+// -1 returned upon error, 0 upon success
+int strfuid(uid_t st_uid, char *dest)
+{
+  struct passwd *stpw;
+  errno = 0; // reset errno first as per readdir's man page suggestion
+  if( !(stpw = getpwuid(st_uid)) )
+  {
+    if( errno == 0 )  // no uid - name translation
+    {
+      snprintf(dest, BUFFSIZE, "%d", st_uid);
+      return 0;
+    }
+    else
+    {
+      fprintf(stderr, "Error getting UID name from %d:%s\n", st_uid, \
+        strerror(errno));
+    }
+    return -1;
+  }
+  else
+    snprintf(dest, BUFFSIZE, "%s", stpw->pw_name);
+  return 0;
+}
+
+// same as strfuid except with gid
+int strfgid(uid_t st_gid, char *dest)
+{
+  struct group *stgr;
+  errno = 0; // reset errno first as per readdir's man page suggestion
+  if( !(stgr = getgrgid(st_gid)) )
+  {
+    if( errno == 0 )  // no uid - name translation
+    {
+      snprintf(dest, BUFFSIZE, "%d", st_gid);
+    }
+    else
+    {
+      fprintf(stderr, "Error getting UID name from %d:%s\n", st_gid, \
+        strerror(errno));
+    }
+    return -1;
+  }
+  else
+    snprintf(dest, BUFFSIZE, "%s", stgr->gr_name);
+  return 0;
+}
+
+char *strflnk(char *path, char *dest)
+{
+  ssize_t len;
+  if( !(len = readlink(path, dest, PATH_MAX)) )
+    fprintf(stderr, "Error reading link %s:%s\n", path, strerror(errno));
+  else
+  {
+    dest[len] = '\0';
+  }
+  return dest;
+}
+
+// prints path meta data to standard output
+void printstats(char *path, struct stat *st)
+{
+  char strperm[10];
+  char struid[BUFFSIZE];
+  char strgid[BUFFSIZE];
+  char strmtime[13];
+  char ft;
+  char strlnk[PATH_MAX];
+  char *lnksymb;
+
+  // get filetype character
+  if( (ft = charftype(st->st_mode)) == 'l' )
+  { // get symbolic link path if it exists
+    strflnk(path, strlnk);
+    lnksymb = "-> ";
+  }
+  else
+  { // otherwise make sure these don't print anything
+    *strlnk  = '\0';
+    lnksymb = "";
+  }
+
+  // get permissions string
+  strfperm(st->st_mode, strperm);
+
+  // get uid and gid names
+  strfuid(st->st_uid, struid);
+  strfgid(st->st_gid, strgid);
+
+  // get time string
+  struct tm *tmp = localtime(&(st->st_mtime));
+  strftime(strmtime, sizeof(strmtime), "%b %e %R", tmp);
+
+  printf(" %8ld %6ld %c%9s %3ld %-9s %-9s %8ld %s %s %s%s\n", \
+    st->st_ino, st->st_blocks/2, ft, strperm, st->st_nlink, struid, strgid, \
+    st->st_size, strmtime, path, lnksymb, strlnk);
+}
+
+// recursively read directory
+int rrdir(char *dn)
+{
+  DIR *dirp;
+  struct dirent *de;
+  char *path;
+
+  // initialize path for this fcn call
+  if( !(path = malloc(strlen(dn)+1)) )
+  {
+    fprintf(stderr, "Error in path malloc: %s\n", strerror(errno));
+    exit(-1);
+  }
+
+  // open directory before attempting to read
+  if( !(dirp=opendir(dn)) )
+  {
+    fprintf(stderr, "Cannot open directory %s: %s\n", dn, strerror(errno) );
+    return -1;
+  }
+
+  errno = 0; // reset errno first as per readdir's man page suggestion
+  while( de=readdir(dirp) ) // loop through directory entries
+  {
+    struct stat st;
+
+    // allocate memory for pathname
+    if ( !(path = realloc(path, strlen(dn) + strlen(de->d_name) + 2)) )
+    {
+      fprintf(stderr, "Error in path realloc: %s\n", strerror(errno));
+      exit(-1);
+    }
+    // append directory entry to path
+    sprintf(path, "%s/%s", dn, de->d_name);
+
+    // if de refers to . or .., don't print stats
+    if( strcmp(de->d_name, "..") == 0 || strcmp(de->d_name, ".") == 0 )
+      continue;
+
+    // get file meta data
+    if( lstat(path, &st) == -1 )
+    {
+      fprintf(stderr, "Error getting stats from %s: %s\n", path, \
+        strerror(errno));
+      continue;
+    }
+
+    // print meta data to stdout
+    printstats(path, &st);
+
+    // recursively explore child directories
+    if( S_ISDIR(st.st_mode) )
+      rrdir(path);
+    errno = 0;
+  }
+
+  if(errno)
+    fprintf(stderr, "Error reading directory %s: %s\n", dn, strerror(errno));
+  if( closedir(dirp) == -1 )
+    fprintf(stderr, "Error closing directory %s: %s\n", dn, strerror(errno));
+
+  free(path);
+}
+/*
+Nikola Janjusevic
+Operating Systems Assignment 1
+minicat.c -b -o infile
+concatenates files with optional buffer size argument -b, and output file
+argument -o. Files to cat are specified at the infile position.
+Special character '-' (a single hyphen) may be used to allow for input from
+the standard input.
+*/
+// argument parsing adapted from gnu.org example of getopt
+# include <ctype.h>
+# include <stdio.h>
+# include <stdlib.h>
+# include <unistd.h>
+# include <fcntl.h>
+# include <string.h>
+# include <errno.h>
+
+# define BUFFSIZE 4069
+
+int main (int argc, char **argv)
+{
+  int i, n, fd_in;
+  int buff_size = BUFFSIZE;
+  int fd_out = STDOUT_FILENO;
+  char *outfile = "";
+  char *buf;
+  char c;
+  // argument parsing
+  while( (c = getopt(argc, argv, "b:o:")) != -1)
+  {
+    switch(c)
+    {
+      case 'b':
+        if( (buff_size = atoi(optarg)) < 1)
+        {
+          fprintf(stderr,"buffer size error: invalid input\n");
+          exit(-1);
+        }
+        break;
+      case 'o':
+        outfile = optarg;
+        if( (fd_out = open(outfile, O_CREAT|O_WRONLY|O_TRUNC, \
+	  	    S_IRUSR|S_IWUSR|S_IRGRP|S_IROTH)) < 0)
+        {
+          fprintf(stderr,"outfile \"%s\" open error: %s\n", \
+            outfile,strerror(errno));
+          exit(-1);
+        }
+        break;
+    }
+  }
+  // buffer allocation
+  buf = malloc(buff_size);
+  // if NO INFILES are given
+  if(optind == argc)
+  {
+    while( (n = read(STDIN_FILENO, buf, buff_size)) > 0)
+    {
+      if(write(fd_out, buf, n) != n)
+      {
+        fprintf(stderr,"outfile \"%s\" write error: %s\n", \
+          outfile,strerror(errno));
+        exit(-1);
+      }
+    }
+    if(n < 0)
+    {
+      fprintf(stderr, "infile [stdin] read error: %s\n", strerror(errno));
+      exit(-1);
+    }
+  }
+  else
+  { // if INFILES ARE GIVEN
+    for(i = optind; i < argc; i++)
+    {
+      if(strncmp(argv[i], "-", 1) == 0) // hyphen infile specifies stdin
+        fd_in = STDIN_FILENO;
+      else if( (fd_in = open(argv[i], O_RDONLY)) < 0)
+      {
+        fprintf(stderr,"infile \"%s\" open error: %s\n", \
+          argv[i],strerror(errno));
+        exit(-1);
+      }
+      if(strcmp(argv[i], outfile) == 0)
+      {
+		    fprintf(stderr,"error: infile \"%s\" is outfile\n", \
+	  	    outfile);
+        exit(-1);
+      }
+      while( (n = read(fd_in, buf, buff_size)) > 0)
+      {
+        if(write(fd_out, buf, n) != n)
+        {
+          fprintf(stderr,"outfile \"%s\" write error: %s\n", \
+            outfile,strerror(errno));
+          exit(-1);
+        }
+      }
+      if(n < 0)
+      {
+        fprintf(stderr,"infile \"%s\" read error: %s\n", \
+          argv[i],strerror(errno));
+        exit(-1);
+      }
+      if(fd_in != STDIN_FILENO && close(fd_in) < 0) // close the infile
+	    {
+		    fprintf(stderr, "infile \"%s\" close error: %s\n", \
+          argv[i], strerror(errno));
+        exit(-1);
+	    }
+    }
+  }
+  if(fd_out != STDOUT_FILENO && close(fd_out) < 0) // close the outfile
+  {
+    fprintf(stderr, "outfile \"%s\" close error: %s\n", \
+      outfile, strerror(errno));
+    exit(-1);
+  }
+  free(buf);
+  return 0;
+}

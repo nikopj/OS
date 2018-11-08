@@ -15,19 +15,23 @@ the standard input.
 # include <fcntl.h>
 # include <string.h>
 # include <errno.h>
+# include <sys/wait.h>
 
+# define DEBUG 1
 # define BUFFSIZE 4069
 
+pid_t execPipeIO(const char *cmd, const char *arg, int ifd, int ofd, \
+	const int *close_fds, const int n);
 void cat(int fdi, int fdo, char *buf, int buff_size);
 
 int main(int argc, char **argv)
 {
 	pid_t pid1, pid2;
 	int i, fd_in;
-	int fdp1[2], fdp2[2];
+	int pipes[4];
 	int bs = BUFFSIZE;
-	int fd_out = STDOUT_FILENO;
-	char *buf, *pat;
+	char *buf;
+	int wstatus;
 
 	// argument parsing
 	if( argc<3 )
@@ -35,8 +39,6 @@ int main(int argc, char **argv)
 		fprintf(stderr,"%s: must specify grep pattern and infile\n",argv[0]);
 		exit(-1);
 	}
-	pat = argv[1];
-
 
 	// buffer allocation
 	if( (buf=malloc(bs)) < 0 )
@@ -45,70 +47,54 @@ int main(int argc, char **argv)
 		exit(-1);
 	}
 
-	// pipe creation
-	if(pipe(fdp1)<0 || pipe(fdp2)<0)
-	{
-		perror("error creating pipes");
-		exit(-1);
-	}
 
-	// FORK -> EXEC GREP
-	switch( pid1=fork() )
-	{
-	case -1:
-		perror("grep fork error");
-		break;
-	case 0:
-		// close dangling files
-
-		// redirect IO to pipes
-		if( dup2(stdin,fdp1[0])==-1 )
-		{
-			perror("grep in-pipe failure");
-			exit(-1);
-		}
-		if( dup2(stdout,fp2[1])==-1 )
-		{
-			perror("grep out-pipe failure");
-			exit(-1);
-		}
-		argv[2] = NULL;
-		execvp("grep",argv);
-		perror("exec grep failed");
-		exit(-1);
-	}		
-	// FORK -> EXEC LESS
-	switch( pid2=fork() )
-	{
-	case -1:
-		perror("less fork error");
-		break;
-	case 0;
-		// close file descriptors
-
-		// redirect input to pipe
-		if( dup2(stdin,fp1[0])==-1 )
-		{
-			perror("less in-pipe failure");
-			exit(-1);
-		}
-		execlp("less",argv[0],NULL);
-		perror("exec less failed");
-		exit(-1);
-	}
 	// loop over infiles
 	for(i=2; i<argc; i++)
 	{
+		// open infile
 		if( (fd_in=open(argv[i], O_RDONLY)) < 0)
 		{
 			fprintf(stderr,"infile %s open error: %s\n", \
 				argv[i], strerror(errno));
 			exit(-1);
 		}
+		
+		// pipe creation
+		if(pipe(pipes)<0 || pipe(pipes+2)<0)
+		{
+			perror("error creating pipes");
+			exit(-1);
+		}
+		// pipe[0] grep read
+		// pipe[1] cat write
+		// pipe[2] more read
+		// pipe[3] grep write
+		if(DEBUG)
+		{
+			fprintf(stderr,"+ pipes[]={%d,%d,%d,%d}\n", \
+				pipes[0],pipes[1],pipes[2],pipes[3]);
+		}
 
+		// FORK -> EXEC GREP
+		// array of file descriptors for child process to close
+		const int close_fds1[3] = {pipes[1],pipes[2],fd_in};
+		pid1 = execPipeIO("grep",argv[1],pipes[0],STDOUT_FILENO,close_fds1,3);
+		if(DEBUG)
+			fprintf(stderr,"+ grep pid: %d\n",pid1);
 
+		// FORK -> EXEC MORE
+		const int close_fds2[4] = {pipes[0],pipes[1],pipes[3],fd_in};
+		pid2 = execPipeIO("more",NULL,pipes[2],STDOUT_FILENO,close_fds2,4);
+		if(DEBUG)
+			fprintf(stderr,"+ more pid: %d\n",pid2);
+
+		// close pipe references
+		if( close(pipes[0])==-1 || close(pipes[2])==-1 || close(pipes[3])==-1 )
+			perror("error, parent couldn't close pipe references");
+
+		fprintf(stderr,"+ catting infile %s\n",argv[i]);
 		// actual concatenation
-		cat(fd_in, fd_out, buf, bs);
+		cat(fd_in, pipes[1], buf, bs);
 
 		// close the infile
 		if(fd_in != STDIN_FILENO && close(fd_in) < 0) 
@@ -117,14 +103,73 @@ int main(int argc, char **argv)
 				argv[i], strerror(errno));
 			exit(-1);
 		}
+		
+		if( close(pipes[1])<0 )
+		{
+			fprintf(stderr,"cat write pipe close error: %s\n",strerror(errno));
+			exit(-1);
+		}
+
+		// wait for ALL child processes to terminate
+		int p;
+		while( (p=wait(&wstatus))>0 )
+		{
+			if(DEBUG)
+				fprintf(stderr,"+ terminated pid: %d\n",p);
+		}
 	}
+
 
 	free(buf);
 	return 0;
 }
 
-// pipe IO redirection and execute
-int 
+// pipeIO redirection and execution of cmd
+// uses execlp with only one argument, arg
+pid_t execPipeIO(const char *cmd, const char *arg, int ifd, int ofd, \
+	const int *close_fds, const int n)
+{
+	pid_t pid;
+	int i;
+	switch( pid=fork() )
+	{
+	case -1:
+		fprintf(stderr,"%s fork error: %s\n", cmd, strerror(errno));
+		return -1;
+	case 0:
+
+		// redirect IO to pipes
+		if( dup2(ifd,STDIN_FILENO)==-1 )
+		{
+			fprintf(stderr,"%s in-pipe failure: %s\n", cmd, strerror(errno));
+			exit(-1);
+		}
+		if( dup2(ofd,STDOUT_FILENO)==-1 )
+		{
+			fprintf(stderr,"%s out-pipe failure: %s\n", cmd, strerror(errno));
+			exit(-1);
+		}
+
+		// close dangling files
+		for(i=0; i<n; i++)
+		{
+			if( close(close_fds[i])==-1 )
+			{
+				perror("error closing dangling fds in child");
+				exit(-1);
+			}
+		}
+
+		// execute
+		execlp(cmd,cmd,arg,NULL);
+		fprintf(stderr,"%s cmd exec failed: %s\n", cmd, strerror(errno));
+		exit(-1);
+
+	default:
+		return pid;
+	}		
+}
+
 
 // performs concatenation of infile to outfile
 void cat(int fdi, int fdo, char *buf, int buff_size)

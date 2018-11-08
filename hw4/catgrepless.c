@@ -22,7 +22,9 @@ void cat(int fdi, int fdo, char *buf, int buff_size);
 
 int main(int argc, char **argv)
 {
+	pid_t pid1, pid2;
 	int i, fd_in;
+	int fdp1[2], fdp2[2];
 	int bs = BUFFSIZE;
 	int fd_out = STDOUT_FILENO;
 	char *buf, *pat;
@@ -42,6 +44,58 @@ int main(int argc, char **argv)
 		perror("malloc error");
 		exit(-1);
 	}
+
+	// pipe creation
+	if(pipe(fdp1)<0 || pipe(fdp2)<0)
+	{
+		perror("error creating pipes");
+		exit(-1);
+	}
+
+	// FORK -> EXEC GREP
+	switch( pid1=fork() )
+	{
+	case -1:
+		perror("grep fork error");
+		break;
+	case 0:
+		// close dangling files
+
+		// redirect IO to pipes
+		if( dup2(stdin,fdp1[0])==-1 )
+		{
+			perror("grep in-pipe failure");
+			exit(-1);
+		}
+		if( dup2(stdout,fp2[1])==-1 )
+		{
+			perror("grep out-pipe failure");
+			exit(-1);
+		}
+		argv[2] = NULL;
+		execvp("grep",argv);
+		perror("exec grep failed");
+		exit(-1);
+	}		
+	// FORK -> EXEC LESS
+	switch( pid2=fork() )
+	{
+	case -1:
+		perror("less fork error");
+		break;
+	case 0;
+		// close file descriptors
+
+		// redirect input to pipe
+		if( dup2(stdin,fp1[0])==-1 )
+		{
+			perror("less in-pipe failure");
+			exit(-1);
+		}
+		execlp("less",argv[0],NULL);
+		perror("exec less failed");
+		exit(-1);
+	}
 	// loop over infiles
 	for(i=2; i<argc; i++)
 	{
@@ -51,6 +105,7 @@ int main(int argc, char **argv)
 				argv[i], strerror(errno));
 			exit(-1);
 		}
+
 
 		// actual concatenation
 		cat(fd_in, fd_out, buf, bs);
@@ -67,6 +122,9 @@ int main(int argc, char **argv)
 	free(buf);
 	return 0;
 }
+
+// pipe IO redirection and execute
+int 
 
 // performs concatenation of infile to outfile
 void cat(int fdi, int fdo, char *buf, int buff_size)

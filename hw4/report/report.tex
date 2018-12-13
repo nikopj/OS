@@ -1,0 +1,45 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage[margin=.8in]{geometry}
+\usepackage{listings} % for formatting code
+\lstset
+{
+    language=C,
+    basicstyle=\footnotesize\ttfamily,
+    numbers=left,
+    stepnumber=1,
+    showstringspaces=false,
+    tabsize=4,
+    breaklines=true,
+    breakatwhitespace=false,
+}
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+\author{Nikola Janju\v{s}evi\'{c}}
+\title{ECE357, Computer Operating Systems -- Problem Set \#4, Problem 3}
+
+\begin{document}
+\begin{Large}
+ECE357, Computer Operating Systems -- Problem Set \#4, Problem 3
+\end{Large} \\
+\begin{large}
+Nikola Janju\v{s}evi\'{c}
+\end{large} 
+\\
+\today
+
+\section{Example Usage}
+\lstinputlisting{../test.txt}
+
+\pagebreak
+
+\section*{Program: \texttt{catgrepmore.c}}
+\lstinputlisting[language=C]{../catgrepmore.c}
+
+\end{document}

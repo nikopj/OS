@@ -158,7 +158,7 @@ Journey to the Cross-roads
 The Stairs of Cirith Ungol 
 Shelob's Lair 
 
-The Choices of Master FATwise 
+The Choices of Master Samwise 
 
 
 
@@ -445,7 +445,7 @@ For they are a little people, smaller than Dwarves: less tout and
 stocky, that is, even when they are not actually much shorter. Their height 
 is variable, ranging between two and four feet of our measure. They seldom 
 now reach three feet; but they hive dwindled, they say, and in ancient days 
-they were taller. According to the Red Book, Bandobras FOOL (Bullroarer), 
+they were taller. According to the Red Book, Bandobras Took (Bullroarer), 
 son of Isengrim the Second, was four foot five and able to ride a horse. He 
 was surpassed in all Hobbit records only by two famous characters of old; 
 but that curious matter is dealt with in this book. 
@@ -541,7 +541,7 @@ River Hoarwell. In Eriador they soon mingled with the other kinds that had
 preceded them, but being somewhat bolder and more adventurous, they were 
 often found as leaders or chieftains among clans of Harfoots or Stoors. Even 
 in Bilbo's time the strong Fallohidish strain could still be noted among the 
-greater families, such as the FOOLs and the Masters of Buckland. 
+greater families, such as the Tooks and the Masters of Buckland. 
 
 In the westlands of Eriador, between the Misty Mountains and the 
 Mountains of Lune, the Hobbits found both Men and Elves. Indeed, a remnant 
@@ -622,7 +622,7 @@ obliged to fight to maintain themselves in a hard world; but in Bilbo's time
 that was very ancient history. The last battle, before this story opens, and 
 indeed the only one that had ever been fought within the borders of the 
 Shire, was beyond living memory: the Battle of Greenfields, S.R. 1147, in 
-which Bandobras FOOL routed an invasion of Ores. Even the weathers had 
+which Bandobras Took routed an invasion of Ores. Even the weathers had 
 grown 
 
 milder, and the wolves that had once come ravening out of the North in 
@@ -717,7 +717,7 @@ chief remaining peculiarity of hobbit-architecture.
 The houses and the holes of Shire-hobbits were often large, and 
 inhabited by large families. (Bilbo and Frodo Baggins were as bachelors very 
 exceptional, as they were also in many other ways, such as their friendship 
-with the Elves.) Sometimes, as in the case of the FOOLs of Great Smials, or 
+with the Elves.) Sometimes, as in the case of the Tooks of Great Smials, or 
 the Brandybucks of Brandy Hall, many generations of relatives lived in 
 (comparative) peace together in one ancestral and many -tunnelled mansion. 
 All Hobbits were, in any case, clannish and reckoned up their relationships 
@@ -804,8 +804,8 @@ The Shire was divided into four quarters, the Farthings already
 referred to. North, South, East, and West; and these again each into a 
 number of folklands, which still bore the names of some of the old leading 
 families, although by the time of this history these names were no longer 
-found only in their proper folklands. Nearly all FOOLs still lived in the 
-FOOLland, but that was not true of many other families, such as the 
+found only in their proper folklands. Nearly all Tooks still lived in the 
+Tookland, but that was not true of many other families, such as the 
 Bagginses or the Boffins. Outside the Farthings were the East and West 
 Marches: the Buckland (see beginning of Chapter V, Book I); and the 
 Westmarch added to the Shire in S.R. 1462. 
@@ -826,13 +826,13 @@ For they attributed to the king of old all their essential laws; and usually
 they kept the laws of free will, because they were The Rules (as they said), 
 both ancient and just. 
 
-It is true that the FOOL family had long been pre-eminent; for the 
+It is true that the Took family had long been pre-eminent; for the 
 office of Thain had passed to them (from the Oldbucks) some centuries 
-before, and the chief FOOL had borne that title ever since. The Thain was 
+before, and the chief Took had borne that title ever since. The Thain was 
 the master of the Shire-moot, and captain of the Shire-muster and the 
 Hobbitry-in-arms, but as muster and moot were only held in times of 
 emergency, which no longer occurred, the Thainship had ceased to be more 
-than a nominal dignity. The FOOL family was still, indeed, accorded a 
+than a nominal dignity. The Took family was still, indeed, accorded a 
 special respect, for it remained both numerous and exceedingly wealthy, and 
 was liable to produce in every generation strong characters of peculiar 
 habits and even adventurous temperament. The latter qualities, however, were 
@@ -841,7 +841,7 @@ habits and even adventurous temperament. The latter qualities, however, were
 
 
 now rather tolerated (in the rich) than generally approved. The custom 
-endured, nonetheless, of referring to the head of the family as The FOOL, 
+endured, nonetheless, of referring to the head of the family as The Took, 
 and of adding to his name, if required, a number: such as Isengrim the 
 Second, for instance. 
 
@@ -988,7 +988,7 @@ set down in his memoirs, and he seems never to have altered it himself, not
 even after the Council of Elrond. Evidently it still appeared in the 
 original Red Book, as it did in several of the copies and abstracts. But 
 many copies contain the true account (as an alternative), derived no doubt 
-from notes by Frodo or FATwise, both of whom learned the truth, though they 
+from notes by Frodo or Samwise, both of whom learned the truth, though they 
 seem to have been unwilling to delete anything actually written by the old 
 hobbit himself. 
 
@@ -1065,7 +1065,7 @@ matter concerning the hobbit members of the Fellowship.
 
 The original Red Book has not been preserved, but many copies were 
 made, especially of the first volume, for the use of the descendants of the 
-children of Master FATwise. The most important copy, however, has a 
+children of Master Samwise. The most important copy, however, has a 
 different history. It was kept at Great Smials, but it was written in 
 Condor, probably at the request of the great-grandson of Peregrin, and 
 completed in S.R. 1592 (F.A. 172). Its southern scribe appended this note: 
@@ -1184,7 +1184,7 @@ Twelve more years passed. Each year the Bagginses had given very lively
 combined birthday-parties at Bag End; but now it was understood that 
 something quite exceptional was being planned for that autumn. Bilbo was 
 going to be eleventy-one, 111, a rather curious number and a very 
-respectable age for a hobbit (the Old FOOL himself had only reached 130); 
+respectable age for a hobbit (the Old Took himself had only reached 130); 
 and Frodo was going to be thirty-three, 33) an important number: the date of 
 his 'coming of age'. 
 
@@ -1198,7 +1198,7 @@ known as the Gaffer. He held forth at The Ivy Bush , a small inn on the
 Bywater road; and he spoke with some authority, for he had tended the garden 
 at Bag End for forty years, and had helped old Holman in the same job before 
 that. Now that he was himself growing old and stiff in the joints, the job 
-was mainly carried on by his youngest son, FAT Gamgee. Both father and son 
+was mainly carried on by his youngest son, Sam Gamgee. Both father and son 
 were on very friendly terms with Bilbo and Frodo. They lived on the Hill 
 itself, in Number 3 Bagshot Row just below Bag End. 
 
@@ -1240,7 +1240,7 @@ and they were ready to hear it again. 'Well, so they say,' said the Gaffer.
 our 
 
 Mr. Bilbo's first cousin on the mother's side (her mother being the youngest 
-of the Old FOOL's daughters); and Mr. Drogo was his second cousin. So Mr. 
+of the Old Took's daughters); and Mr. Drogo was his second cousin. So Mr. 
 Frodo is his first and second cousin, once removed either way, as the saying 
 is, if you follow me. And Mr. Drogo was staying at Brandy Flail with his 
 father-in-law, old Master Gorbadoc, as he often did after his marriage (him 
@@ -1292,7 +1292,7 @@ garden while the sale was on. And in the middle of it all Mr. Bilbo comes up
 the Hill with a pony and some mighty big bags and a couple of chests. I 
 don't doubt they were mostly full of treasure he had picked up in foreign 
 parts, where there be mountains of gold, they say; but there wasn't enough 
-to fill tunnels. But my lad FAT will know more about that. He's in and out 
+to fill tunnels. But my lad Sam will know more about that. He's in and out 
 of Bag End. Crazy about stories of the old days he is, and he listens to all 
 Mr. Bilbo's tales. Mr. Bilbo has learned him his letters - meaning no harm, 
 mark you, and I hope no harm will come of it. 
@@ -1321,15 +1321,15 @@ pint of beer to a friend, if they lived in a hole with golden walls. But
 
 
 
-they do things proper at Bag End. Our FAT says that everyone's going to be 
+they do things proper at Bag End. Our Sam says that everyone's going to be 
 invited to the party, and there’s going to be presents, mark you, presents 
 for all - this very month as is.' 
 
 That very month was September, and as fine as you could ask. A day or 
-two later a rumour (probably started by the knowledgeable FAT) was spread 
+two later a rumour (probably started by the knowledgeable Sam) was spread 
 about that there were going to be fireworks - fireworks, what is more, such 
 as had not been seen in the Shire for nigh on a century, not indeed since 
-the Old FOOL died. 
+the Old Took died. 
 
 Days passed and The Day drew nearer. An odd-looking waggon laden with 
 odd-looking packages rolled into Hobbiton one evening and toiled up the Hill 
@@ -1522,9 +1522,9 @@ parental permission; for hobbits were easy-going with their children in the
 matter of sitting up late, especially when there was a chance of getting 
 them a free meal. Bringing up young hobbits took a lot of provender. 
 
-There were many Bagginses and Boffins, and also many FOOLs and 
+There were many Bagginses and Boffins, and also many Tooks and 
 Brandybucks; there were various Grubbs (relations of Bilbo Baggins' 
-grandmother), and various Chubbs (connexions of his FOOL grandfather); and 
+grandmother), and various Chubbs (connexions of his Took grandfather); and 
 selection of Burrowses, Bolgers, Bracegirdles, Brockhouses, Goodbodies, 
 Hornblowers and Proudfoots. Some of these were only very distantly 
 connected 
@@ -1567,7 +1567,7 @@ face; the golden buttons shone on his embroidered silk waistcoat. They could
 all see him standing, waving one hand in the air, the other was in his 
 trouser -pocket. 
 
-My dear Bagginses and Boffins, he began again; and my dear FOOLs and 
+My dear Bagginses and Boffins, he began again; and my dear Tooks and 
 Brandybucks, and Grubbs, and Chubbs, and Burrowses, and Hornblowers, 
 and 
 
@@ -1594,9 +1594,9 @@ the
 
 hobbits, but they all agreed they were marvellous crackers. They contained 
 instruments, small, but of perfect make and enchanting tones. Indeed, in one 
-corner some of the young FOOLs and Brandybucks, supposing Uncle Bilbo to 
+corner some of the young Tooks and Brandybucks, supposing Uncle Bilbo to 
 have finished (since he had plainly said all that was necessary), now got up 
-an impromptu orchestra, and began a merry dance-tune. Master Everard FOOL 
+an impromptu orchestra, and began a merry dance-tune. Master Everard Took 
 and Miss Melilot Brandybuck got on a table and with bells in their hands 
 began to dance the Springle-ring: a pretty dance, but rather vigorous. 
 
@@ -1604,7 +1604,7 @@ But Bilbo had not finished. Seizing a horn from a youngster near by, he
 blew three loud hoots. The noise subsided. / shall not keep you long, he 
 cried. Cheers from all the assembly. / have called you all together for a 
 Purpose. Something in the way that he said this made an impression. There 
-was almost silence, and one or two of the FOOLs pricked up their ears. 
+was almost silence, and one or two of the Tooks pricked up their ears. 
 
 Indeed, for Three Purposes! First of all, to tell you that I am 
 
@@ -1662,7 +1662,7 @@ seen. One hundred and forty-four flabbergasted hobbits sat back speechless.
 
 Old Odo Proudfoot removed his feet from the table and stamped. Then there 
 was a dead silence, until suddenly, after several deep breaths, every 
-Baggins, Boffin, FOOL, Brandybuck, Grubb, Chubb, Burrows, Bolger, 
+Baggins, Boffin, Took, Brandybuck, Grubb, Chubb, Burrows, Bolger, 
 Bracegirdle, Brockhouse, Goodbody, Hornblower, and Proudfoot began to 
 talk 
 
@@ -1671,7 +1671,7 @@ at once.
 It was generally agreed that the joke was in very bad taste, and more 
 food and drink were needed to cure the guests of shock and annoyance. 'He's 
 mad. I always said so,' was probably the most popular comment. Even the 
-FOOLs (with a few exceptions) thought Bilbo’s behaviour was absurd. For the 
+Tooks (with a few exceptions) thought Bilbo’s behaviour was absurd. For the 
 moment most of them took it for granted that his disappearance was nothing 
 more than a ridiculous prank. 
 
@@ -2028,7 +2028,7 @@ the crumbs and cracker -paper, the forgotten bags and gloves and
 
 handkerchiefs, and the uneaten food (a very small item). Then a number of 
 other people came (without orders): Bagginses, and Boffins, and Bolgers, and 
-FOOLs, and other guests that lived or were staying near. By mid-day, when 
+Tooks, and other guests that lived or were staying near. By mid-day, when 
 even the best-fed were out and about again, there was a large crowd at Bag 
 End, uninvited but not unexpected. 
 
@@ -2317,10 +2317,10 @@ that he did not think Bilbo was dead. When they asked: 'Where is he then?'
 he shrugged his shoulders. 
 
 He lived alone, as Bilbo had done; but he had a good many friends, 
-especially among the younger hobbits (mostly descendants of the Old FOOL) 
+especially among the younger hobbits (mostly descendants of the Old Took) 
 who had as children been fond of Bilbo and often in and out of Bag End. 
 Folco Boffin and Fredegar Bolger were two of these; but his closest friends 
-were Peregrin FOOL (usually called Pippin), and Merry Brandybuck (his real 
+were Peregrin Took (usually called Pippin), and Merry Brandybuck (his real 
 name was Meriadoc, but that was seldom remembered). Frodo went tramping 
 all 
 
@@ -2396,16 +2396,16 @@ conversation in The Green Dragon at Bywater, one evening in the spring of
 Frodo's fiftieth year, showed that even in the comfortable heart of the 
 Shire rumours had been heard, though most hobbits still laughed at them. 
 
-FAT Gamgee was sitting in one corner near the fire, and opposite him 
+Sam Gamgee was sitting in one corner near the fire, and opposite him 
 was Ted Sandyman, the miller's son; and there were various other rustic 
 hobbits listening to their talk. 
 
-’Queer things you do hear these days, to be sure,' said FAT. 
+’Queer things you do hear these days, to be sure,' said Sam. 
 
 'Ah,' said Ted, 'you do, if you listen. But I can hear fireside-tales 
 and children's stories at home, if I want to.' 
 
-'No doubt you can,' retorted FAT, 'and I daresay there's more truth in 
+'No doubt you can,' retorted Sam, 'and I daresay there's more truth in 
 some of them than you reckon. Who invented the stories anyway? Take 
 dragons 
 now.' 
@@ -2414,7 +2414,7 @@ now.'
 youngster, but there's no call to believe in them now. There's only one 
 Dragon in By water, and that's Green,' he said, getting a general laugh. 
 
-'All right,' said FAT, laughing with the rest. 'But what about these 
+'All right,' said Sam, laughing with the rest. 'But what about these 
 Tree-men, these giants, as you might call them? They do say that one bigger 
 than a tree was seen up away beyond the North Moors not long back.' 
 
@@ -2442,13 +2442,13 @@ the North Moors.'
 'Then Hal can't have seen one,' said Ted. There was some laughing and 
 clapping: the audience seemed to think that Ted had scored a point. 
 
-'All the same,' said FAT, 'you can't deny that others besides our 
+'All the same,' said Sam, 'you can't deny that others besides our 
 Halfast have seen queer folk crossing the Shire - crossing it, mind you: 
 there are more that are turned back at the borders. The Bounders have never 
 been so busy before. 
 
 'And I've heard tell that Elves are moving west. They do say they are 
-going to the harbours, out away beyond the White Towers.' FAT waved his 
+going to the harbours, out away beyond the White Towers.' Sam waved his 
 arm 
 
 vaguely: neither he nor any of them knew how far it was to the Sea, past the 
@@ -2457,14 +2457,14 @@ tradition that away over there stood the Grey Havens, from which at times
 elven-ships set sail, never to return. 
 
 'They are sailing, sailing, sailing over the Sea, they are going into 
-the West and leaving us,' said FAT, half chanting the words, shaking his 
+the West and leaving us,' said Sam, half chanting the words, shaking his 
 head sadly and solemnly. But Ted laughed. 
 
 'Well, that isn't anything new, if you believe the old tales. And I 
 don't see what it matters to me or you. Let them sail! But I warrant you 
 haven't seen them doing it; nor any one else in the Shire.' 
 
-'Well I don't know,' said FAT thoughtfully. He believed he had once 
+'Well I don't know,' said Sam thoughtfully. He believed he had once 
 seen an Elf in the woods, and still hoped to see more one day. Of all the 
 legends that he had heard in his early years such fragments of tales and 
 half-remembered stories about the Elves as the hobbits knew, had always 
@@ -2483,10 +2483,10 @@ and Frodo's cracking. If that's where you get your news from, you'll never
 want for moonshine. Well, friends, I'm off home. Your good health!' He 
 drained his mug and went out noisily. 
 
-FAT sat silent and said no more. He had a good deal to think about. For 
+Sam sat silent and said no more. He had a good deal to think about. For 
 one thing, there was a lot to do up in the Bag End garden, and he would have 
 a busy day tomorrow, if the weather cleared. The grass was growing fast. But 
-FAT had more on his mind than gardening. After a while he sighed, and got up 
+Sam had more on his mind than gardening. After a while he sighed, and got up 
 and went out. 
 
 It was early April and the sky was now clearing after heavy rain. The 
@@ -2505,7 +2505,7 @@ interested in small news about Frodo's health and doings.
 Then suddenly his visits had ceased. It was over nine years since Frodo 
 had seen or heard of him, and he had begun to think that the wizard would 
 never return and had given up all interest in hobbits. But that evening, as 
-FAT was walking home and twilight was fading, there came the once familiar 
+Sam was walking home and twilight was fading, there came the once familiar 
 tap on the study window. 
 
 Frodo welcomed his old friend with surprise and great delight. They 
@@ -2568,7 +2568,7 @@ neither strength nor good purpose will last - sooner or later the dark power
 will devour him.' 
 
 'How terrifying!' said Frodo. There was another long silence. The sound 
-of FAT Gamgee cutting the lawn came in from the garden. 
+of Sam Gamgee cutting the lawn came in from the garden. 
 
 'How long have you known this?' asked Frodo at length. 'And how much 
 did Bilbo know?' 
@@ -2715,7 +2715,7 @@ under his bristling brows.
 
 No apparent change came over the ring. After a while Gandalf got up, 
 closed the shutters outside the window, and drew the curtains. The room 
-became dark and silent, though the clack of FAT's shears, now nearer to the 
+became dark and silent, though the clack of Sam's shears, now nearer to the 
 windows, could still be heard faintly from the garden. For a moment the 
 wizard stood looking at the fire; then he stooped and removed the ring to 
 the hearth with the tongs, and at once picked it up. Frodo gasped. 
@@ -3195,7 +3195,7 @@ mile, south, down at last to the Land of Mordor.'
 
 A heavy silence fell in the room. Frodo could hear his heart beating. 
 
-Even outside everything seemed still. No sound of FAT's shears could now be 
+Even outside everything seemed still. No sound of Sam's shears could now be 
 heard. 
 
 ’Yes, to Mordor,' said Gandalf. 'Alas! Mordor draws all wicked things, 
@@ -3352,7 +3352,7 @@ great, for my strength. I shall have such need of it. Great perils lie
 before me.' 
 
 He went to the window and drew aside the curtains and the shutters. 
-Sunlight streamed back again into the room. FAT passed along the path 
+Sunlight streamed back again into the room. Sam passed along the path 
 outside whistling. 'And now,' said the wizard, turning back to Frodo, 'the 
 decision lies with you. But I will always help you.' He laid his hand on 
 Frodo's shoulder. 'I will help you bear this burden, as long as It is yours 
@@ -3433,14 +3433,14 @@ friends! The enemy has many spies and many ways of hearing.'
 Suddenly he stopped as if listening. Frodo became aware that all was 
 very quiet, inside and outside. Gandalf crept to one side of the window. 
 Then with a dart he sprang to the sill, and thrust a long arm out and 
-downwards. There was a squawk, and up came FAT Gamgee's curly head 
+downwards. There was a squawk, and up came Sam Gamgee's curly head 
 hauled by 
 one ear. 
 
-'Well, well, bless my beard!' said Gandalf. 'FAT Gamgee is it? Now what 
+'Well, well, bless my beard!' said Gandalf. 'Sam Gamgee is it? Now what 
 may you be doing?' 
 
-'Lor bless you, Mr. Gandalf, sir!' said FAT. 'Nothing! Leastways I was 
+'Lor bless you, Mr. Gandalf, sir!' said Sam. 'Nothing! Leastways I was 
 just trimming the grass-border under the window, if you follow me.' He 
 picked up his shears and exhibited them as evidence. 
 
@@ -3453,7 +3453,7 @@ ain't no eaves at Bag End, and that's a fact.'
 'Don't be a fool! What have you heard, and why did you listen?' 
 Gandalf s eyes flashed and his brows stuck out like bristles. 
 
-'Mr. Frodo, sir!' cried FAT quaking. 'Don't let him hurt me, sir! Don't 
+'Mr. Frodo, sir!' cried Sam quaking. 'Don't let him hurt me, sir! Don't 
 let him turn me into anything unnatural! My old dad would take on so. I 
 meant no harm, on my honour, sir!' 
 
@@ -3462,7 +3462,7 @@ although he was himself startled and rather puzzled. 'He knows, as well as I
 do, that you mean no harm. But just you up and answer his questions straight 
 away!' 
 
-'Well, sir,' said FAT dithering a little. 'I heard a deal that I didn't 
+'Well, sir,' said Sam dithering a little. 'I heard a deal that I didn't 
 rightly understand, about an enemy, and rings, and Mr. Bilbo, sir, and 
 dragons, and a fiery mountain, and - and Elves, sir. I listened because I 
 couldn't help myself, if you know what I mean. Lor bless me, sir, but I do 
@@ -3471,9 +3471,9 @@ Elves, sir! I would dearly love to see them. Couldn't you take me to see
 Elves, sir, when you go?' 
 
 Suddenly Gandalf laughed. 'Come inside!' he shouted, and putting out 
-both his arms he lifted the astonished FAT, shears, grass-clippings and all, 
+both his arms he lifted the astonished Sam, shears, grass-clippings and all, 
 right through the window and stood him on the floor. 'Take you to see Elves, 
-eh?' he said, eyeing FAT closely, but with a smile flickering on his face. 
+eh?' he said, eyeing Sam closely, but with a smile flickering on his face. 
 
 'So you heard that Mr. Frodo is going away?' 
 
@@ -3483,19 +3483,19 @@ eh?' he said, eyeing FAT closely, but with a smile flickering on his face.
 'I did, sir. And that's why I choked: which you heard seemingly. I 
 tried not to, sir, but it burst out of me: I was so upset.' 
 
-'It can't be helped, FAT,' said Frodo sadly. He had suddenly realized 
+'It can't be helped, Sam,' said Frodo sadly. He had suddenly realized 
 that flying from the Shire would mean more painful partings than merely 
 saying farewell to the familiar comforts of Bag End. 'I shall have to go. 
-But' - and here he looked hard at FAT - 'if you really care about me, you 
+But' - and here he looked hard at Sam - 'if you really care about me, you 
 will keep that dead secret. See? If you don't, if you even breathe a word of 
 what you've heard here, then I hope Gandalf will turn you into a spotted 
 toad and fill the garden full of grass-snakes.' 
 
-FAT fell on his knees, trembling. 'Get up, FAT!' said Gandalf. I have 
+Sam fell on his knees, trembling. 'Get up, Sam!' said Gandalf. I have 
 thought of something better than that. Something to shut your mouth, and 
 punish you properly for listening. You shall go away with Mr. Frodo!' 
 
-'Me, sir!' cried FAT, springing up like a dog invited for a walk. 'Me 
+'Me, sir!' cried Sam, springing up like a dog invited for a walk. 'Me 
 go and see Elves and all! Hooray!' he shouted, and then burst into tears. 
 
 
@@ -3538,7 +3538,7 @@ difficult to tell.
 He looked at Frodo and smiled. 'Very well,' he said. 'I think that will 
 do - but it must not be any later. I am getting very anxious. In the 
 mean-while, do take care, and don't let out any hint of where you are going! 
-And see that FAT Gamgee does not talk. If he does, I really shall turn him 
+And see that Sam Gamgee does not talk. If he does, I really shall turn him 
 into a toad.' 
 
 'As for where I am going,' said Frodo, 'it would be difficult to give 
@@ -3573,7 +3573,7 @@ prove too perilous, though the Road is less easy than it was, and it will
 grow worse as the year fails.' 
 
 'Rivendell!' said Frodo. 'Very good: I will go east, and I will make 
-for Rivendell. I will take FAT to visit the Elves; he will be delighted.' He 
+for Rivendell. I will take Sam to visit the Elves; he will be delighted.' He 
 spoke lightly; but his heart was moved suddenly with a desire to see the 
 house of Elrond Halfelven, and breathe the air of that deep valley where 
 many of the Fair Folk still dwelt in peace. 
@@ -3611,7 +3611,7 @@ looking out for a nice little hole for me, or perhaps a small house.'
 
 As a matter of fact with Merry's help he had already chosen and bought 
 a little house at Crickhollow in the country beyond Bucklebury. To all but 
-FAT he pretended he was going to settle down there permanently. The decision 
+Sam he pretended he was going to settle down there permanently. The decision 
 to set out eastwards had suggested the idea to him; for Buckland was on the 
 eastern borders of the Shire, and as he had lived there in childhood his 
 going back would at least seem credible. 
@@ -3652,7 +3652,7 @@ help him with the packing: there was Fredegar Bolger and Folco Boffin, and
 
 
 
-of course his special friends Pippin FOOL and Merry Brandybuck. Between 
+of course his special friends Pippin Took and Merry Brandybuck. Between 
 them 
 
 they turned the whole place upside-down. 
@@ -3723,16 +3723,16 @@ would be left at the Gamgees' in Bagshot Row. She snorted, and showed
 plainly that she thought the Gamgees capable of plundering the hole during 
 the night. Frodo did not offer her any tea. 
 
-He took his own tea with Pippin and FAT Gamgee in the kitchen. It had 
-been officially announced that FAT was coming to Buckland 'to do for Mr. 
+He took his own tea with Pippin and Sam Gamgee in the kitchen. It had 
+been officially announced that Sam was coming to Buckland 'to do for Mr. 
 Frodo and look after his bit of garden'; an arrangement that was approved by 
 the Gaffer, though it did not console him for the prospect of having Lobelia 
 as a neighbour. 
 
 'Our last meal at Bag End!' said Frodo, pushing back his chair. They 
-left the washing up for Lobelia. Pippin and FAT strapped up their three 
+left the washing up for Lobelia. Pippin and Sam strapped up their three 
 packs and piled them in the porch. Pippin went out for a last stroll in the 
-garden. FAT disappeared. 
+garden. Sam disappeared. 
 
 The sun went down. Bag End seemed sad and gloomy and dishevelled. 
 Frodo 
@@ -3757,7 +3757,7 @@ certainly the old Gaffer's; the other was strange, and somehow unpleasant.
 He could not make out what it said, but he heard the Gaffer's answers, which 
 were rather shrill. The old man seemed put out. 
 
-'No, Mr. Baggins has gone away. Went this morning, and my FAT went 
+'No, Mr. Baggins has gone away. Went this morning, and my Sam went 
 with 
 
 him: anyway all his stuff went. Yes, sold out and gone, I tell'ee. Why? 
@@ -3773,22 +3773,22 @@ inquisitive lot they all are!' He had half a mind to go and ask the Gaffer
 who the inquirer was; but he thought better (or worse) of it, and turned and 
 walked quickly back to Bag End. 
 
-Pippin was sitting on his pack in the porch. FAT was not there. Frodo 
-stepped inside the dark door. 'FAT!' he called. 'FAT! Time!' 
+Pippin was sitting on his pack in the porch. Sam was not there. Frodo 
+stepped inside the dark door. 'Sam!' he called. 'Sam! Time!' 
 
-'Coming, sir!' came the answer from far within, followed soon by FAT 
+'Coming, sir!' came the answer from far within, followed soon by Sam 
 himself, wiping his mouth. He had been saying farewell to the beer -barrel in 
 the cellar. 
 
-'All aboard, FAT?' said Frodo. 
+'All aboard, Sam?' said Frodo. 
 
 'Yes, sir. I'll last for a bit now, sir.' 
 
-Frodo shut and locked the round door, and gave the key to FAT. 'Run 
-down with this to your home, FAT!' he said. 'Then cut along the Row and meet 
+Frodo shut and locked the round door, and gave the key to Sam. 'Run 
+down with this to your home, Sam!' he said. 'Then cut along the Row and meet 
 us as quick as you can at the gate in the lane beyond the meadows. We are 
 not going through the village tonight. Too many ears pricking and eyes 
-prying.' FAT ran off at full speed. 
+prying.' Sam ran off at full speed. 
 
 'Well, now we're off at last!' said Frodo. They shouldered their packs 
 and took up their sticks, and walked round the corner to the west side of 
@@ -3806,7 +3806,7 @@ rustle in the grasses.
 
 At the bottom of the Hill on its western side they came to the gate 
 opening on to a narrow lane. There they halted and adjusted the straps of 
-their packs. Presently FAT appeared, trotting quickly and breathing hard; 
+their packs. Presently Sam appeared, trotting quickly and breathing hard; 
 his heavy pack was hoisted high on his shoulders, and he had put on his head 
 a tall shapeless fell bag, which he called a hat. In the gloom he looked 
 very much like a dwarf. 
@@ -3814,17 +3814,17 @@ very much like a dwarf.
 'I am sure you have given me all the heaviest stuff,' said Frodo. 'I 
 pity snails, and all that carry their homes on their backs.' 
 
-'I could take a lot more yet, sir. My packet is quite light,' said FAT 
+'I could take a lot more yet, sir. My packet is quite light,' said Sam 
 stoutly and untruthfully. 
 
-'No, you don't, FAT!' said Pippin. 'It is good for him. He's got 
+'No, you don't, Sam!' said Pippin. 'It is good for him. He's got 
 nothing except what he ordered us to pack. He's been slack lately, and he'll 
 feel the weight less when he's walked off some of his own.' 
 
 'Be kind to a poor old hobbit!' laughed Frodo. 'I shall be as thin as a 
 willow-wand, I'm sure, before I get to Buckland. But I was talking nonsense. 
 
-I suspect you have taken more than your share, FAT, and I shall look into it 
+I suspect you have taken more than your share, Sam, and I shall look into it 
 at our next packing.' He picked up his stick again. 'Well, we all like 
 walking in the dark,' he said, 'so let's put some miles behind us before 
 bed.' 
@@ -3842,7 +3842,7 @@ After some time they crossed the Water, west of Hobbiton, by a narrow
 plank -bridge. The stream was there no more than a winding black ribbon, 
 bordered with leaning alder -trees. A mile or two further south they hastily 
 crossed the great road from the Brandywine Bridge; they were now in the 
-FOOLland and bending south-eastwards they made for the Green Hill Country. 
+Tookland and bending south-eastwards they made for the Green Hill Country. 
 As they began to climb its first slopes they looked back and saw the lamps 
 in Hobbiton far off twinkling in the gentle valley of the Water. Soon it 
 disappeared in the folds of the darkened land, and was followed by By water 
@@ -3882,10 +3882,10 @@ Are you going to sleep on your legs? It is nearly midnight.'
 great hurry. Merry expects us some time the day after tomorrow; but that 
 leaves us nearly two days more. We'll halt at the first likely spot.' 
 
-'The wind's in the West,' said FAT. 'If we get to the other side of 
+'The wind's in the West,' said Sam. 'If we get to the other side of 
 this hill, we shall find a spot that is sheltered and snug enough, sir. 
 
-There is a dry fir-wood just ahead, if I remember rightly.' FAT knew the 
+There is a dry fir-wood just ahead, if I remember rightly.' Sam knew the 
 land well within twenty miles of Hobbiton, but that was the limit of his 
 geography. 
 
@@ -3920,10 +3920,10 @@ are sold to the Sackville-Bagginses! These tree-roots would do them good.'
 He stretched. 'Wake up, hobbits!' he cried. It's a beautiful morning.' 
 
 'What's beautiful about it?' said Pippin, peering over the edge of his 
-blanket with one eye. 'FAT! Gel breakfast ready for half-past nine! Have you 
+blanket with one eye. 'Sam! Gel breakfast ready for half-past nine! Have you 
 got the bath-water hot?' 
 
-FAT jumped up, looking rather bleary. 'No, sir, I haven't, sir!' he 
+Sam jumped up, looking rather bleary. 'No, sir, I haven't, sir!' he 
 said. 
 
 Frodo stripped the blankets from Pippin and rolled him over, and then 
@@ -3932,7 +3932,7 @@ of the mists that lay thick on the world. Touched with gold and red the
 autumn trees seemed to be sailing rootless in a shadowy sea. A little below 
 him to the left the road ran down steeply into a hollow and disappeared. 
 
-When he returned FAT and Pippin had got a good fire going. 'Water!' 
+When he returned Sam and Pippin had got a good fire going. 'Water!' 
 shouted Pippin. 'Where's the water?' 
 
 'I don't keep water in my pockets,' said Frodo. 'We thought you had 
@@ -3971,7 +3971,7 @@ The road wound away before them like a piece of string.
 
 It is high time for lunch.' He sat down on the bank at the side of the road 
 and looked away east into the haze, beyond which lay the River, and the end 
-of the Shire in which he had spent all his life. FAT stood by him. His round 
+of the Shire in which he had spent all his life. Sam stood by him. His round 
 eyes were wide open - for he was looking across lands he had never seen to a 
 new horizon. 
 
@@ -4025,11 +4025,11 @@ The sun was beginning to get low and the light of afternoon was on the
 land as they went down the hill. So far they had not met a soul on the road. 
 This way was not much used, being hardly fit for carts, and there was little 
 traffic to the Woody End. They had been jogging along again for an hour or 
-more when FAT stopped a moment as if listening. They were now on level 
+more when Sam stopped a moment as if listening. They were now on level 
 ground, and the road after much winding lay straight ahead through 
 grass-land sprinkled with tall trees, outliers of the approaching woods. 
 
-'I can hear a pony or a horse coming along the road behind,' said FAT. 
+'I can hear a pony or a horse coming along the road behind,' said Sam. 
 
 They looked back, but the turn of the road prevented them from seeing 
 far. 'I wonder if that is Gandalf coming after us,' said Frodo; but even as 
@@ -4080,7 +4080,7 @@ that suddenly, before it passed out of sight, the horse turned aside and
 went into the trees on the right. 
 
 'Well, I call that very queer, and indeed disturbing,' said Frodo to 
-himself, as he walked towards his companions. Pippin and FAT had remained 
+himself, as he walked towards his companions. Pippin and Sam had remained 
 flat in the grass, and had seen nothing; so Frodo described the rider and 
 his strange behaviour. 
 
@@ -4096,7 +4096,7 @@ seen or fell anything like it in the Shire before.'
 have had trouble with Big People, I believe. But I have never heard of 
 anything like this rider. I wonder where he comes from.' 
 
-'Begging your pardon,' put in FAT suddenly, 'I know where he comes 
+'Begging your pardon,' put in Sam suddenly, 'I know where he comes 
 from. It's from Hobbiton that this here black rider comes, unless there's 
 more than one. And I know where he's going to.' 
 
@@ -4104,7 +4104,7 @@ more than one. And I know where he's going to.'
 'Why didn't you speak up before?' 
 
 'I have only just remembered, sir. It was like this: when I got back to 
-our hole yesterday evening with the key, my dad, he says to me: Hello, FAT! 
+our hole yesterday evening with the key, my dad, he says to me: Hello, Sam! 
 he says. I thought you were away with Mr. Frodo this morning. There's been a 
 strange customer asking for Mr. Baggins of Bag End, and he's only just gone. 
 I've sent him on to Bucklebury. Not that Hiked the sound of him. He seemed 
@@ -4133,7 +4133,7 @@ it before. I might have been more careful on the road.'
 stranger,' said Pippin. 'We left Hobbiton secretly enough, and I don't see 
 how he could have followed us.' 
 
-'What about the smelling, sir?' said FAT. 'And the Gaffer said he was a 
+'What about the smelling, sir?' said Sam. 'And the Gaffer said he was a 
 black chap.' 
 
 'I wish I had waited for Gandalf,' Frodo muttered. 'But perhaps it 
@@ -4267,7 +4267,7 @@ want to see if it is another Black Rider.'
 'Very well!' said Pippin. 'But don't forget the sniffing!' 
 
 The hoofs drew nearer. They had no time to find any hiding-place better 
-than the general darkness under the trees; FAT and Pippin crouched behind a 
+than the general darkness under the trees; Sam and Pippin crouched behind a 
 large tree-bole, while Frodo crept back a few yards towards the lane. It 
 showed grey and pale, a line of fading light through the wood. Above it the 
 stars were thick in the dim sky, but there was no moon. 
@@ -4291,7 +4291,7 @@ the starlit air. The black shadow straightened up and retreated. It climbed
 on to the shadowy horse and seemed to vanish across the lane into the 
 darkness on the other side. Frodo breathed again. 
 
-'Elves!' exclaimed FAT in a hoarse whisper. 'Elves, sir!' He would have 
+'Elves!' exclaimed Sam in a hoarse whisper. 'Elves, sir!' He would have 
 burst out of the trees and dashed off towards the voices, if they had not 
 pulled him back. 
 
@@ -4302,7 +4302,7 @@ thankful that they do! You did not see, but that Black Rider stopped just
 here and was actually crawling towards us when the song began. As soon as he 
 heard the voices he slipped away.' 
 
-'What about the Elves?' said FAT, too excited to trouble about the 
+'What about the Elves?' said Sam, too excited to trouble about the 
 rider. 'Can't we go and see them?' 
 
 'Listen! They are coming this way,' said Frodo. 'We have only to wait.' 
@@ -4417,7 +4417,7 @@ this here,' he said. 'We think you had best come now with us. It is not our
 custom, but for this time we will lake you on our road, and you shall lodge 
 with us tonight, if you will.' 
 
-'O Fair Folk! This is good fortune beyond my hope,' said Pippin. FAT 
+'O Fair Folk! This is good fortune beyond my hope,' said Pippin. Sam 
 was speechless. 'I thank you indeed, Gildor Inglorion,' said Frodo bowing. 
 'Elen snla l®menn' omentielvo, a star shines on the hour of our meeting,' he 
 added in the high-elven speech. 
@@ -4438,7 +4438,7 @@ They now marched on again in silence, and passed like shadows and faint
 lights: for Elves (even more than hobbits) could walk when they wished 
 without sound or footfall. Pippin soon began to feel sleepy, and staggered 
 once or twice; but each time a tall Elf at his side put out his arm and 
-saved him from a fall. FAT walked along at Frodo's side, as if in a dream, 
+saved him from a fall. Sam walked along at Frodo's side, as if in a dream, 
 with an expression on his face half of fear and half of astonished joy. 
 
 
@@ -4504,7 +4504,7 @@ is starving; and fruits sweet as wildberries and richer than the tended
 fruits of gardens; he drained a cup that was filled with a fragrant draught, 
 cool as a clear fountain, golden as a summer afternoon. 
 
-FAT could never describe in words, nor picture clearly to himself, what 
+Sam could never describe in words, nor picture clearly to himself, what 
 he felt or thought that night, though it remained in his memory as one of 
 the chief events of his life. The nearest he ever got was to say: 'Well, 
 sir, if I could grow apples like that, I would call myself a gardener. But 
@@ -4518,7 +4518,7 @@ among hobbits!'
 
 After a while Pippin fell fast asleep, and was lifted up and borne away 
 to a bower under the trees; there he was laid upon a soft bed and slept the 
-rest of the night away. FAT refused to leave his master. When Pippin had 
+rest of the night away. Sam refused to leave his master. When Pippin had 
 gone, he came and sat curled up at Frodo's feet, where at last he nodded and 
 closed his eyes. Frodo remained long awake, talking with Gildor. 
 
@@ -4545,7 +4545,7 @@ doubt that you will find what you seek, or accomplish what you intend, or
 that you will ever return. Is not that so?' 
 
 'It is,' said Frodo; 'but I thought my going was a secret known only to 
-Gandalf and my faithful FAT.' He looked down at FAT, who was snoring 
+Gandalf and my faithful Sam.' He looked down at Sam, who was snoring 
 gently. 
 
 'The secret will not reach the Enemy from us,' said Gildor. 
@@ -4672,14 +4672,14 @@ fern and grass, deep and soft and strangely fragrant. The sun was shining
 through the fluttering leaves, which were still green upon the tree. He 
 jumped up and went out. 
 
-FAT was sitting on the grass near the edge of the wood. Pippin was 
+Sam was sitting on the grass near the edge of the wood. Pippin was 
 standing studying the sky and weather. There was no sign of the Elves. 
 
 'They have left us fruit and drink, and bread,' said Pippin. 'Come and 
 have your breakfast. The bread tastes almost as good as it did last night. I 
-did not want to leave you any, but FAT insisted.' 
+did not want to leave you any, but Sam insisted.' 
 
-Frodo sat down beside FAT and began to eat. 'What is the plan for 
+Frodo sat down beside Sam and began to eat. 'What is the plan for 
 today?' asked Pippin. 
 
 'To walk to Bucklebury as quickly as possible,' answered Frodo, and 
@@ -4721,9 +4721,9 @@ young friends walking over the Shire with me, until we are hungry and weary,
 and food and bed are sweet. To take them into exile, where hunger and 
 weariness may have no cure, is quite another - even if they are willing to 
 come. The inheritance is mine alone. I don't think I ought even to take 
-FAT.' He looked at FAT Gamgee, and discovered that FAT was watching him. 
+Sam.' He looked at Sam Gamgee, and discovered that Sam was watching him. 
 
-'Well, FAT!' he said. 'What about it? I am leaving the Shire as soon as 
+'Well, Sam!' he said. 'What about it? I am leaving the Shire as soon as 
 ever I can - in fact I have made up my mind now not even to wait a day at 
 Crickhollow, if it can be helped.' 
 
@@ -4733,14 +4733,14 @@ Crickhollow, if it can be helped.'
 
 'I do.' 
 
-'It is going to be very dangerous, FAT. 'It is already dangerous. Most 
+'It is going to be very dangerous, Sam. 'It is already dangerous. Most 
 likely neither of us will come back.' 
 
-'If you don't come back, sir, then I shan't, that's certain,' said FAT. 
+'If you don't come back, sir, then I shan't, that's certain,' said Sam. 
 
 'Don't you leave him! they said to me. Leave him! I said. I never mean to. I 
 am going with him, if he climbs to the Moon, and if any of those Black 
-Rulers try to stop him, they'll have FAT Gamgee to reckon with, I said. They 
+Rulers try to stop him, they'll have Sam Gamgee to reckon with, I said. They 
 laughed.' 
 
 'Who are they, and what are you talking about?' 
@@ -4753,14 +4753,14 @@ Elves, sir! Wonderful!'
 closer view?' 
 
 'They seem a bit above my likes and dislikes, so to speak,' answered 
-FAT slowly. 'It don't seem to matter what I think about them. They are quite 
+Sam slowly. 'It don't seem to matter what I think about them. They are quite 
 different from what I expected - so old and young, and so gay and sad, as it 
 were.' 
 
-Frodo looked at FAT rather startled, half expecting to see some outward 
+Frodo looked at Sam rather startled, half expecting to see some outward 
 sign of the odd change that seemed to have come over him. It did not sound 
-like the voice of the old FAT Gamgee that he thought he knew. But it looked 
-like the old FAT Gamgee sitting there, except that his face was unusually 
+like the voice of the old Sam Gamgee that he thought he knew. But it looked 
+like the old Sam Gamgee sitting there, except that his face was unusually 
 thoughtful. 
 
 'Do you feel any need to leave the Shire now - now that your wish to 
@@ -4825,9 +4825,9 @@ since I tasted it.'
 
 
 longer ones. At all costs we must keep you away from the Golden Perch. We 
-want to get to Bucklebury before dark. What do you say, FAT?' 
+want to get to Bucklebury before dark. What do you say, Sam?' 
 
-'I will go along with you, Mr. Frodo,' said FAT (in spite of private 
+'I will go along with you, Mr. Frodo,' said Sam (in spite of private 
 misgiving and a deep regret for the best beer in the Eastfarthing). 
 
 Then if we are going to toil through bog and briar, let's go now!' 
@@ -4852,7 +4852,7 @@ line they had chosen. They could not jump over it, nor indeed get across it
 at all without getting wet, scratched, and muddy. They halted, wondering 
 what to do. 'First check!' said Pippin, smiling grimly. 
 
-FAT Gamgee looked back. Through an opening in the trees he caught a 
+Sam Gamgee looked back. Through an opening in the trees he caught a 
 glimpse of the top of the green bank from which they had climbed down. 
 
 'Look!' he said, clutching Frodo by the arm. They all looked, and on 
@@ -4862,12 +4862,12 @@ it stooped a black figure.
 They at once gave up any idea of going back. Frodo led the way, and 
 plunged quickly into the thick bushes beside the stream. 'Whew!' he said to 
 Pippin. 'We were both right! The short cut has gone crooked already; but we 
-got under cover only just in time. You've got sharp ears, FAT: can you hear 
+got under cover only just in time. You've got sharp ears, Sam: can you hear 
 anything coming?' 
 
 They stood still, almost holding their breath as they listened; but 
 there was no sound of pursuit. 'I don't fancy he would try bringing his 
-horse down that bank,' said FAT. 'But I guess he knows we came down it. We 
+horse down that bank,' said Sam. 'But I guess he knows we came down it. We 
 had better be going on.' 
 
 Going on was not altogether easy. They had packs to carry, and the 
@@ -4922,7 +4922,7 @@ soon be behind them.
 
 
 
-Frodo propped his back against the tree-trunk, and closed his eyes. FAT 
+Frodo propped his back against the tree-trunk, and closed his eyes. Sam 
 and Pippin sat near, and they began to hum, and then to sing softly: 
 
 Ho! Ho! Ho! to the bottle I go 
@@ -5032,10 +5032,10 @@ lane.
 Suddenly as they drew nearer a terrific baying and barking broke out, 
 and a loud voice was heard shouting: ’Grip! Fang! Wolf! Come on, lads!' 
 
-Frodo and FAT stopped dead, but Pippin walked on a few paces. The gate 
+Frodo and Sam stopped dead, but Pippin walked on a few paces. The gate 
 opened and three huge dogs came pelting out into the lane, and dashed 
 towards the travellers, barking fiercely. They took no notice of Pippin; but 
-FAT shrank against the wall, while two wolvish-looking dogs sniffed at him 
+Sam shrank against the wall, while two wolvish-looking dogs sniffed at him 
 suspiciously, and snarled if he moved. The largest and most ferocious of the 
 three halted in front of Frodo, bristling and growling. 
 
@@ -5046,7 +5046,7 @@ wanting?' he asked.
 'Good afternoon, Mr. Maggot!' said Pippin. 
 
 The farmer looked at him closely. 'Well, if it isn't Master Pippin - 
-Mr. Peregrin FOOL, I should say!' he cried, changing from a scowl to a grin. 
+Mr. Peregrin Took, I should say!' he cried, changing from a scowl to a grin. 
 'It's a long time since I saw you round here. It's lucky for you that I know 
 you. I was just going out to set my dogs on any strangers. There are some 
 funny things going on today. Of course, we do get queer folk wandering in 
@@ -5060,7 +5060,7 @@ my land without leave a second time, not if I can stop it.'
 towards the causeway not a long while back. He was a funny customer and 
 asking funny questions. But perhaps you'll come along inside, and we'll pass 
 the news more comfortable. I've a drop of good ale on tap, if you and your 
-friends are willing, Mr. FOOL.' 
+friends are willing, Mr. Took.' 
 
 It seemed plain that the farmer would tell them more, if allowed to do 
 it in his own time and fashion, so they all accepted the invitation. 'What 
@@ -5069,7 +5069,7 @@ about the dogs?' asked Frodo anxiously.
 The farmer laughed. 'They won't harm you - not unless I tell 'em to. 
 
 Here, Grip! Fang! Heel!' he cried. 'Heel, Wolf!' To the relief of Frodo and 
-FAT, the dogs walked away and let them go free. 
+Sam, the dogs walked away and let them go free. 
 
 Pippin introduced the other two to the farmer. 'Mr. Frodo Baggins,' he 
 said. 'You may not remember him, but he used to live at Brandy Hall.' At the 
@@ -5093,7 +5093,7 @@ Mrs. Maggot brought out beer in a huge jug, and filled four large mugs. It
 was a good brew, and Pippin found himself more than compensated for 
 missing 
 
-the Golden Perch. FAT sipped his beer suspiciously. He had a natural 
+the Golden Perch. Sam sipped his beer suspiciously. He had a natural 
 mistrust of the inhabitants of other parts of the Shire; and also he was not 
 disposed to be quick friends with anyone who had beaten his master, however 
 long ago. 
@@ -5170,7 +5170,7 @@ said at last.
 
 'Then I'll tell you what to think,' said Maggot. 'You should never have 
 gone mixing yourself up with Hobbiton folk, Mr. Frodo. Folk are queer up 
-there.' FAT stirred in his chair, and looked at the farmer with an 
+there.' Sam stirred in his chair, and looked at the farmer with an 
 unfriendly eye. 'But you were always a reckless lad. When I heard you had 
 left the Brandybucks and gone off to that old Mr. Bilbo, I said that you 
 were going to find trouble. Mark my words, this all comes of those strange 
@@ -5222,7 +5222,7 @@ gel out a small waggon, and I'll drive you all to the Ferry. That will save
 you a good step, and it might also save you trouble of another sort.' 
 
 Frodo now accepted the invitation gratefully, to the relief of Pippin 
-and FAT. The sun was already behind the western hills, and the light was 
+and Sam. The sun was already behind the western hills, and the light was 
 failing. Two of Maggot's sons and his three daughters came in, and a 
 generous supper was laid on the large table. The kitchen was lit with 
 
@@ -5264,7 +5264,7 @@ It was five miles or more from Maggot's lane to the Ferry. The hobbits
 wrapped themselves up, but their ears were strained for any sound above the 
 creak of the wheels and the slow clop of the ponies' hoofs. The waggon 
 seemed slower than a snail to Frodo. Beside him Pippin was nodding towards 
-sleep; but FAT was staring forwards into the rising fog. 
+sleep; but Sam was staring forwards into the rising fog. 
 
 They reached the entrance to the Ferry lane at last. It was marked by 
 two tall white posts that suddenly loomed up on their right. Farmer Maggot 
@@ -5279,7 +5279,7 @@ fall of the hoofs sounded loud in the still, foggy air.
 
 
 
-'You'd better be hidden, Mr. Frodo,’ said FAT anxiously. 'You get down 
+'You'd better be hidden, Mr. Frodo,’ said Sam anxiously. 'You get down 
 in the waggon and cover up with blankets, and we'll send this rider to the 
 rightabouts!' He climbed out and went to the farmer's side. Black Riders 
 would have to ride over him to get near the waggon. 
@@ -5288,7 +5288,7 @@ Clop-clop, clop-clop. The rider was nearly on them.
 
 'Hallo there!' called Farmer Maggot. The advancing hoofs stopped short. 
 They thought they could dimly guess a dark cloaked shape in the mist, a yard 
-or two ahead. 'Now then!' said the farmer, throwing the reins to FAT and 
+or two ahead. 'Now then!' said the farmer, throwing the reins to Sam and 
 striding forward. 'Don't you come a step nearer! What do you want, and where 
 are you going?' 
 
@@ -5400,14 +5400,14 @@ places. The Bucklanders kept their doors locked after dark, and that also
 was not usual in the Shire. 
 
 The ferry-boat moved slowly across the water. The Buckland shore drew 
-nearer. FAT was the only member of the party who had not been over the river 
+nearer. Sam was the only member of the party who had not been over the river 
 before. He had a strange feeling as the slow gurgling stream slipped by: his 
 old life lay behind in the mists, dark adventure lay in front. He scratched 
 his head, and for a moment had a passing wish that Mr. Frodo could have gone 
 on living quietly at Bag End. 
 
 The four hobbits stepped off the ferry. Merry was tying it up, and 
-Pippin was already leading the pony up the path, when FAT (who had been 
+Pippin was already leading the pony up the path, when Sam (who had been 
 looking back, as if to take farewell of the Shire) said in a hoarse whisper: 
 
 'Look back, Mr. Frodo! Do you see anything?' 
@@ -5593,7 +5593,7 @@ been chased for two days by Black Riders.'
 
 'Black figures riding on black horses,' answered Pippin. 'If Frodo 
 won't talk, I will tell you the whole tale from the beginning.' He then gave 
-a full account of their journey from the time when they left Hobbiton. FAT 
+a full account of their journey from the time when they left Hobbiton. Sam 
 gave various supporting nods and exclamations. Frodo remained silent. 
 
 'I should think you were making it all up,' said Merry, 'if I had not 
@@ -5672,7 +5672,7 @@ wretched for us all, but it is no use your trying to keep me. Since you have
 guessed so much, please help me and do not hinder me!' 
 
 'You do not understand!' said Pippin. 'You must go - and therefore we 
-must, too. Merry and I are coming with you. FAT is an excellent fellow, and 
+must, too. Merry and I are coming with you. Sam is an excellent fellow, and 
 would jump down a dragon's throat to save you, if he did not trip over his 
 own feet; but you will need more than one companion in your dangerous 
 adventure.' 
@@ -5740,21 +5740,21 @@ and sinister figure to come out of a cupboard.
 
 
 
-’Step forward, FAT!' said Merry; and FAT stood up with a face scarlet 
+’Step forward, Sam!' said Merry; and Sam stood up with a face scarlet 
 up to the ears. 'Here's our collector of information ! And he collected a 
 lot, I can tell you, before he was finally caught. After which, I may say, 
 he seemed to regard himself as on parole, and dried up.' 
 
-'FAT!' cried Frodo, feeling that amazement could go no further, and 
+'Sam!' cried Frodo, feeling that amazement could go no further, and 
 quite unable to decide whether he felt angry, amused, relieved, or merely 
 foolish. 
 
-'Yes, sir!' said FAT. 'Begging your pardon, sir! But I meant no wrong 
+'Yes, sir!' said Sam. 'Begging your pardon, sir! But I meant no wrong 
 to you, Mr. Frodo, nor to Mr. Gandalf for that matter. He has some sense, 
 mind you; and when you said go alone, he said no! lake someone as you can 
 trust. ' 
 
-'But it does not seem that I can trust anyone,' said Frodo. FAT looked 
+'But it does not seem that I can trust anyone,' said Frodo. Sam looked 
 at him unhappily. 'It all depends on what you want,' put in Merry. 'You can 
 trust us to stick to you through thick and thin - to the bitter end. And you 
 can trust us to keep any secret of yours - closer than you keep it yourself. 
@@ -5764,11 +5764,11 @@ word. We are your friends, Frodo. Anyway: there it is. We know most of what
 Gandalf has told you. We know a good deal about the Ring. We are horribly 
 afraid - but we are coming with you; or following you like hounds.' 
 
-'And after all, sir,' added FAT, 'you did ought to take the Elves' 
+'And after all, sir,' added Sam, 'you did ought to take the Elves' 
 advice. Gildor said you should take them as was willing, and you can't deny 
 it.' 
 
-'I don't deny it,' said Frodo, looking at FAT, who was now grinning. 'I 
+'I don't deny it,' said Frodo, looking at Sam, who was now grinning. 'I 
 don't deny it, but I'll never believe you are sleeping again, whether you 
 snore or not. I shall kick you hard to make sure. 
 
@@ -5954,7 +5954,7 @@ there with a candle in one hand, and banging on the door with the other.
 'All right! What is it?' said Frodo, still shaken and bewildered. 
 
 'What is it!' cried Merry. 'It is time to get up. It is half past four 
-and very foggy. Come on! FAT is already getting breakfast ready. Even Pippin 
+and very foggy. Come on! Sam is already getting breakfast ready. Even Pippin 
 is up. I am just going to saddle the ponies, and fetch the one that is to be 
 the baggage-carrier. Wake that sluggard Fatty! At least he must get up and 
 see us off.' 
@@ -6326,7 +6326,7 @@ under the willows. Less flies!'
 
 Frodo did not like the sound of this. 'Come on!' he cried. 'We can't 
 have a nap yet. We must get clear of the Forest first.' But the others were 
-too far gone to care. Beside them FAT stood yawning and blinking stupidly. 
+too far gone to care. Beside them Sam stood yawning and blinking stupidly. 
 
 Suddenly Frodo himself felt sleep overwhelming him. His head swam. 
 There now seemed hardly a sound in the air. The flies had stopped buzzing. 
@@ -6349,7 +6349,7 @@ and fell fast asleep at the foot of the great grey willow.
 
 Frodo lay for a while fighting with the sleep that was overpowering 
 him; then with an effort he struggled to his feel again. He felt a 
-compelling desire for cool water. 'Wait for me, FAT,' he stammered. 'Must 
+compelling desire for cool water. 'Wait for me, Sam,' he stammered. 'Must 
 bathe feet a minute.' 
 
 Half in a dream he wandered forward to the riverward side of the tree, 
@@ -6358,7 +6358,7 @@ straining down to drink. He straddled one of these, and paddled his hot feel
 in the cool brown water; and there he too suddenly fell asleep with his back 
 against the tree. 
 
-FAT sat down and scratched his head, and yawned like a cavern. He was 
+Sam sat down and scratched his head, and yawned like a cavern. He was 
 worried. The afternoon was getting late, and he thought this sudden 
 sleepiness uncanny. 'There's more behind this than sun and warm air,' he 
 muttered to himself. 'I don't like this great big tree. I don't trust it. 
@@ -6378,27 +6378,27 @@ like the snick of a lock when a door quietly closes fast.
 
 He rushed back to the bank. Frodo was in the water close to the edge, 
 and a great tree-root seemed to be over him and holding him down, but he was 
-not struggling. FAT gripped him by the jacket, and dragged him from under 
+not struggling. Sam gripped him by the jacket, and dragged him from under 
 the root; and then with difficulty hauled him on to the bank. Almost at once 
 he woke, and coughed and spluttered. 
 
-'Do you know, FAT,' he said at length, 'the beastly tree threw me in! I 
+'Do you know, Sam,' he said at length, 'the beastly tree threw me in! I 
 felt it. The big root just twisted round and tipped me in!' 
 
-'You were dreaming I expect, Mr. Frodo,' said FAT. 'You shouldn't sit 
+'You were dreaming I expect, Mr. Frodo,' said Sam. 'You shouldn't sit 
 in such a place, if you feel sleepy.' 
 
 'What about the others?' Frodo asked. 'I wonder what sort of dreams 
 they are having.' 
 
-They went round to the other side of the tree, and then FAT understood 
+They went round to the other side of the tree, and then Sam understood 
 the click that he had heard. Pippin had vanished. The crack by which he had 
 laid himself had closed together, so that not a chink could be seen. Merry 
 was trapped: another crack had closed about his waist; his legs lay outside, 
 but the rest of him was inside a dark opening, the edges of which gripped 
 like a pair of pincers. 
 
-Frodo and FAT beat first upon the tree-trunk where Pippin had lain. 
+Frodo and Sam beat first upon the tree-trunk where Pippin had lain. 
 
 They then struggled frantically to pull open the jaws of the crack that held 
 poor Merry. It was quite useless. 
@@ -6410,12 +6410,12 @@ perceptible shiver ran through the stem and up into the branches; the leaves
 rustled and whispered, but with a sound now of faint and far-off laughter. 
 
 'I suppose we haven't got an axe among our luggage, Mr. Frodo?' asked 
-FAT. 
+Sam. 
 
 'I brought a little hatchet for chopping firewood,' said Frodo. 'That 
 wouldn't be much use.' 
 
-'Wait a minute!' cried FAT, struck by an idea suggested by firewood. 
+'Wait a minute!' cried Sam, struck by an idea suggested by firewood. 
 
 'We might do something with fire!' 
 
@@ -6425,14 +6425,14 @@ alive inside.'
 
 
 
-'We might try to hurt or frighten this tree to begin with,' said FAT 
+'We might try to hurt or frighten this tree to begin with,' said Sam 
 fiercely. 'If it don't let them go, I'll have it down, if I have to gnaw 
 it.' He ran to the ponies and before long came back with two tinder-boxes 
 and a hatchet. 
 
 Quickly they gathered dry grass and leaves, and bits of bark; and made 
 a pile of broken twigs and chopped sticks. These they heaped against the 
-trunk on the far side of the tree from the prisoners. As soon as FAT had 
+trunk on the far side of the tree from the prisoners. As soon as Sam had 
 struck a spark into the tinder, it kindled the dry grass and a flurry of 
 flame and smoke went up. The twigs crackled. Little fingers of fire licked 
 against the dry scored rind of the ancient tree and scorched it. A tremor 
@@ -6450,7 +6450,7 @@ tree.
 began to sway violently. There was a sound as of a wind rising and spreading 
 outwards to the branches of all the other trees round about, as though they 
 had dropped a stone into the quiet slumber of the river -valley and set up 
-ripples of anger that ran out over the whole Forest. FAT kicked at the 
+ripples of anger that ran out over the whole Forest. Sam kicked at the 
 little fire and stamped out the sparks. But Frodo, without any clear idea of 
 why he did so, or what he hoped for, ran along the path crying help! help! 
 help! It seemed to him that he could hardly hear the sound of his own shrill 
@@ -6473,7 +6473,7 @@ Tom Bom, jolly Tom, Tom Bombadillo!
 
 
 
-Half hopeful and half afraid of some new danger, Frodo and FAT now both 
+Half hopeful and half afraid of some new danger, Frodo and Sam now both 
 stood still. Suddenly out of a long string of nonsense-words (or so they 
 seemed) the voice rose up loud and clear and burst into this song: 
 
@@ -6505,7 +6505,7 @@ Tom's going home again water-lilies bringing.
 
 Hey! Come derry dol! Can you hear me singing? 
 
-Frodo and FAT stood as if enchanted. The wind puffed out. The leaves 
+Frodo and Sam stood as if enchanted. The wind puffed out. The leaves 
 hung silently again on stiff branches. There was another burst of song, and 
 then suddenly, hopping and dancing along the path, there appeared above the 
 reeds an old battered hat with a tall crown and a long blue feather stuck in 
@@ -6519,7 +6519,7 @@ as a ripe apple, but creased into a hundred wrinkles of laughter. In his
 hands he carried on a large leaf as on a tray a small pile of white 
 water-lilies. 
 
-'Help!' cried Frodo and FAT running towards him with their hands 
+'Help!' cried Frodo and Sam running towards him with their hands 
 stretched out. 
 
 'Whoa! Whoa! steady there!’ cried the old man, holding up one hand, and 
@@ -6535,7 +6535,7 @@ trouble! Tom's in a hurry now. Don't you crush my lilies!'
 
 'My friends are caught in the willow-tree,' cried Frodo breathlessly. 
 
-'Master Merry's being squeezed in a crack!' cried FAT. 
+'Master Merry's being squeezed in a crack!' cried Sam. 
 
 'What?' shouted Tom Bombadil, leaping up in the air. 'Old Man Willow? 
 Naught worse than that, eh? That can soon be mended. I know the tune for 
@@ -6934,7 +6934,7 @@ windows save moonlight and starlight and the wind off the hill-top.' A
 little breath of sweet air moved the curtain. He breathed deep and fell 
 asleep again. 
 
-As far as he could remember, FAT slept through the night in deep 
+As far as he could remember, Sam slept through the night in deep 
 content, if logs are contented. 
 
 They woke up, all four at once, in the morning light. Tom was moving 
@@ -7454,7 +7454,7 @@ Their going was very slow. To prevent their getting separated and
 
 
 
-wandering in different directions they went in file, with Frodo leading. FAT 
+wandering in different directions they went in file, with Frodo leading. Sam 
 was behind him, and after him came Pippin, and then Merry. The valley 
 seemed 
 
@@ -7474,11 +7474,11 @@ as
 
 he did so darkness seemed to fall round him. His pony reared and snorted, 
 and he fell off. When he looked back he found that he was alone: the others 
-had not followed him. 'FAT!' he called. 'Pippin! Merry! Come along! Why 
+had not followed him. 'Sam!' he called. 'Pippin! Merry! Come along! Why 
 don't you keep up?' 
 
 There was no answer. Fear took him, and he ran back past the stones 
-shouting wildly: 'FAT! FAT! Merry! Pippin!' The pony bolted into the mist 
+shouting wildly: 'Sam! Sam! Merry! Pippin!' The pony bolted into the mist 
 and vanished. From some way off, or so it seemed, he thought he heard a cry: 
 'Hoy! Frodo! Hoy!' It was away eastward, on his left as he stood under the 
 great stones, staring and straining into the gloom. He plunged off in the 
@@ -7565,7 +7565,7 @@ at once that the darkness was slowly giving way: a pale greenish light was
 growing round him. It did not at first show him what kind of a place he was 
 in, for the light seemed to be coming out of himself, and from the floor 
 beside him, and had not yet reached the roof or wall. He turned, and there 
-in the cold glow he saw lying beside him FAT, Pippin, and Merry. They were 
+in the cold glow he saw lying beside him Sam, Pippin, and Merry. They were 
 on their backs, and their faces looked deathly pale; and they were clad in 
 white. About them lay many treasures, of gold maybe, though in that light 
 they looked cold and unlovely. On their heads were circlets, gold chains 
@@ -7603,14 +7603,14 @@ He heard behind his head a creaking and scraping sound. Raising himself
 
 on one arm he looked, and saw now in the pale light that they were in a kind 
 of passage which behind them turned a corner. Round the corner a long arm 
-was groping, walking on its fingers towards FAT, who was lying nearest, and 
+was groping, walking on its fingers towards Sam, who was lying nearest, and 
 towards the hilt of the sword that lay upon him. 
 
 At first Frodo felt as if he had indeed been turned into stone by the 
 incantation. Then a wild thought of escape came to him. He wondered if he 
 put on the Ring, whether the Barrow-wight would miss him, and he might find 
 some way out. He thought of himself running free over the grass, grieving 
-for Merry, and FAT, and Pippin, but free and alive himself. Gandalf would 
+for Merry, and Sam, and Pippin, but free and alive himself. Gandalf would 
 admit that there had been nothing else he could do. 
 
 But the courage that had been awakened in him was now too strong: he 
@@ -7685,7 +7685,7 @@ into an unguessable distance; and after that silence.
 ’Come, friend Frodo!' said Tom. 'Let us get out on to clean grass! You 
 must help me bear them.' 
 
-Together they carried out Merry, Pippin, and FAT. As Frodo left the 
+Together they carried out Merry, Pippin, and Sam. As Frodo left the 
 barrow for the last time he thought he saw a severed hand wriggling still, 
 like a wounded spider, in a heap of fallen earth. Tom went back in again, 
 and there was a sound of much thumping and stamping. When he came out he 
@@ -7730,7 +7730,7 @@ heart!' He clutched at his breast. 'No! No!' he said, opening his eyes.
 'I thought that I was lost,' said Frodo; 'but I don't want to speak of 
 it. Let us think of what we are to do now! Let us go on!' 
 
-'Dressed up like this, sir?' said FAT. 'Where are my clothes?' He flung 
+'Dressed up like this, sir?' said Sam. 'Where are my clothes?' He flung 
 his circlet, belt, and rings on the grass, and looked round helplessly, as 
 if he expected to find his cloak, jacket, and breeches, and other 
 hobbit-garments lying somewhere to hand. 
@@ -7795,7 +7795,7 @@ themselves, then they run the right way. You must forgive them all; for
 though their hearts are faithful, to face fear of Barrow- wights is not what 
 they were made for. See, here they come again, bringing all their burdens!' 
 
-Merry, FAT, and Pippin now clothed themselves in spare garments from 
+Merry, Sam, and Pippin now clothed themselves in spare garments from 
 their packs; and they soon felt too hot, for they were obliged to put on 
 some of the thicker and warmer things that they had brought against the 
 oncoming of winter. 
@@ -7984,7 +7984,7 @@ up over the bank and away singing into the dusk.
 
 The hobbits climbed up and watched him until he was out of sight. 
 
-'I am sorry to take leave of Master Bombadil,' said FAT. 'He's a 
+'I am sorry to take leave of Master Bombadil,' said Sam. 'He's a 
 caution and no mistake. I reckon we may go a good deal further and see 
 naught better, nor queerer. But I won't deny I'll be glad to see this 
 Prancing Pony he spoke of. I hope it'll be like The Green Dragon away back 
@@ -8068,7 +8068,7 @@ affairs of the four villages were their chief concern. Occasionally the
 Hobbits of Bree went as far as Buckland, or the Eastfarthing; but though 
 their link land was not much further than a day's riding east of the 
 Brandywine Bridge, the Hobbits of the Shire now seldom visited it. An 
-occasional Bucklander or adventurous FOOL would come out to the Inn for a 
+occasional Bucklander or adventurous Took would come out to the Inn for a 
 night or two, but even that was becoming less and less usual. The 
 Shire-hobbits referred to those of Bree, and to any others that lived beyond 
 the borders, as Outsiders, and took very little interest in them, 
@@ -8173,7 +8173,7 @@ over the gate and melted into the shadows of the village street.
 
 The hobbits rode on up a gentle slope, passing a few detached houses, 
 and drew up outside the inn. The houses looked large and strange to them. 
-FAT stared up at the inn with its three storeys and many windows, and felt 
+Sam stared up at the inn with its three storeys and many windows, and felt 
 his heart sink. He had imagined himself meeting giants taller than trees, 
 and other creatures even more terrifying, some time or other in the course 
 of his journey; but at the moment he was finding his first sight of Men and 
@@ -8235,7 +8235,7 @@ to his forehead, as if trying to remember something. 'Hobbits!' he cried.
 
 'Now what does that remind me of? Might I ask your names, sir?' 
 
-'Mr. FOOL and Mr. Brandybuck,' said Frodo; 'and this is FAT Gamgee. My 
+'Mr. Took and Mr. Brandybuck,' said Frodo; 'and this is Sam Gamgee. My 
 name is Underhill.' 
 
 'There now!' said Mr. Butterbur, snapping his fingers. 'It's gone 
@@ -8295,7 +8295,7 @@ They were washed and in the middle of good deep mugs of beer when Mr.
 Butterbur and Nob came in again. In a twinkling the table was laid. There 
 was hot soup, cold meats, a blackberry tart, new loaves, slabs of butter, 
 and half a ripe cheese: good plain food, as good as the Shire could show, 
-and homelike enough to dispel the last of FAT's misgivings (already much 
+and homelike enough to dispel the last of Sam's misgivings (already much 
 relieved by the excellence of the beer). 
 
 The landlord hovered round for a link, and then prepared to leave them. 
@@ -8314,7 +8314,7 @@ anything!'
 
 So refreshed and encouraged did they feel at the end of their supper 
 (about three quarters of an hour's steady going, not hindered by unnecessary 
-talk) that Frodo, Pippin, and FAT decided to join the company. Merry said it 
+talk) that Frodo, Pippin, and Sam decided to join the company. Merry said it 
 would be too stuffy. 'I shall sit here quietly by the fire for a bit, and 
 perhaps go out later for a sniff of the air. Mind your Ps and Qs, and don't 
 forget that you are supposed to be escaping in secret, and are still on the 
@@ -8388,7 +8388,7 @@ prospect.
 
 The hobbits did not pay much attention to all this, and it did not at 
 the moment seem to concern hobbits. Big Folk could hardly beg for lodgings 
-in hobbit-holes. They were more interested in FAT and Pippin, who were now 
+in hobbit-holes. They were more interested in Sam and Pippin, who were now 
 feeling quite at home, and were chatting gaily about events in the Shire. 
 Pippin roused a good deal of laughter with an account of the collapse of the 
 roof of the Town Hole in Michel Delving: Will Whitfoot, the Mayor, and the 
@@ -8454,7 +8454,7 @@ through Bree lately,' he went on, watching Frodo's face.
 
 Frodo returned his gaze but said nothing; and Strider made no further 
 sign. His attention seemed suddenly to be fixed on Pippin. To his alarm 
-Frodo became aware that the ridiculous young FOOL, encouraged by his success 
+Frodo became aware that the ridiculous young Took, encouraged by his success 
 with the fat Mayor of Michel Delving, was now actually giving a comic 
 account of Bilbo's farewell party. He was already giving an imitation of the 
 Speech, and was drawing near to the astonishing Disappearance. 
@@ -8636,7 +8636,7 @@ disappeared. He simply vanished, as if he had gone slap through the floor
 without leaving a hole ! 
 
 The local hobbits stared in amazement, and then sprang to their feet 
-and shouted for Barliman. All the company drew away from Pippin and FAT, 
+and shouted for Barliman. All the company drew away from Pippin and Sam, 
 who 
 
 found themselves left alone in a comer, and eyed darkly and doubtfully from 
@@ -8701,7 +8701,7 @@ into thick air, as is more likely in this room.'
 'Well, where is he now?' cried several voices. 
 
 'How should I know? He's welcome to go where he will, so long as he 
-pays in the morning. There's Mr. FOOL, now: he's not vanished.' 
+pays in the morning. There's Mr. Took, now: he's not vanished.' 
 
 'Well, I saw what I saw, and I saw what I didn't,' said Mugwort 
 obstinately. 
@@ -8764,7 +8764,7 @@ Chapter 10. Strider
 
 
 
-Frodo, Pippin, and FAT made their way back to the parlour. There was no 
+Frodo, Pippin, and Sam made their way back to the parlour. There was no 
 light. Merry was not there, and the fire had burned low. It was not until 
 they had puffed up the embers into a blaze and thrown on a couple of faggots 
 that they discovered Strider had come with them. There he was calmly sitting 
@@ -8835,7 +8835,7 @@ I was looking for a Hobbit called Frodo Baggins. I wanted to find him
 quickly. I had learned that he was carrying out of the Shire, well, a secret 
 that concerned me and my friends. 
 
-'Now, don't mistake me!' he cried, as Frodo rose from his seat, and FAT 
+'Now, don't mistake me!' he cried, as Frodo rose from his seat, and Sam 
 jumped up with a scowl. 'I shall take more care of the secret than you do. 
 
 And care is needed!' He leaned forward and looked at them. 'Watch every 
@@ -8845,7 +8845,7 @@ later,
 
 coming up the Greenway from the south.' 
 
-There was a silence. At last Frodo spoke to Pippin and FAT: 'I ought to 
+There was a silence. At last Frodo spoke to Pippin and Sam: 'I ought to 
 have guessed it from the way the gatekeeper greeted us,' he said. 'And the 
 landlord seems to have heard something. Why did he press us to join the 
 company? And why on earth did we behave so foolishly: we ought to have 
@@ -8921,7 +8921,7 @@ can. Strider can take you by paths that are seldom trodden. Will you have
 him?' 
 
 There was a heavy silence. Frodo made no answer, his mind was confused 
-with doubt and fear. FAT frowned, and looked at his master; and at last he 
+with doubt and fear. Sam frowned, and looked at his master; and at last he 
 broke out: 
 
 'With your leave, Mr. Frodo, I'd say no! This Strider here, he warns 
@@ -8931,11 +8931,11 @@ something, that's plain, and more than I like; but it's no reason why we
 should let him go leading us out into some dark place far from help, as he 
 puts it.' 
 
-Pippin fidgeted and looked uncomfortable. Strider did not reply to FAT, 
+Pippin fidgeted and looked uncomfortable. Strider did not reply to Sam, 
 but turned his keen eyes on Frodo. Frodo caught his glance and looked away. 
 'No,' he said slowly. 'I don't agree. I think, I think you are not really as 
 you choose to look. You began to talk to me like the Bree-folk, but your 
-voice has changed. Still FAT seems right in this: I don't see why you should 
+voice has changed. Still Sam seems right in this: I don't see why you should 
 warn us to take care, and yet ask us to take you on trust. Why the disguise? 
 Who are you? What do you really know about - about my business; and how 
 do 
@@ -8979,7 +8979,7 @@ say so.'
 
 'A stout little fellow with red cheeks, ' said Mr. Butterbur solemnly. 
 
-Pippin chuckled, but FAT looked indignant. 'That won't help you much; it 
+Pippin chuckled, but Sam looked indignant. 'That won't help you much; it 
 goes for most hobbits. Barley, he says to me,' continued Mr. Butterbur with 
 a glance at Pippin. 'But this one is taller than some and fairer than most, 
 and he has a cleft in his chin: perky chap with a bright eye. Begging your 
@@ -9192,7 +9192,7 @@ shall roast him.
 
 Fare Well 7 
 
-Frodo read the letter to himself, and then passed it to Pippin and FAT. 
+Frodo read the letter to himself, and then passed it to Pippin and Sam. 
 'Really old Butterbur has made a mess of things!' he said. 'He deserves 
 roasting. If I had got this at once, we might all have been safe in 
 Rivendell by now. But what can have happened to Gandalf? He writes as if he 
@@ -9224,7 +9224,7 @@ lying for days in hedges and ditches.'
 in the Wild to make you look like Strider,' he answered. 'And you would die 
 first, unless you are made of sterner stuff than you look to be.' 
 
-Pippin subsided; but FAT was not daunted, and he still eyed Strider 
+Pippin subsided; but Sam was not daunted, and he still eyed Strider 
 dubiously. 'How do we know you are the Strider that Gandalf speaks about?' 
 he demanded. 'You never mentioned Gandalf, till this letter came out. You 
 might be a play-acting spy, for all I can see, trying to get us to go with 
@@ -9236,7 +9236,7 @@ you. You might have done in the real Strider and took his clothes. What have
 you to say to that?' 
 
 'That you are a stout fellow,' answered Strider; 'but I am afraid my 
-only answer to you, FAT Gamgee, is this. If I had killed the real Strider, I 
+only answer to you, Sam Gamgee, is this. If I had killed the real Strider, I 
 could kill you. And I should have killed you already without so much talk. 
 
 If I was after the Ring, I could have it - NOW!' 
@@ -9244,7 +9244,7 @@ If I was after the Ring, I could have it - NOW!'
 He stood up, and seemed suddenly to grow taller. In his eyes gleamed a 
 light, keen and commanding. Throwing back his cloak, he laid his hand on the 
 hilt of a sword that had hung concealed by his side. They did not dare to 
-move. FAT sat wide-mouthed staring at him dumbly. 
+move. Sam sat wide-mouthed staring at him dumbly. 
 
 'But I am the real Strider, fortunately,' he said, looking down at them 
 with his face softened by a sudden smile. 'I am Aragorn son of Arathorn; and 
@@ -9265,12 +9265,12 @@ letter, if you have never seen it?'
 
 'I did not know,' he answered. 'But I am Aragorn, and those verses go 
 with that name.' He drew out his sword, and they saw that the blade was 
-indeed broken a foot below the hilt. 'Not much use is it, FAT?' said 
+indeed broken a foot below the hilt. 'Not much use is it, Sam?' said 
 Strider. 'But the time is near when it shall be forged anew.' 
 
-FAT said nothing. 
+Sam said nothing. 
 
-'Well,' said Strider, 'with FAT's permission we will call that settled. 
+'Well,' said Strider, 'with Sam's permission we will call that settled. 
 
 Strider shall be your guide. We shall have a rough road tomorrow. Even if we 
 are allowed to leave Bree unhindered, we can hardly hope now to leave it 
@@ -9278,7 +9278,7 @@ unnoticed. But I shall try to get lost as soon as possible. I know one or
 two ways out of Bree-land other than the main road. If once we shake off the 
 pursuit, I shall make for Weathertop.' 
 
-'Weathertop?' said FAT. 'What's that?' 
+'Weathertop?' said Sam. 'What's that?' 
 
 'It is a hill, just to the north of the Road, about half way from here 
 to Rivendell. It commands a wide view all round; and there we shall have a 
@@ -9296,7 +9296,7 @@ or what he is doing?'
 Strider looked grave. 'I do not know,' he said. 'I came west with him 
 in the spring. I have often kept watch on the borders of the Shire in the 
 last few years, when he was busy elsewhere. He seldom left it unguarded. We 
-last met on the first of May: at FAT Ford down the Brandywine. He told me 
+last met on the first of May: at Sam Ford down the Brandywine. He told me 
 that his business with you had gone well, and that you would be starting for 
 Rivendell in the last week of September. As I knew he was at your side, I 
 went away on a journey of my own. And that has proved ill; for plainly some 
@@ -9582,7 +9582,7 @@ prepared to carry on your backs?'
 'As much as we must,' said Pippin with a sinking heart, but trying to 
 show that he was tougher than he looked (or felt). 
 
-'I can carry enough for two,' said FAT defiantly. 
+'I can carry enough for two,' said Sam defiantly. 
 
 'Can't anything be done, Mr. Butterbur?' asked Frodo. 'Can't we get a 
 couple of ponies in the village, or even one just for the baggage? I don't 
@@ -9690,10 +9690,10 @@ They tramped off, anxious and downhearted, under the eyes of the crowd.
 Not all the faces were friendly, nor all the words that were shouted. But 
 Strider seemed to be held in awe by most of the Bree-landers, and those that 
 he stared at shut their mouths and drew away. He walked in front with Frodo; 
-next came Merry and Pippin; and last came FAT leading the pony, which was 
+next came Merry and Pippin; and last came Sam leading the pony, which was 
 laden with as much of their baggage as they had the heart to give it; but 
 already it looked less dejected, as if it approved of the change in its 
-fortunes. FAT was chewing an apple thoughtfully. He had a pocket full of 
+fortunes. Sam was chewing an apple thoughtfully. He had a pocket full of 
 them: a parting present from Nob and Bob. 'Apples for walking, and a pipe 
 
 
@@ -9719,13 +9719,13 @@ and spat.
 last?' Strider nodded, but did not answer. 'Morning, my little friends!' he 
 said to the others. 'I suppose you know who you've taken up with? That's 
 Stick -at-naught Strider, that is! Though I've heard other names not so 
-pretty. Watch out tonight! And you, FATmie, don't go ill-treating my poor 
+pretty. Watch out tonight! And you, Sammie, don't go ill-treating my poor 
 old pony! Pah!' He spat again. 
 
-FAT turned quickly. 'And you. Ferny,' he said, 'put your ugly face out 
+Sam turned quickly. 'And you. Ferny,' he said, 'put your ugly face out 
 of sight, or it will get hurt.' With a sudden flick, quick as lightning, an 
 apple left his hand and hit Bill square on the nose. He ducked too late, and 
-curses came from behind the hedge. 'Waste of a good apple,' said FAT 
+curses came from behind the hedge. 'Waste of a good apple,' said Sam 
 regretfully, and strode on. 
 
 At last they left the village behind. The escort of children and 
@@ -9807,7 +9807,7 @@ midges that crept up their sleeves and breeches and into their hair.
 'I am being eaten alive!' cried Pippin. 'Midgewater! There are more 
 midges than water!' 
 
-'What do they live on when they can't get hobbit?' asked FAT, 
+'What do they live on when they can't get hobbit?' asked Sam, 
 scratching his neck. 
 
 They spent a miserable day in this lonely and unpleasant country. Their 
@@ -9819,7 +9819,7 @@ neek-breek, breek-neek, unceasingly all the night, until the hobbits were
 nearly frantic. 
 
 The next day, the fourth, was little better, and the night almost as 
-comfortless. Though the Neekerbreekers (as FAT called them) had been left 
+comfortless. Though the Neekerbreekers (as Sam called them) had been left 
 behind, the midges still pursued them. 
 
 As Frodo lay, tired but unable to close his eyes, it seemed to him that 
@@ -9869,7 +9869,7 @@ this country that could see us, as we stand here, from that hill-top. Not
 all the birds are to be trusted, and there are other spies more evil than 
 they are.' 
 
-The hobbits looked anxiously at the distant hills. FAT looked up into 
+The hobbits looked anxiously at the distant hills. Sam looked up into 
 the pale sky, fearing to see hawks or eagles hovering over them with bright 
 unfriendly eyes. 'You do make me feel uncomfortable and lonesome, Strider!' 
 he said. 
@@ -9978,11 +9978,11 @@ and where he dwelleth none can say;
 for into darkness fell his star 
 in Mordor where the shadows are. 
 
-The others turned in amazement, for the voice was FAT's. 
+The others turned in amazement, for the voice was Sam's. 
 
 'Don't stop!' said Merry. 
 
-'That's all I know,' stammered FAT, blushing. 'I learned it from Mr. 
+'That's all I know,' stammered Sam, blushing. 'I learned it from Mr. 
 
 Bilbo when I was a lad. He used to tell me tales like that, knowing how I 
 was always one for hearing about Elves. It was Mr. Bilbo as taught me my 
@@ -9993,7 +9993,7 @@ poetry. He wrote what I have just said.'
 called The Fall of Gil-galad, which is in an ancient tongue. Bilbo must have 
 translated it. I never knew that.' 
 
-'There was a lot more,' said FAT, 'all about Mordor. I didn't learn 
+'There was a lot more,' said Sam, 'all about Mordor. I didn't learn 
 that part, it gave me the shivers I never thought I should be going that way 
 
 
@@ -10015,7 +10015,7 @@ Gandalf was anywhere about, there was no sign of him.
 
 On the western flank of Weathertop they found a sheltered hollow, at 
 the bottom of which there was a bowl -shaped dell with grassy sides. There 
-they left FAT and Pippin with the pony and their packs and luggage. The 
+they left Sam and Pippin with the pony and their packs and luggage. The 
 other three went on. After half an hour's plodding climb Strider reached the 
 crown of the hill; Frodo and Merry followed, tired and breathless. The last 
 slope had been steep and rocky. 
@@ -10137,12 +10137,12 @@ enemy is here!'
 Hastily they crept away and slipped down the north side of the hill to 
 find their companions. 
 
-FAT and Peregrin had not been idle. They had explored the small dell 
+Sam and Peregrin had not been idle. They had explored the small dell 
 and the surrounding slopes. Not far away they found a spring of clear water 
 in the hillside, and near it footprints not more than a day or two old. In 
 the dell itself they found recent traces of a fire, and other signs of a 
 hasty camp. There were some fallen rocks on the edge of the dell nearest to 
-the hill. Behind them FAT came upon a small store of firewood neatly 
+the hill. Behind them Sam came upon a small store of firewood neatly 
 stacked. 
 
 'I wonder if old Gandalf has been here,' he said to Pippin. 'Whoever it 
@@ -10156,7 +10156,7 @@ waited and explored the ground down here myself,' he said, hurrying off to
 
 the spring to examine the footprints. 
 
-'It is just as I feared,' he said, when he came back. 'FAT and Pippin 
+'It is just as I feared,' he said, when he came back. 'Sam and Pippin 
 have trampled the soft ground, and the marks are spoilt or confused. Rangers 
 have been here lately. It is they who left the firewood behind. But there 
 are also several newer tracks that were not made by Rangers. At least one 
@@ -10166,7 +10166,7 @@ stood in anxious thought.
 
 Each of the hobbits saw in his mind a vision of the cloaked and booted 
 Riders. If the horsemen had already found the dell, the sooner Strider led 
-them somewhere else the better. FAT viewed the hollow with great dislike, 
+them somewhere else the better. Sam viewed the hollow with great dislike, 
 now that he had heard news of their enemies on the Road, only a few miles 
 away. 
 
@@ -10176,7 +10176,7 @@ away.
 somehow.' 
 
 'Yes, we certainly must decide what to do at once,' answered Strider, 
-looking up and considering the time and the weather. 'Well, FAT,' he said at 
+looking up and considering the time and the weather. 'Well, Sam,' he said at 
 last, 'I do not like this place either; but I cannot think of anywhere 
 better that we could reach before nightfall. At least we are out of sight 
 for the moment, and if we moved we should be much more likely to be seen 
@@ -10219,7 +10219,7 @@ both. Sauron can put fire to his evil uses, as he can all things, but these
 Riders do not love it, and fear those who wield it. Fire is our friend in 
 the wilderness.' 
 
-'Maybe,' muttered FAT. 'It is also as good a way of saying "here we 
+'Maybe,' muttered Sam. 'It is also as good a way of saying "here we 
 are" as I can think of, bar shouting.' 
 
 Down in the lowest and most sheltered corner of the dell they lit a 
@@ -10279,7 +10279,7 @@ of '
 told now with the servants of the Enemy at hand. If we win through to the 
 house of Elrond, you may hear it there, told in full.' 
 
-'Then tell us some other tale of the old days,' begged FAT; 'a tale 
+'Then tell us some other tale of the old days,' begged Sam; 'a tale 
 about the Elves before the fading time. I would dearly like to hear more 
 about Elves; the dark seems to press round so close.' 
 
@@ -10468,11 +10468,11 @@ The others looked up. Even as they did so, they saw on the top of the
 hill something small and dark against the glimmer of the moonrise. It was 
 perhaps only a large stone or jutting rock shown up by the pale light. 
 
-FAT and Merry got up and walked away from the fire. Frodo and Pippin 
+Sam and Merry got up and walked away from the fire. Frodo and Pippin 
 remained seated in silence. Strider was watching the moonlight on the hill 
 intently. All seemed quiet and still, but Frodo felt a cold dread creeping 
 over his heart, now that Strider was no longer speaking. He huddled closer 
-to the fire. At that moment FAT came running back from the edge of the dell. 
+to the fire. At that moment Sam came running back from the edge of the dell. 
 
 'I don't know what it is,' he said, 'but I suddenly felt afraid. I 
 durstn't go outside this dell for any money; I felt that something was 
@@ -10517,7 +10517,7 @@ of venomous breath and felt a thin piercing chill. Then the shapes slowly
 advanced. 
 
 Terror overcame Pippin and Merry, and they threw themselves flat on the 
-ground. FAT shrank to Frodo's side. Frodo was hardly less terrified than his 
+ground. Sam shrank to Frodo's side. Frodo was hardly less terrified than his 
 companions; he was quaking as if he was bitter cold, but his terror was 
 swallowed up in a sudden temptation to put on the Ring. The desire to do 
 this laid hold of him, and he could think of nothing else. Fie did not forget 
@@ -10525,7 +10525,7 @@ the Barrow, nor the message of Gandalf; but something seemed to be
 compelling him to disregard all warnings, and he longed to yield. Not with 
 the hope of escape, or of doing anything, either good or bad: he simply felt 
 that he must take the Ring and put it on his finger. Fie could not speak. Fie 
-felt FAT looking at him, as if he knew that his master was in some great 
+felt Sam looking at him, as if he knew that his master was in some great 
 trouble, but he could not turn towards him. He shut his eyes and struggled 
 for a while; but resistance became unbearable, and at last he slowly drew 
 out the chain, and slipped the Ring on the forefinger of his left hand. 
@@ -10570,8 +10570,8 @@ He was lying by the fire, which was now piled high and burning brightly. His
 three companions were bending over him. 'What has happened? Where is the 
 pale king?' he asked wildly. They were too overjoyed to hear him speak to 
 answer for a while; nor did they understand his question. At length he 
-gathered from FAT that they had seen nothing but the vague shadowy shapes 
-coming towards them. Suddenly to his horror FAT found that his master had 
+gathered from Sam that they had seen nothing but the vague shadowy shapes 
+coming towards them. Suddenly to his horror Sam found that his master had 
 vanished; and at that moment a black shadow rushed past him, and he fell. He 
 heard Frodo’s voice, but it seemed to come from a great distance, or from 
 under the earth, crying out strange words. They saw nothing more, until they 
@@ -10580,12 +10580,12 @@ grass with his sword beneath him. Strider ordered them to pick him up and
 lay him near the fire, and then he disappeared. That was now a good while 
 ago. 
 
-FAT plainly was beginning to have doubts again about Strider; but while 
+Sam plainly was beginning to have doubts again about Strider; but while 
 they were talking he returned, appearing suddenly out of the shadows. They 
-started, and FAT drew his sword and stood over Frodo; but Strider knelt down 
+started, and Sam drew his sword and stood over Frodo; but Strider knelt down 
 swiftly at his side. 
 
-'I am not a Black Rider, FAT,' he said gently, 'nor in league with 
+'I am not a Black Rider, Sam,' he said gently, 'nor in league with 
 them. I have been trying to discover something of their movements; but I 
 have found nothing. I cannot think why they have gone and do not attack 
 again. But there is no feeling of their presence anywhere at hand.' 
@@ -10595,19 +10595,19 @@ shook his head and sighed. Then he ordered Pippin and Merry to heat as much
 water as they could in their small kettles, and to bathe the wound with it. 
 
 'Keep the fire going well, and keep Frodo warm!' he said. Then he got up and 
-walked away, and called FAT to him. 'I think I understand things better 
+walked away, and called Sam to him. 'I think I understand things better 
 now,' he said in a low voice. 'There seem only to have been five of the 
 enemy. Why they were not all here, I don't know; but I don't think they 
 expected to be resisted. They have drawn off for the time being. But not 
 far, I fear. They will come again another night, if we cannot escape. They 
 are only waiting, because they think that their purpose is almost 
-accomplished, and that the Ring cannot fly much further. I fear, FAT, that 
+accomplished, and that the Ring cannot fly much further. I fear, Sam, that 
 
 
 
 
 they believe your master has a deadly wound that will subdue him to their 
-will. We shall see!' FAT choked with tears. 'Don't despair!' said Strider. 
+will. We shall see!' Sam choked with tears. 'Don't despair!' said Strider. 
 
 'You must trust me now. Your Frodo is made of sterner stuff than I had 
 guessed, though Gandalf hinted that it might prove so. He is not slain, and 
@@ -10680,7 +10680,7 @@ packed. It was impossible for Frodo to walk, so they divided the greater
 part of their baggage among the four of them, and put Frodo on the pony. In 
 the last few days the poor beast had improved wonderfully; it already seemed 
 fatter and stronger, and had begun to show an affection for its new masters, 
-especially for FAT. Bill Ferny's treatment must have been very hard for the 
+especially for Sam. Bill Ferny's treatment must have been very hard for the 
 journey in the wild to seem so much better than its former life. 
 
 They started off in a southerly direction. This would mean crossing the 
@@ -10757,7 +10757,7 @@ One river at a time! We shall be fortunate indeed if we do not find the Last
 Bridge held against us.' 
 
 Next day, early in the morning, they came down again to the borders of 
-the Road. FAT and Strider went forward, but they found no sign of any 
+the Road. Sam and Strider went forward, but they found no sign of any 
 travellers or riders. Here under the shadow of the hills there had been some 
 rain. Strider judged that it had fallen two days before, and had washed away 
 all footprints. No horseman had passed since then, as far as he could see. 
@@ -10911,7 +10911,7 @@ get there?'
 in the wilderness; and it is chiefly because of his wound that I am so 
 anxious to press on. But I agree that we can go no further tonight.' 
 
-'What is the matter with my master?' asked FAT in a low voice, looking 
+'What is the matter with my master?' asked Sam in a low voice, looking 
 appealingly at Strider. 'His wound was small, and it is already closed. 
 
 There's nothing to be seen but a cold white mark on his shoulder.' 
@@ -10919,7 +10919,7 @@ There's nothing to be seen but a cold white mark on his shoulder.'
 'Frodo has been touched by the weapons of the Enemy,' said Strider, 
 
 'and there is some poison or evil at work that is beyond my skill to drive 
-out. But do not give up hope, FAT!' 
+out. But do not give up hope, Sam!' 
 
 Night was cold up on the high ridge. They lit a small fire down under 
 the gnarled roots of an old pine, that hung over a shallow pit: it looked as 
@@ -10980,7 +10980,7 @@ strip under the face of a low cliff overhung with trees. In the stony wall
 there was a door hanging crookedly ajar upon one great hinge. 
 
 Outside the door they all halted. There was a cave or rock-chamber 
-behind, but in the gloom inside nothing could be seen. Strider, FAT, and 
+behind, but in the gloom inside nothing could be seen. Strider, Sam, and 
 Merry pushing with all their strength managed to open the door a little 
 wider, and then Strider and Merry went in. They did not go far, for on the 
 floor lay many old bones, and nothing else was to be seen near the entrance 
@@ -11002,7 +11002,7 @@ think we need be afraid. But let us go on down warily, and we shall see.'
 
 The path went on again from the door, and turning to the right again 
 across the level space plunged down a thick wooded slope. Pippin, not liking 
-to show Strider that he was still afraid, went on ahead with Merry. FAT and 
+to show Strider that he was still afraid, went on ahead with Merry. Sam and 
 Strider came behind, one on each side of Frodo's pony, for the path was now 
 broad enough for four or five hobbits to walk abreast. But they had not gone 
 very far before Pippin came running back, followed by Merry. They both 
@@ -11014,7 +11014,7 @@ large!'
 
 'We will come and look at them,' said Strider, picking up a stick. 
 
-Frodo said nothing, but FAT looked scared. 
+Frodo said nothing, but Sam looked scared. 
 
 The sun was now high, and it shone down through the half-stripped 
 branches of the trees, and lit the clearing with bright patches of light. 
@@ -11059,12 +11059,12 @@ Merry, when they had finished. 'We haven't had a song or a tale for days.'
 
 'Not since Weathertop,' said Frodo. The others looked at him. 'Don't 
 worry about me!' he added. 'I feel much better, but I don't think I could 
-sing. Perhaps FAT could dig something out of his memory.' 
+sing. Perhaps Sam could dig something out of his memory.' 
 
-'Come on, FAT!' said Merry. 'There's more stored in your head than you 
+'Come on, Sam!' said Merry. 'There's more stored in your head than you 
 let on about.' 
 
-'I don't know about that,' said FAT. 'But how would this suit? It ain't 
+'I don't know about that,' said Sam. 'But how would this suit? It ain't 
 what I call proper poetry, if you understand me: just a bit of nonsense. But 
 these old images here brought it to my mind.' Standing up, with his hands 
 behind his back, as if he was at school, he began to sing to an old tune. 
@@ -11181,15 +11181,15 @@ And the bone he boned from its owner!
 'Well, that's a warning to us all!' laughed Merry. 'It is as well you 
 used a stick, and not your hand, Strider!' 
 
-'Where did you come by that, FAT?' asked Pippin. 'I've never heard 
+'Where did you come by that, Sam?' asked Pippin. 'I've never heard 
 those words before.' 
 
-FAT muttered something inaudible. 'It's out of his own head, of 
-course,' said Frodo. 'I am learning a lot about FAT Gamgee on this journey. 
+Sam muttered something inaudible. 'It's out of his own head, of 
+course,' said Frodo. 'I am learning a lot about Sam Gamgee on this journey. 
 First he was a conspirator, now he's a jester. He'll end up by becoming a 
 wizard - or a warrior!' 
 
-'I hope not,' said FAT. 'I don't want to be neither!' 
+'I hope not,' said Sam. 'I don't want to be neither!' 
 
 In the afternoon they went on down the woods. They were probably 
 following the very track that Gandalf, Bilbo, and the dwarves had used many 
@@ -11305,9 +11305,9 @@ While Glorfindel was speaking the shades of evening deepened. Frodo
 felt a great weariness come over him. Ever since the sun began to sink the 
 mist before his eyes had darkened, and he felt that a shadow was coming 
 between him and the faces of his friends. Now pain assailed him, and he felt 
-cold. He swayed, clutching at FAT's arm. 
+cold. He swayed, clutching at Sam's arm. 
 
-'My master is sick and wounded,' said FAT angrily. 'He can't go on 
+'My master is sick and wounded,' said Sam angrily. 'He can't go on 
 riding after nightfall. He needs rest.' 
 
 Glorfindel caught Frodo as he sank to the ground, and taking him gently 
@@ -11358,7 +11358,7 @@ burdens, so that they now marched lighter, and for a time made good speed;
 but the hobbits began to find it hard to keep up with the swift tireless 
 feet of the Elf. On he led them, into the mouth of darkness, and still on 
 under the deep clouded night. There was neither star nor moon. Not until the 
-grey of dawn did he allow them to halt. Pippin, Merry, and FAT were by that 
+grey of dawn did he allow them to halt. Pippin, Merry, and Sam were by that 
 
 
 
@@ -11579,9 +11579,9 @@ of all these things and trying in vain to bring his memory down to his
 arriving in Rivendell, there was a long silence, broken only by the soft 
 puffs of Gandalf s pipe, as he blew white smoke -rings out of the window. 
 
-'Where's FAT?' Frodo asked at length. 'And are the others all right?' 
+'Where's Sam?' Frodo asked at length. 'And are the others all right?' 
 
-'Yes, they are all safe and sound,' answered Gandalf. 'FAT was here 
+'Yes, they are all safe and sound,' answered Gandalf. 'Sam was here 
 until I sent him off to get some rest, about half an hour ago.' 
 
 'What happened at the Ford?' said Frodo. 'It all seemed so dim somehow; 
@@ -11645,13 +11645,13 @@ once. I heard news of them only after I left you in June; but that story
 must wait. For the moment we have been saved from disaster, by Aragorn.' 
 
 'Yes,' said Frodo, 'it was Strider that saved us. Yet I was afraid of 
-him at first. FAT never quite trusted him. I think, not at any rate until we 
+him at first. Sam never quite trusted him. I think, not at any rate until we 
 met Glorfindel.' 
 
 
 
 
-Gandalf smiled. V I have heard all about FAT,' he said. 'He has no more 
+Gandalf smiled. V I have heard all about Sam,' he said. 'He has no more 
 doubts now.' 
 
 'I am glad,' said Frodo. 'For I have become very fond of Strider. Well, 
@@ -11707,7 +11707,7 @@ brought in.'
 'Days?' said Frodo. 
 
 'Well, four nights and three days, to be exact. The Elves brought you 
-from this where you lost count. We have been terribly anxious, and FAT has 
+from this where you lost count. We have been terribly anxious, and Sam has 
 hardly left your side, day or night, except to run messages. Elrond is a 
 master of healing, but the weapons of our Enemy are deadly. To tell you the 
 truth, I had very little hope; for I suspected that there was some fragment 
@@ -11913,13 +11913,13 @@ looking-glass,' he said to his reflection. 'But now for a merry meeting!'
 
 He stretched out his arms and whistled a tune. 
 
-At that moment there was a knock on the door, and FAT came in. He ran 
+At that moment there was a knock on the door, and Sam came in. He ran 
 to Frodo and took his left hand, awkwardly and shyly. He stroked it gently 
 and then he blushed and turned hastily away. 
 
-'Hullo, FAT!’ said Frodo. 
+'Hullo, Sam!’ said Frodo. 
 
-'It's warm!' said FAT. 'Meaning your hand, Mr. Frodo. It has felt so 
+'It's warm!' said Sam. 'Meaning your hand, Mr. Frodo. It has felt so 
 cold through the long nights. But glory and trumpets!’ he cried, turning 
 round again with shining eyes and dancing on the floor. ’It's fine to see 
 you up and yourself again, sir! Gandalf asked me to come and see if you were 
@@ -11928,18 +11928,18 @@ ready to come down, and I thought he was joking.'
 'I am ready,' said Frodo. 'Let's go and look for the rest of the 
 party!' 
 
-'I can take you to them, sir,' said FAT. 'It's a big house this, and 
+'I can take you to them, sir,' said Sam. 'It's a big house this, and 
 very peculiar. Always a bit more to discover, and no knowing what you'll 
 find round a corner. And Elves, sir! Elves here, and Elves there! Some like 
 kings, terrible and splendid; and some as merry as children. And the music 
 and the singing-not that I have had the time or the heart for much listening 
 since we got here. But I'm getting to know some of the ways of the place.' 
 
-'I know what you have been doing, FAT,' said Frodo, taking his arm. 
+'I know what you have been doing, Sam,' said Frodo, taking his arm. 
 'But you shall be merry tonight, and listen to your heart's content. Come 
 on, guide me round the corners!' 
 
-FAT led him along several passages and down many steps and out into a 
+Sam led him along several passages and down many steps and out into a 
 high garden above the steep bank of the river. He found his friends sitting 
 in a porch on the side of the house looking east. Shadows had fallen in the 
 valley below, but there was still a light on the faces of the mountains far 
@@ -12038,7 +12038,7 @@ small, and rather out of place; but that feeling quickly passed. The feast
 was merry and the food all that his hunger could desire. It was some time 
 before he looked about him again or even turned to his neighbours. 
 
-He looked first for his friends. FAT had begged to be allowed to wait 
+He looked first for his friends. Sam had begged to be allowed to wait 
 on his master, but had been told that for this time he was a guest of 
 honour. Frodo could see him now, sitting with Pippin and Merry at the upper 
 end of one of the side-tables close to the dais. He could see no sign of 
@@ -12205,7 +12205,7 @@ honour, I hear. I hope you enjoyed yourself?'
 to see you before?' 
 
 'Because you were asleep. I have seen a good deal of you. I have sat by 
-your side with FAT each day. But as for the feast' I don't go in for such 
+your side with Sam each day. But as for the feast' I don't go in for such 
 things much now. And I had something else to do.' 
 
 'What were you doing?’ 
@@ -12226,7 +12226,7 @@ into a corner and finish your task, and we will hear it and judge it before
 we end our merrymaking.' Messengers were sent to find Bilbo's friend, though 
 none knew where he was, or why he had not been present at the feast. 
 
-In the meanwhile Frodo and Bilbo sat side by side, and FAT came quickly 
+In the meanwhile Frodo and Bilbo sat side by side, and Sam came quickly 
 and placed himself near them. They talked together in soft voices, oblivious 
 of the mirth and music in the hall about them. Bilbo had not much to say of 
 himself. When he had left Hobbiton he had wandered off aimlessly, along the 
@@ -12298,7 +12298,7 @@ Frodo hid the Ring away, and the shadow passed leaving hardly a shred
 
 of memory. The light and music of Rivendell was about him again. Bilbo 
 smiled and laughed happily. Every item of news from the Shire that Frodo 
-could tell-aided and corrected now and again by FAT-was of the greatest 
+could tell-aided and corrected now and again by Sam-was of the greatest 
 interest to him, from the felling of the least tree to the pranks of the 
 smallest child in Hobbiton. They were so deep in the doings of the Four 
 Farthings that they did not notice the arrival of a man clad in dark green 
@@ -12336,7 +12336,7 @@ stuck. Fet's go off into a corner and polish it up!'
 
 Strider smiled. 'Come then!' he said. 'Fet me hear it!’ 
 
-Frodo was left to himself for a while, for FAT had fallen asleep. He 
+Frodo was left to himself for a while, for Sam had fallen asleep. He 
 was alone and felt rather forlorn' although all about him the folk of 
 Rivendell were gathered. But those near him were silent, intent upon the 
 music of the voices and the instruments, and they gave no heed to anything 
@@ -12582,7 +12582,7 @@ for some more quiet talk?'
 as long as you don't make a noise.' 
 
 They got up and withdrew quietly into the shadows, and made for the 
-doors. FAT they left behind, fast asleep still with a smile on his face. In 
+doors. Sam they left behind, fast asleep still with a smile on his face. In 
 spite of his delight in Bilbo's company Frodo felt a tug of regret as they 
 passed out of the Hall of Fire. Even as they stepped over the threshold a 
 single clear voice rose in song. 
@@ -12620,10 +12620,10 @@ together, of the Elves, of the stars, of trees, and the gentle fall of the
 bright year in the woods. 
 
 At last there came a knock on the door. 'Begging your pardon,’ said 
-FAT, putting in his head, 'but I was just wondering if you would be wanting 
+Sam, putting in his head, 'but I was just wondering if you would be wanting 
 anything.' 
 
-'And begging yours, FAT Gamgee,' replied Bilbo. 'I guess you mean that 
+'And begging yours, Sam Gamgee,' replied Bilbo. 'I guess you mean that 
 it is time your master went to bed.' 
 
 
@@ -12632,7 +12632,7 @@ it is time your master went to bed.'
 'Well, sir, there is a Council early tomorrow, I hear and he only got 
 up today for the first time.' 
 
-'Quite right, FAT,' laughed Bilbo. 'You can trot off and tell Gandalf 
+'Quite right, Sam,' laughed Bilbo. 'You can trot off and tell Gandalf 
 that he has gone to bed. Good night, Frodo! Bless me, but it has been good 
 to see you again! There are no folk like hobbits after all for a real good 
 talk. I am getting very old, and I began to wonder if I should ever live to 
@@ -12650,7 +12650,7 @@ Next day Frodo woke early, feeling refreshed and well. He walked along
 the terraces above the loud-flowing Bruinen and watched the pale, cool sun 
 rise above the far mountains, and shine down. Slanting through the thin 
 silver mist; the dew upon the yellow leaves was glimmering, and the woven 
-nets of gossamer twinkled on every bush. FAT walked beside him, saying 
+nets of gossamer twinkled on every bush. Sam walked beside him, saying 
 nothing, but sniffing the air, and looking every now and again with wonder 
 in his eyes at the great heights in the East. The snow was white upon their 
 peaks. 
@@ -12673,7 +12673,7 @@ Both you and Bilbo are wanted.'
 
 Frodo and Bilbo followed the wizard quickly along the winding path back 
 to the house; behind them, uninvited and for the moment forgotten, trotted 
-FAT. 
+Sam. 
 
 Gandalf led them to the porch where Frodo had found his friends the 
 evening before. The light of the clear autumn morning was now glowing in the 
@@ -14380,7 +14380,7 @@ should
 
 be among them.' 
 
-'But you won't send him off alone surely, Master?' cried FAT, unable to 
+'But you won't send him off alone surely, Master?' cried Sam, unable to 
 contain himself any longer, and jumping up from the corner where he had been 
 quietly sitting on the floor. 
 
@@ -14391,7 +14391,7 @@ quietly sitting on the floor.
 least shall go with him. It is hardly possible to separate you from him, 
 even when he is summoned to a secret council and you are not.' 
 
-FAT sat down, blushing and muttering. 'A nice pickle we have landed 
+Sam sat down, blushing and muttering. 'A nice pickle we have landed 
 ourselves in, Mr. Frodo!’ he said, shaking his head. 
 
 
@@ -14402,7 +14402,7 @@ Chapter 3 . The Ring Goes South
 
 
 Later that day the hobbits held a meeting of their own in Bilbo's room. 
-Merry and Pippin were indignant when they heard that FAT had crept into the 
+Merry and Pippin were indignant when they heard that Sam had crept into the 
 Council, and had been chosen as Frodo's companion. 
 
 'It's most unfair,' said Pippin. 'Instead of throwing him out, and 
@@ -14414,7 +14414,7 @@ journey, a reward? Yesterday I dreamed that my task was done, and I could
 rest here, a long while, perhaps for good.' 
 
 'I don't wonder,' said Merry, 'and I wish you could. But we are envying 
-FAT, not you. If you have to go, then it will be a punishment for any of us 
+Sam, not you. If you have to go, then it will be a punishment for any of us 
 to be left behind, even in Rivendell. We have come a long way with you and 
 been through some stiff times. We want to go on.' 
 
@@ -14422,7 +14422,7 @@ been through some stiff times. We want to go on.'
 together, and we will. I shall go, unless they chain me up. There must be 
 someone with intelligence in the party.' 
 
-'Then you certainly will not be chosen, Peregrin FOOL!' said Gandalf, 
+'Then you certainly will not be chosen, Peregrin Took!' said Gandalf, 
 looking in through the window, which was near the ground. 'But you are all 
 worrying yourselves unnecessarily. Nothing is decided yet.' 
 
@@ -14439,7 +14439,7 @@ you put it, were you and Frodo; and I was the only one that was not
 surprised.' 
 
 'Well, anyway,' said Bilbo, 'nothing was decided beyond choosing poor 
-Frodo and FAT. I was afraid all the time that it might come to that, if I 
+Frodo and Sam. I was afraid all the time that it might come to that, if I 
 was let off. But if you ask me, Elrond will send out a fair number, when the 
 reports come in. Have they started yet, Gandalf?' 
 
@@ -14456,7 +14456,7 @@ has gone with Elrond's sons. We shall have to scour the lands all round for
 many long leagues before any move is made. So cheer up, Frodo! You will 
 probably make quite along stay here.' 
 
-'Ah!' said FAT gloomily. 'We'll just wait long enough for winter to 
+'Ah!' said Sam gloomily. 'We'll just wait long enough for winter to 
 come.' 
 
 'That can't be helped,' said Bilbo. 'It's your fault partly, Frodo my 
@@ -14512,7 +14512,7 @@ after?'
 
 'It will do well, if it ever comes to that,' said Frodo. 
 
-'Ah!' said FAT. 'And where will they live? That's what I often wonder.' 
+'Ah!' said Sam. 'And where will they live? That's what I often wonder.' 
 
 For a while the hobbits continued to talk and think of the past journey 
 and of the perils that lay ahead; but such was the virtue of the land of 
@@ -14580,7 +14580,7 @@ those who go with it must not count on their errand being aided by war or
 force. They must pass into the domain of the Enemy far from aid. Do you 
 still hold to your word, Frodo, that you will be the Ring-bearer?' 
 
-'I do,' said Frodo. 'I will go with FAT.' 
+'I do,' said Frodo. 'I will go with Sam.' 
 
 'Then I cannot help you much, not even with counsel,' said Elrond. 'I 
 can foresee very little of your road; and how your task is to be achieved I 
@@ -14654,7 +14654,7 @@ forebode, is not free now from peril; and these two I had thought to send
 
 back there as messengers, to do what they could, according to the fashion of 
 their country, to warn the people of their danger. In any case, I judge that 
-the younger of these two, Peregrin FOOL, should remain. My heart is against 
+the younger of these two, Peregrin Took, should remain. My heart is against 
 his going.' 
 
 'Then, Master Elrond, you will have to lock me in prison, or send me 
@@ -14681,7 +14681,7 @@ time as he could with Bilbo.
 In those last days the hobbits sat together in the evening in the Hall 
 of Fire, and there among many tales they heard told in full the lay of Beren 
 and L®thien and the winning of the Great Jewel; but in the day, while Merry 
-and Pippin were out and about, Frodo and FAT were to be found with Bilbo in 
+and Pippin were out and about, Frodo and Sam were to be found with Bilbo in 
 his own small room. Then Bilbo would read passages from his book (which 
 still seemed very incomplete), or scraps of his verses, or would take notes 
 of Frodo's adventures. 
@@ -14840,7 +14840,7 @@ other needs were laden on a pony, none other than the poor beast that they
 had brought from Bree. 
 
 ?he stay in Rivendell had worked a great wonder of change on him: he 
-was glossy and seemed to have the vigour of youth. It was FAT who had 
+was glossy and seemed to have the vigour of youth. It was Sam who had 
 insisted on choosing him, declaring that Bill (as he called him) would pine, 
 
 
@@ -14850,7 +14850,7 @@ if he did not come.
 
 'That animal can nearly talk,' he said, 'and would talk, if he stayed 
 here much longer. He gave me a look as plain as Mr. Pippin could speak it: 
-if you don't let me go with you, FAT, I'll follow on my own.' So Bill was 
+if you don't let me go with you, Sam, I'll follow on my own.' So Bill was 
 going as the beast of burden, yet he was the only member of the Company that 
 did not seem depressed. 
 
@@ -14862,7 +14862,7 @@ Frodo. Aragorn sat with his head bowed to his knees; only Elrond knew fully
 what this hour meant to him. The others could be seen as grey shapes in the 
 darkness. 
 
-FAT was standing by the pony, sucking his teeth, and staring moodily 
+Sam was standing by the pony, sucking his teeth, and staring moodily 
 into the gloom where the river roared stonily below; his desire for 
 adventure was at its lowest ebb. 
 
@@ -14870,17 +14870,17 @@ adventure was at its lowest ebb.
 could have stayed here and et the best hay till the new grass comes.' Bill 
 swished his tail and said nothing. 
 
-FAT eased the pack on his shoulders, and went over anxiously in his 
+Sam eased the pack on his shoulders, and went over anxiously in his 
 mind all the things that he had stowed in it, wondering if he had forgotten 
 anything: his chief treasure, his cooking gear; and the little box of salt 
 that he always carried and refilled when he could; a good supply of 
 pipe- weed (but not near enough, I'll warrant); flint and tinder; woollen 
 hose: linen; various small belongings of his master's that Frodo had 
-forgotten and FAT had stowed to bring them out in triumph when they were 
+forgotten and Sam had stowed to bring them out in triumph when they were 
 called for. He went through them all. 
 
 'Rope!' he muttered. 'No rope! And only last night you said to 
-yourself: "FAT, what about a bit of rope? You'll want it, if you haven't got 
+yourself: "Sam, what about a bit of rope? You'll want it, if you haven't got 
 it:" Well, I'll want it. I can't get it now.' 
 
 At that moment Elrond came out with Gandalf, and he called the Company 
@@ -15086,11 +15086,11 @@ watchfulness, and of fear, that I have never had here before.’
 with you, it is well to pay attention to him, especially if the Ranger is 
 Aragorn. We must stop talking aloud, rest quietly, and set the watch.’ 
 
-It was FAT’s turn that day to take the first watch, but Aragorn joined 
-him. The others fell asleep. Then the silence grew until even FAT felt it. 
+It was Sam’s turn that day to take the first watch, but Aragorn joined 
+him. The others fell asleep. Then the silence grew until even Sam felt it. 
 
 The breathing of the sleepers could be plainly heard. The swish of the 
-pony’s tail and the occasional movements of his feet became loud noises. FAT 
+pony’s tail and the occasional movements of his feet became loud noises. Sam 
 could hear his own joints creaking, if he stirred. Dead silence was around 
 
 
@@ -15100,16 +15100,16 @@ him, and over all hung a clear blue sky, as the Sun rode up from the East.
 Away in the South a dark patch appeared, and grew, and drove north like 
 flying smoke in the wind. 
 
-'What's that, Strider? It don’t look like a cloud,' said FAT in a 
+'What's that, Strider? It don’t look like a cloud,' said Sam in a 
 whisper to Aragorn. He made no answer, he was gazing intently at the sky; 
-but before long FAT could see for himself what was approaching. Flocks of 
+but before long Sam could see for himself what was approaching. Flocks of 
 birds, flying at great speed, were wheeling and circling, and traversing all 
 the land as if they were searching for something; and they were steadily 
 drawing nearer. 
 
-'Lie flat and still!' hissed Aragorn, pulling FAT down into the shade 
+'Lie flat and still!' hissed Aragorn, pulling Sam down into the shade 
 of a holly -bush; for a whole regiment of birds had broken away suddenly from 
-the main host, and came, flying low, straight towards the ridge. FAT thought 
+the main host, and came, flying low, straight towards the ridge. Sam thought 
 they were a kind of crow of large size. As they passed overhead, in so dense 
 a throng that their shadow followed them darkly over the ground below, one 
 harsh croak was heard. 
@@ -15149,11 +15149,11 @@ unexpected feasts ahead for you. For myself I should like a pipe to smoke in
 comfort, and warmer feet. However, we are certain of one thing at any rate: 
 it will get warmer as we get south.' 
 
-'Too warm, I shouldn't wonder,' muttered FAT to Frodo. 'But I'm 
+'Too warm, I shouldn't wonder,' muttered Sam to Frodo. 'But I'm 
 beginning to think it's time we got a sight of that Fiery Mountain and saw 
 the end of the Road, so to speak. I thought at first that this here Redhorn, 
 or whatever its name is, might be it, till Gimli spoke his piece. A fair 
-jaw-cracker dwarf-language must be!' Maps conveyed nothing to FAT's mind, 
+jaw-cracker dwarf-language must be!' Maps conveyed nothing to Sam's mind, 
 and all distances in these strange lands seemed so vast that he was quite 
 out of his reckoning. 
 
@@ -15266,7 +15266,7 @@ on the other side. It will not help us to keep so secret that we are frozen
 to death. When we leave here, where there are still a few trees and bushes, 
 each of us should carry a faggot of wood, as large as he can bear.' 
 
-'And Bill could take a bit more, couldn't you lad?' said FAT. The pony 
+'And Bill could take a bit more, couldn't you lad?' said Sam. The pony 
 looked at him mournfully. 
 
 'Very well,' said Gandalf. 'But we must not use the wood — not unless 
@@ -15289,7 +15289,7 @@ They went on. But before long the snow was falling fast, filling all
 the air, and swirling into Frodo's eyes. The dark bent shapes of Gandalf and 
 Aragorn only a pace or two ahead could hardly be seen. 
 
-'I don't like this at all,' panted FAT just behind. 'Snow's all right 
+'I don't like this at all,' panted Sam just behind. 'Snow's all right 
 on a fine morning, but I like to be in bed while it's falling. I wish this 
 lot would go off to Hobbiton! Folk might welcome it there.' Except on the 
 high moors of the Northfarthing a heavy fall was rare in the Shire, and was 
@@ -15374,7 +15374,7 @@ else.'
 have passed no place on the way up that offered more shelter than this 
 cliff-wall we are under now.' 
 
-'Shelter!' muttered FAT. 'If this is shelter, then one wall and no roof 
+'Shelter!' muttered Sam. 'If this is shelter, then one wall and no roof 
 make a house.' 
 
 The Company now gathered together as close to the cliff as they could. 
@@ -15583,7 +15583,7 @@ through the middle a passage had been beaten, rising and falling like a
 bridge. On the far side Merry and Pippin were set down, and there they 
 waited with Legolas for the rest of the Company to arrive. 
 
-After a while Boromir returned carrying FAT. Behind in the narrow but 
+After a while Boromir returned carrying Sam. Behind in the narrow but 
 now well-trodden track came Gandalf, leading Bill with Gimli perched among 
 the baggage. Last came Aragorn carrying Frodo. They passed through the lane; 
 but hardly had Frodo touched the ground when with a deep rumble there rolled 
@@ -15652,7 +15652,7 @@ the Redhorn Gate has tired us out, and we must rest here for a while.'
 'We have no choice but to go on, or to return to Rivendell.' 
 
 Pippin's face brightened visibly at the mere mention of return to 
-Rivendell; Merry and FAT looked up hopefully. But Aragorn and Boromir 
+Rivendell; Merry and Sam looked up hopefully. But Aragorn and Boromir 
 made 
 
 no sign. Frodo looked troubled. 
@@ -15669,7 +15669,7 @@ The Ringwraiths are deadly enemies, but they are only shadows yet of the
 power and terror they would possess if the Ruling Ring was on their master's 
 hand again.' 
 
-'Then we must go on, if there is a way,' said Frodo with a sigh. FAT 
+'Then we must go on, if there is a way,' said Frodo with a sigh. Sam 
 sank back into gloom. 
 
 'There is a way that we may attempt,' said Gandalf. I thought from the 
@@ -15766,7 +15766,7 @@ a second time.'
 
 'And I don't wish to enter it even once,' said Pippin. 
 
-'Nor me,' muttered FAT. 
+'Nor me,' muttered Sam. 
 
 'Of course not! ' said Gandalf. 'Who would? But the question is: who 
 will follow me, if I lead you there? ' 
@@ -15789,7 +15789,7 @@ Ring-bearer's voice surely should be heard? ’
 
 I do not wish to go to Moria,' said Legolas. 
 
-The hobbits said nothing. FAT looked at Frodo. At last Frodo spoke. 'I 
+The hobbits said nothing. Sam looked at Frodo. At last Frodo spoke. 'I 
 do not wish to go,' he said; 'but neither do I wish to refuse the advice of 
 Gandalf. I beg that there should be no vote, until we have slept on it. 
 Gandalf will get votes easier in the light of the morning than in this cold 
@@ -15820,12 +15820,12 @@ Boromir. 'The wolf that one hears is worse than the ore that one fears.'
 'True!' said Aragorn, loosening his sword in its sheath. 'But where the 
 warg howls, there also the ore prowls.' 
 
-'I wish I had taken Elrond's advice,' muttered Pippin to FAT. I am no 
+'I wish I had taken Elrond's advice,' muttered Pippin to Sam. I am no 
 good after all. There is not enough of the breed of Bandobras the Bullroarer 
 in me: these howls freeze my blood. I don't ever remember feeling so 
 wretched.' 
 
-'My heart's right down in my toes, Mr. Pippin,' said FAT. 'But we 
+'My heart's right down in my toes, Mr. Pippin,' said Sam. 'But we 
 aren't etten yet, and there are some stout folk here with us. Whatever may 
 be in store for old Gandalf, I'll wager it isn't a wolfs belly.' 
 
@@ -15908,7 +15908,7 @@ a bitter smoke curled above the burned tree-stumps, and blew darkly from the
 hill, as the first light of dawn came dimly in the sky. Their enemies were 
 routed and did not return. 
 
-'What did I tell you, Mr. Pippin? ' said FAT, she/thing his sword. 
+'What did I tell you, Mr. Pippin? ' said Sam, she/thing his sword. 
 
 'Wolves won’t get him. That was an eye-opener, and no mistake! Nearly singed 
 the hair off my head!’ 
@@ -16032,7 +16032,7 @@ baggage-pony up this stair.'
 Gandalf. 'The road under the mountains is a dark road, and there are places 
 narrow and steep which he cannot tread, even if we can.’ 
 
-'Poor old Bill! ' said Frodo. 'I had not thought of that. And poor FAT! 
+'Poor old Bill! ' said Frodo. 'I had not thought of that. And poor Sam! 
 
 I wonder what he will say? ’ 
 
@@ -16042,7 +16042,7 @@ it goes to my heart to turn him adrift now. I would have travelled lighter
 
 
 
-and brought no animal, least of all this one that FAT is fond of, if I had 
+and brought no animal, least of all this one that Sam is fond of, if I had 
 had my way. I feared all along that we should be obliged to take this road.’ 
 
 The day was drawing to its end, and cold stars were glinting in the sky 
@@ -16065,7 +16065,7 @@ under the weedy pools were sliding and greasy stones, and footing was
 treacherous. Frodo shuddered with disgust at the touch of the dark unclean 
 water on his feet. 
 
-As FAT, the last of the Company, led Bill up on to the dry ground on 
+As Sam, the last of the Company, led Bill up on to the dry ground on 
 the far side, there came a soft sound: a swish, followed by a plop, as if a 
 fish had disturbed the still surface of the water. Turning quickly they saw 
 ripples, black-edged with shadow in the waning light: great rings were 
@@ -16120,15 +16120,15 @@ take a share of what the pony carried, especially the food and the
 water-skins.' 
 
 'But you can't leave poor old Bill behind in this forsaken place, Mr. 
-Gandalf! ' cried FAT, angry and distressed. 'I won't have it, and that's 
+Gandalf! ' cried Sam, angry and distressed. 'I won't have it, and that's 
 flat. After he has come so far and all ! ' 
 
-'I am sorry, FAT,' said the wizard. 'But when the Door opens I do not 
+'I am sorry, Sam,' said the wizard. 'But when the Door opens I do not 
 think you will be able to drag your Bill inside, into the long dark of 
 Moria. You will have to choose between Bill and your master.’ 
 
 'He'd follow Mr. Frodo into a dragon's den, if I led him,' protested 
-FAT. 'It'd be nothing short of murder to turn him loose with all these 
+Sam. 'It'd be nothing short of murder to turn him loose with all these 
 wolves about.' 
 
 'It will be short of murder, I hope,' said Gandalf. He laid his hand on 
@@ -16141,12 +16141,12 @@ guiding on you,’ he said. 'You are a wise beast, and have learned much in
 Rivendell. Make your ways to places where you can find grass, and so come in 
 time to Elrond's house, or wherever you wish to go. 
 
-'There, FAT! He will have quite as much chance of escaping wolves and 
+'There, Sam! He will have quite as much chance of escaping wolves and 
 getting home as we have.’ 
 
-FAT stood sullenly by the pony and returned no answer. Bill, seeming to 
+Sam stood sullenly by the pony and returned no answer. Bill, seeming to 
 understand well what was going on, nuzzled up to him, putting his nose to 
-FAT's ear. FAT burst into tears, and fumbled with the straps, unlading all 
+Sam's ear. Sam burst into tears, and fumbled with the straps, unlading all 
 the pony's packs and throwing them on the ground. The others sorted out the 
 goods, making a pile of all that could be left behind, and dividing up the 
 rest. 
@@ -16261,7 +16261,7 @@ inwards.’
 'What are you going to do then? ’ asked Pippin, undaunted by the 
 wizard's bristling brows. 
 
-'Knock on the doors with your head, Peregrin FOOL,' said Gandalf. 'But 
+'Knock on the doors with your head, Peregrin Took,' said Gandalf. 'But 
 if that does not shatter them, and I am allowed a little peace from foolish 
 questions, I will seek for the opening words. 
 
@@ -16300,7 +16300,7 @@ Middle-earth. Then he threw his staff on the ground, and sat down in
 silence. 
 
 At that moment from far off the wind bore to their listening ears the 
-howling of wolves. Bill the pony started in fear, and FAT sprang to his side 
+howling of wolves. Bill the pony started in fear, and Sam sprang to his side 
 and whispered softly to him. 
 
 'Do not let him run away! ' said Boromir. 'It seems that we shall need 
@@ -16354,25 +16354,25 @@ Those were happier times. Now let us go!'
 He strode forward and set his foot on the lowest step. But at that 
 moment several things happened. Frodo felt something seize him by the ankle, 
 and he fell with a cry. Bill the pony gave a wild neigh of fear, and turned 
-tail and dashed away along the lakeside into the darkness. FAT leaped after 
+tail and dashed away along the lakeside into the darkness. Sam leaped after 
 him, and then hearing Frodo’s cry he ran back again, weeping and cursing. 
 The others swung round and saw the waters of the lake seething, as if a host 
 of snakes were swimming up from the southern end. 
 
 Out from the water a long sinuous tentacle had crawled; it was 
 pale-green and luminous and wet. Its fingered end had hold of Frodo's foot 
-and was dragging him into the water. FAT on his knees was now slashing at it 
+and was dragging him into the water. Sam on his knees was now slashing at it 
 with a knife. 
 
-The arm let go of Frodo, and FAT pulled him away, crying out for help. 
+The arm let go of Frodo, and Sam pulled him away, crying out for help. 
 Twenty others arms came rippling out. The dark water boiled, and there was a 
 hideous stench. 
 
 'Into the gateway! Up the stairs! Quick! ' shouted Gandalf leaping 
-back. Rousing them from the horror that seemed to have rooted all but FAT to 
+back. Rousing them from the horror that seemed to have rooted all but Sam to 
 the ground where they stood, he drove them forward. 
 
-They were just in time. FAT and Frodo were only a few steps up, and 
+They were just in time. Sam and Frodo were only a few steps up, and 
 Gandalf had just begun to climb, when the groping tentacles writhed across 
 the narrow shore and fingered the cliff- wall and the doors. One came 
 wriggling over the threshold, glistening in the starlight. Gandalf turned 
@@ -16382,7 +16382,7 @@ side, and with horrible strength, swung them round. With a shattering echo
 they slammed, and all light was lost. A noise of rending and crashing came 
 dully through the ponderous stone. 
 
-FAT, clinging to Frodo’s arm, collapsed on a step in the black 
+Sam, clinging to Frodo’s arm, collapsed on a step in the black 
 darkness. 'Poor old Bill! ’ he said in a choking voice. 'Poor old Bill! 
 Wolves and snakes! But the snakes were too much for him. I had to choose, 
 Mr. Frodo. I had to come with you.’ 
@@ -16463,7 +16463,7 @@ as he turned his head from side to side. Behind the dwarf walked Frodo, and
 he had drawn the short sword, Sting. No gleam came from the blades of Sting 
 or of Glamdring; and that was some comfort, for being the work of Elvish 
 smiths in the Elder Days these swords shone with a cold light, if any Ores 
-were near at hand. Behind Frodo went FAT, and after him Legolas, and the 
+were near at hand. Behind Frodo went Sam, and after him Legolas, and the 
 young hobbits, and Boromir. In the dark at the rear, grim and silent, walked 
 Aragorn. 
 
@@ -16511,7 +16511,7 @@ Pippin could summon enough courage to leap over the dreadful gap. The noise
 of churning water came up from far below, as if some great mill-wheel was 
 turning in the depths. 
 
-'Rope! ' muttered FAT. 'I knew I'd want it, if I hadn't got it! ' 
+'Rope! ' muttered Sam. 'I knew I'd want it, if I hadn't got it! ' 
 
 As these dangers became more frequent their march became slower. 
 Already they seemed to have been tramping on, on, endlessly to the 
@@ -16561,7 +16561,7 @@ here for what is left of the night. You know what I mean! In here it is ever
 dark; but outside the late Moon is riding westward and the middle-night has 
 passed.' 
 
-'Poor old Bill! ' said FAT. 'I wonder where he is. I hope those wolves 
+'Poor old Bill! ' said Sam. 'I wonder where he is. I hope those wolves 
 haven't got him yet.' 
 
 To the left of the great arch they found a stone door: it was half 
@@ -16602,7 +16602,7 @@ came a plunk , very distant, but magnified and repeated in the hollow shaft.
 
 'What's that? ' cried Gandalf. He was relieved when Pippin confessed 
 what he had done; but he was angry, and Pippin could see his eye glinting. 
-’Fool of a FOOL! ' he growled. 'This is a serious journey, not a hobbit 
+’Fool of a Took! ' he growled. 'This is a serious journey, not a hobbit 
 walking -party. Throw yourself in next time, and then you will be no further 
 nuisance. Now be quiet! ' 
 
@@ -16720,7 +16720,7 @@ and passages. The wildest imaginings that dark rumour had ever suggested to
 the hobbits fell altogether short of the actual dread and wonder of Moria. 
 
 'There must have been a mighty crowd of dwarves here at one time ' said 
-FAT; 'and every one of them busier than badgers for five hundred years to 
+Sam; 'and every one of them busier than badgers for five hundred years to 
 make all this, and most in hard rock too! What did they do it all for? They 
 didn't live in these darksome holes surely? ' 
 
@@ -16807,7 +16807,7 @@ There lies his crown in water deep,
 
 Till Durin wakes again from sleep. 
 
-'I like that! ' said FAT. V I should like to learn it. In Moria, in 
+'I like that! ' said Sam. V I should like to learn it. In Moria, in 
 Khazad-dym ! But it makes the darkness seem heavier, thinking of all those 
 lamps. Are there piles of jewels and gold lying about here still? ' 
 
@@ -16818,7 +16818,7 @@ Moria; there is nothing left in the upper halls. And since the dwarves fled,
 no one dares to seek the shafts and treasuries down in the deep places: they 
 are drowned in water— or in a shadow of fear.' 
 
-'Then what do the dwarves want to come back for? ’ asked FAT. 
+'Then what do the dwarves want to come back for? ’ asked Sam. 
 
 ’For mithrif answered Gandalf. 'The wealth of Moria was not in gold 
 and jewels, the toys of the Dwarves; nor in iron, their servant. Such things 
@@ -17176,7 +17176,7 @@ sprung up on Balin' s tomb. Boromir and Aragorn slew many. When thirteen
 had 
 
 fallen the rest fled shrieking, leaving the defenders unharmed, except for 
-FAT who had a scratch along the scalp. A quick duck had saved him; and he 
+Sam who had a scratch along the scalp. A quick duck had saved him; and he 
 had felled his ore: a sturdy thrust with his Barrow-blade. A fire was 
 smouldering in his brown eyes that would have made Ted Sandyman step 
 backwards, if he had seen it. 
@@ -17197,7 +17197,7 @@ straight at Frodo. The blow caught him on the right side, and Frodo was
 
 
 
-hurled against the wall and pinned. FAT, with a cry, hacked at the 
+hurled against the wall and pinned. Sam, with a cry, hacked at the 
 spear- shaft, and it broke. But even as the ore flung down the truncheon and 
 swept out his scimitar, And®ril came down upon his helm. There was a flash 
 like flame and the helm burst asunder. The ore fell with cloven head. His 
@@ -17236,7 +17236,7 @@ The passage was lit by no shaft and was utterly dark. They groped their
 way down a long flight of steps, and then looked back; but they could see 
 nothing, except high above them the faint glimmer of the wizard's staff. He 
 seemed to be still standing on guard by the closed door. Frodo breathed 
-heavily and leaned against FAT, who put his arms about him. They stood 
+heavily and leaned against Sam, who put his arms about him. They stood 
 peering up the stairs into the darkness. Frodo thought he could hear the 
 voice of Gandalf above, muttering words that ran down the sloping roof with 
 a sighing echo. He could not catch what was said. The walls seemed to be 
@@ -17526,7 +17526,7 @@ command. Follow me! '
 
 They stumbled wildly up the great stairs beyond the door. Aragorn 
 leading, Boromir at the rear. At the top was a wide echoing passage. Along 
-this they fled. Frodo heard FAT at his side weeping, and then he found that 
+this they fled. Frodo heard Sam at his side weeping, and then he found that 
 he himself was weeping as he ran. Doom, doom, doom the drum-beats rolled 
 behind, mournful now and slow; doom! 
 
@@ -17640,7 +17640,7 @@ dark tonight.'
 'Come with me, Frodo! ' cried the dwarf, springing from the road. 'I 
 would not have you go without seeing Kheled-zvram.' He ran down the long 
 green slope. Frodo followed slowly, drawn by the still blue water in spite 
-of hurt and weariness; FAT came up behind. 
+of hurt and weariness; Sam came up behind. 
 
 Beside the standing stone Gimli halted and looked up. It was cracked 
 and weather-worn, and the faint runes upon its side could not be read. 'This 
@@ -17658,7 +17658,7 @@ could be seen.
 of Durin till he wakes. Farewell! ' He bowed, and turned away, and hastened 
 back up the green-sward to the road again. 
 
-'What did you see? ' said Pippin to FAT, but FAT was too deep in 
+'What did you see? ' said Pippin to Sam, but Sam was too deep in 
 thought to answer. 
 
 The road now turned south and went quickly downwards, running out from 
@@ -17693,9 +17693,9 @@ be glad if I were beneath the eaves of that wood, and it were springtime ! ’
 'My heart will be glad, even in the winter,' said Aragorn. 'But it lies 
 many miles away. Let us hasten! ' 
 
-For some time Frodo and FAT managed to keep up with the others; but 
+For some time Frodo and Sam managed to keep up with the others; but 
 Aragorn was leading them at a great pace, and after a while they lagged 
-behind. They had eaten nothing since the early morning. FAT's cut was 
+behind. They had eaten nothing since the early morning. Sam's cut was 
 burning like fire, and his head felt light. In spite of the shining sun the 
 wind seemed chill after the warm darkness of Moria. He shivered. Frodo felt 
 every step more painful and he gasped for breath. 
@@ -17706,7 +17706,7 @@ with him.
 
 'I am sorry, Frodo! ' he cried, full of concern. 'So much has happened 
 this day and we have such need of haste, that I have forgotten that you were 
-hurt; and FAT too. You should have spoken. We have done nothing to ease 
+hurt; and Sam too. You should have spoken. We have done nothing to ease 
 you, 
 
 as we ought, though all the ores of Moria were after us. Come now! A little 
@@ -17727,13 +17727,13 @@ they had come only a few miles from the Gates. Already the sun was
 westering. 
 
 While Gimli and the two younger hobbits kindled a fire of brush- and 
-fir-wood, and drew water, Aragorn tended FAT and Frodo. FAT's wound was 
+fir-wood, and drew water, Aragorn tended Sam and Frodo. Sam's wound was 
 not 
 
 deep, but it looked ugly, and Aragorn’s face was grave as he examined it. 
 After a moment he looked up with relief. 
 
-’Good luck, FAT! ’ he said. 'Many have received worse than this in 
+’Good luck, Sam! ’ he said. 'Many have received worse than this in 
 payment for the slaying of their first ore. The cut is not poisoned, as the 
 wounds of ore-blades too often are. It should heal well when I have tended 
 it. Bathe it when Gimli has heated water.' 
@@ -17794,7 +17794,7 @@ fire and hid all traces of it. Then climbing out of the dell they took to
 the road again. They had not gone far before the sun sank behind the 
 westward heights and great shadows crept down the mountain-sides. Dusk 
 veiled their feet, and mist rose in the hollows. Away in the east the 
-evening light lay pale upon the dim lands of distant plain and wood. FAT and 
+evening light lay pale upon the dim lands of distant plain and wood. Sam and 
 Frodo now feeling eased and greatly refreshed were able to go at a fair 
 pace, and with only one brief halt Aragorn led the Company on for nearly 
 three more hours. 
@@ -18104,10 +18104,10 @@ in the same language.*
 
 'Who are they, and what do they say? ’ asked Merry. 
 
-'They're Elves,' said FAT. 'Can't you hear their voices? ' 
+'They're Elves,' said Sam. 'Can't you hear their voices? ' 
 
 'Yes, they are Elves,' said Legolas; 'and they say that you breathe so 
-loud that they could shoot you in the dark.' FAT hastily put his hand over 
+loud that they could shoot you in the dark.' Sam hastily put his hand over 
 his mouth. 'But they say also that you need have no fear. They have been 
 aware of us for a long while. They heard my voice across the Nimrodel, and 
 knew that I was one of their Northern kindred, and therefore they did not 
@@ -18119,7 +18119,7 @@ foot of the tree, until they have decided what is to be done.'
 Out of the shadows a ladder was let down: it was made of rope, 
 silver-grey and glimmering in the dark, and though it looked slender it 
 proved strong enough to bear many men. Legolas ran lightly up, and Frodo 
-followed slowly; behind came FAT trying not to breathe loudly. The branches 
+followed slowly; behind came Sam trying not to breathe loudly. The branches 
 of the mallorn-tree grew out nearly straight from the trunk, and then swept 
 upward; but near the top the main stem divided into a crown of many boughs, 
 
@@ -18136,7 +18136,7 @@ When Frodo came at last up on to the flet he found Legolas seated with
 three other Elves. They were clad in shadowy-grey, and could not be seen 
 among the tree-stems, unless they moved suddenly. They stood up, and one of 
 them uncovered a small lamp that gave out a slender silver beam. He held it 
-up, looking at Frodo's face, and FAT's. Then he shut off the light again, 
+up, looking at Frodo's face, and Sam's. Then he shut off the light again, 
 and spoke words of welcome in his elven-tongue. Frodo spoke haltingly in 
 return. 
 
@@ -18210,7 +18210,7 @@ The hobbits accepted this second (and far better) supper very gladly.
 
 Then they wrapped themselves warmly, not only in the fur-cloaks of the 
 Elves, but in their own blankets as well, and tried to go to sleep. But 
-weary as they were only FAT found that easy to do. Hobbits do not like 
+weary as they were only Sam found that easy to do. Hobbits do not like 
 heights, and do not sleep upstairs, even when they have any stairs. The flet 
 was not at all to their liking as a bedroom. It had no walls, not even a 
 rail; only on one side was there a light plaited screen, which could be 
@@ -18219,7 +18219,7 @@ moved and fixed in different places according to the wind.
 Pippin went on talking for a while. 'I hope, if I do go to sleep in 
 this bed-loft, that I shan't roll off,' he said. 
 
-'Once I do get to sleep,’ said FAT, ’i shall go on sleeping, whether I 
+'Once I do get to sleep,’ said Sam, ’i shall go on sleeping, whether I 
 roll off or no. And the less said, the sooner I'll drop off, if you take my 
 meaning.' 
 
@@ -18227,7 +18227,7 @@ meaning.'
 
 
 Frodo lay for some time awake, and looked up at the stars glinting 
-through the pale roof of quivering leaves. FAT was snoring at his side long 
+through the pale roof of quivering leaves. Sam was snoring at his side long 
 before he himself closed his eyes. He could dimly see the grey forms of two 
 elves sitting motionless with their arms about their knees, speaking in 
 whispers. The other had gone down to take up his watch on one of the lower 
@@ -18348,7 +18348,7 @@ strangers should be able to cross with care.'
 When this slender bridge had been made, the Company passed over, some 
 cautiously and slowly, others more easily. Of the hobbits Pippin proved the 
 best for he was sure-footed, and he walked over quickly, holding only with 
-one hand; but he kept his eyes on the bank ahead and did not look down. FAT 
+one hand; but he kept his eyes on the bank ahead and did not look down. Sam 
 shuffled along, clutching hard, and looking down into the pale eddying water 
 as if it was a chasm in the mountains. 
 
@@ -18578,7 +18578,7 @@ heart could mourn for summer or for spring. No blemish or sickness or
 deformity could be seen in anything that grew upon the earth. On the land of 
 Lurien there was no stain. 
 
-He turned and saw that FAT was now standing beside him, looking round 
+He turned and saw that Sam was now standing beside him, looking round 
 with a puzzled expression, and rubbing his eyes as if he was not sure that 
 he was awake. 'It's sunlight and bright day, right enough,' he said. 'I 
 thought that Elves were all for moon and stars: but this is more elvish than 
@@ -18885,7 +18885,7 @@ all the Company is true.’
 
 And with that word she held them with her eyes, and in silence looked 
 searchingly at each of them in turn. None save Legolas and Aragorn could 
-long endure her glance. FAT quickly blushed and hung his head. 
+long endure her glance. Sam quickly blushed and hung his head. 
 
 At length the Lady Galadriel released them from her eyes, and she 
 smiled. 'Do not let your hearts be troubled,' she said. 'Tonight you shall 
@@ -18909,11 +18909,11 @@ talked of their night before in the tree-tops, and of their day's journey,
 and of the Lord and Lady; for they had not yet the heart to look further 
 back. 
 
-'What did you blush for, FAT? ’ said Pippin. 'You soon broke down. 
+'What did you blush for, Sam? ’ said Pippin. 'You soon broke down. 
 Anyone would have thought you had a guilty conscience. I hope it was nothing 
 worse than a wicked plot to steal one of my blankets.’ 
 
-'I never thought no such thing,’ answered FAT, in no mood for jest. ’If 
+'I never thought no such thing,’ answered Sam, in no mood for jest. ’If 
 you want to know, I felt as if I hadn’t got nothing on, and I didn't like 
 it. She seemed to be looking inside me and asking me what I would do if she 
 gave me the chance of flying back home to the Shire to a nice little hole 
@@ -19004,7 +19004,7 @@ listened
 and had not sung himself, though his memory was stored with many things that 
 others had made before him. But now as he sat beside the fountain in Lurien 
 and heard about him the voices of the Elves, his thought took shape in a 
-song that seemed fair to him; yet when he tried to repeat it to FAT only 
+song that seemed fair to him; yet when he tried to repeat it to Sam only 
 snatches remained, faded as a handful of withered leaves. 
 
 When evening in the Shire was grey 
@@ -19037,7 +19037,7 @@ and Fire and Shadow both defied;
 his staff was broken on the stone, 
 in Khazad-dym his wisdom died. 
 
-'Why, you'll be beating Mr. Bilbo next! ' said FAT. 
+'Why, you'll be beating Mr. Bilbo next! ' said Sam. 
 
 
 
@@ -19045,7 +19045,7 @@ in Khazad-dym his wisdom died.
 'No, I am afraid not,' said Frodo. 'But that is the best I can do yet.' 
 
 'Well, Mr. Frodo, if you do have another go, I hope you'll say a word 
-about his fireworks,' said FAT. 'Something like this: 
+about his fireworks,' said Sam. 'Something like this: 
 
 The finest rockets ever seen: 
 they burst in stars of blue and green, 
@@ -19054,20 +19054,20 @@ came falling like a rain of flowers.
 
 Though that doesn't do them justice by a long road.' 
 
-'No, I'll leave that to you, FAT. Or perhaps to Bilbo. But-well. I 
+'No, I'll leave that to you, Sam. Or perhaps to Bilbo. But-well. I 
 can't talk of it any more. I can't bear to think of bringing the news to 
 him.' 
 
-One evening Frodo and FAT were walking together in the cool twilight. 
+One evening Frodo and Sam were walking together in the cool twilight. 
 Both of them felt restless again. On Frodo suddenly the shadow of parting 
 had fallen: he knew somehow that the time was very near when he must leave 
 Lothlurien. 
 
-'What do you think of Elves now, FAT? ’ he said. 'I asked you the same 
+'What do you think of Elves now, Sam? ’ he said. 'I asked you the same 
 question once before-it seems a very long while ago; but you have seen more 
 of them since then.' 
 
-'I have indeed! ' said FAT. 'And I reckon there's Elves and Elves. 
+'I have indeed! ' said Sam. 'And I reckon there's Elves and Elves. 
 
 They're all elvish enough, but they're not all the same. Now these folk 
 aren't wanderers or homeless, and seem a bit nearer to the likes of us: they 
@@ -19079,7 +19079,7 @@ deep, where I can't lay my hands on it, in a manner of speaking.'
 
 'You can see and feel it everywhere,' said Frodo. 
 
-'Well,' said FAT, 'you can't see nobody working it. No fireworks like 
+'Well,' said Sam, 'you can't see nobody working it. No fireworks like 
 poor Gandalf used to show. I wonder we don't see nothing of the Lord and 
 Lady in all these days. I fancy now that she could do some wonderful things, 
 if she had a mind. I'd dearly love to see some Elf-magic, Mr. Frodo! ' 
@@ -19087,7 +19087,7 @@ if she had a mind. I'd dearly love to see some Elf-magic, Mr. Frodo! '
 'I wouldn't,' said Frodo. 'I am content. And I don't miss Gandalf's 
 fireworks, but his bushy eyebrows, and his quick temper, and his voice.' 
 
-'You're right,' said FAT. 'And don't think I'm finding fault. I've 
+'You're right,' said Sam. 'And don't think I'm finding fault. I've 
 often wanted to see a bit of magic like what it tells of in old tales, but 
 I've never heard of a better land than this. It's like being at home and on 
 a holiday at the same time, if you understand me. I don't want to leave. All 
@@ -19103,7 +19103,7 @@ old gaffer used to say. And I don't reckon that these folk can do much more
 to help us, magic or no. It's when we leave this land that we shall miss 
 Gandalf worse, I'm thinking.' 
 
-'I am afraid that's only too true, FAT,' said Frodo. 'Yet I hope very 
+'I am afraid that's only too true, Sam,' said Frodo. 'Yet I hope very 
 much that before we leave we shall see the Lady of the Elves again.' 
 
 Even as he spoke, they saw, as if she came in answer to their words, 
@@ -19139,7 +19139,7 @@ cannot always tell. Do you wish to look? '
 
 Frodo did not answer. 
 
-'And you? ’ she said, turning to FAT. 'For this is what your folk would 
+'And you? ’ she said, turning to Sam. 'For this is what your folk would 
 call magic. I believe; though I do not understand clearly what they mean; 
 
 
@@ -19149,7 +19149,7 @@ and they seem also to use the same word of the deceits of the Enemy. But
 this, if you will, is the magic of Galadriel. Did you not say that you 
 wished to see Elf-magic? ' 
 
-'I did,' said FAT, trembling a little between fear and curiosity. Til 
+'I did,' said Sam, trembling a little between fear and curiosity. Til 
 have a peep, Lady, if you're willing.’ 
 
 'And I'd not mind a glimpse of what's going on at home,' he said in an 
@@ -19160,14 +19160,14 @@ understand.'
 'Like as not,' said the Lady with a gentle laugh. 'But come, you shall 
 look and see what you may. Do not touch the water! ’ 
 
-FAT climbed up on the foot of the pedestal and leaned over the basin. 
+Sam climbed up on the foot of the pedestal and leaned over the basin. 
 
 The water looked hard and dark. Stars were reflected in it. 
 
 'There's only stars, as I thought,' he said. Then he gave a low gasp, 
 for the stars went out. As if a dark veil had been withdrawn, the Mirror 
 grew grey, and then clear. There was sun shining, and the branches of trees 
-were waving and tossing in the wind. But before FAT could make up his mind 
+were waving and tossing in the wind. But before Sam could make up his mind 
 what it was that he saw, the light faded; and now he thought he saw Frodo 
 with a pale face lying fast asleep under a great dark cliff. Then he seemed 
 to see himself going along a dim passage, and climbing an endless winding 
@@ -19177,18 +19177,18 @@ back, and he saw the trees again. But this time they were not so close, and
 he could see what was going on: they were not waving in the wind, they were 
 falling, crashing to the ground. 
 
-'Hi!' cried FAT in an outraged voice. 'There's that Ted Sandyman 
+'Hi!' cried Sam in an outraged voice. 'There's that Ted Sandyman 
 a-cutting down trees as he shouldn't. They didn't ought to be felled: it's 
 that avenue beyond the Mill that shades the road to Bywater. I wish I could 
 get at Ted, and I'd fell himV 
 
-But now FAT noticed that the Old Mill had vanished, and a large 
+But now Sam noticed that the Old Mill had vanished, and a large 
 red-brick building was being put up where it had stood. Lots of folk were 
 busily at work. There was a tall red chimney nearby. Black smoke seemed to 
 cloud the surface of the Mirror. 
 
 'There's some devilry at work in the Shire,' he said. 'Elrond knew what 
-he was about when he wanted to send Mr. Merry back.' Then suddenly FAT 
+he was about when he wanted to send Mr. Merry back.' Then suddenly Sam 
 gave 
 
 a cry and sprang away. 'I can't stay here,' he said wildly. 'I must go home. 
@@ -19206,7 +19206,7 @@ shows many things, and not all have yet come to pass. Some never come to be,
 unless those that behold the visions turn aside from their path to prevent 
 them. The Mirror is dangerous as a guide of deeds.’ 
 
-FAT sat on the ground and put his head in his hands. 'I wish I had 
+Sam sat on the ground and put his head in his hands. 'I wish I had 
 never come here, and I don’t want to see no more magic,’ he said and fell 
 silent. After a moment he spoke again thickly, as if struggling with tears. 
 
@@ -19383,7 +19383,7 @@ even so, as Ring-bearer and as one that has borne it on finger and seen that
 which is hidden, your sight is grown keener. You have perceived my thought 
 more clearly than many that are accounted wise. You saw the Eye of him that 
 holds the Seven and the Nine. And did you not see and recognize the ring 
-upon my finger? Did you see my ring? ’ she asked turning again to FAT. 
+upon my finger? Did you see my ring? ’ she asked turning again to Sam. 
 
 'No, Lady,' he answered. 'To tell you the truth, I wondered what you 
 were talking about. I saw a star through your finger. But if you'll pardon 
@@ -19469,7 +19469,7 @@ Aragorn thanked Celeborn many times. The gift of boats comforted him
 much, not least because there would now be no need to decide his course for 
 some days. The others, too, looked more hopeful. Whatever perils lay ahead, 
 it seemed better to float down the broad tide of Anduin to meet them than to 
-plod forward with bent backs. Only FAT was doubtful: he at any rate still 
+plod forward with bent backs. Only Sam was doubtful: he at any rate still 
 thought boats as bad as wild horses, or worse, and not all the dangers that 
 he had survived made him think better of them. 
 
@@ -19529,7 +19529,7 @@ words. It would be folly to throw away: what? The Ring of Power? He had said
 something like this at the Council, but then he had accepted the correction 
 of Elrond. Frodo looked at Aragorn, but he seemed deep in his own thought 
 and made no sign that he had heeded Boromir's words. And so their debate 
-ended. Merry and Pippin were already asleep, and FAT was nodding. The 
+ended. Merry and Pippin were already asleep, and Sam was nodding. The 
 night 
 
 was growing old. 
@@ -19649,14 +19649,14 @@ stowed their goods. And they added also coils of rope, three to each boat.
 Slender they looked, but strong, silken to the touch, grey of hue like the 
 elven-cloaks. 
 
-'What are these? ' asked FAT, handling one that lay upon the 
+'What are these? ' asked Sam, handling one that lay upon the 
 greensward. 
 
 'Ropes indeed! ' answered an Elf from the boats. 'Never travel far 
 without a rope! And one that is long and strong and light. Such are these. 
 They may be a help in many needs.' 
 
-'You don't need to tell me that! ' said FAT. I came without any and 
+'You don't need to tell me that! ' said Sam. I came without any and 
 I've been worried ever since. But I was wondering what these were made of, 
 knowing a bit about rope -making: it's in the family as you might say.' 
 
@@ -19675,13 +19675,13 @@ lade them as you will; but they are wayward if mishandled. It would be wise
 if you accustomed yourselves to stepping in and out, here where there is a 
 landing-place, before you set off downstream.' 
 
-The Company was arranged in this way: Aragorn, Frodo, and FAT were in 
+The Company was arranged in this way: Aragorn, Frodo, and Sam were in 
 one boat; Boromir, Merry, and Pippin in another; and in the third were 
 Legolas and Gimli, who had now become fast friends. In this last boat most 
 of the goods and packs were stowed. The boats were moved and steered with 
 short-handled paddles that had broad leaf-shaped blades. When all was ready 
 Aragorn led them on a trial up the Silverlode. The current was swift and 
-they went forward slowly. FAT sat in the bows, clutching the sides, and 
+they went forward slowly. Sam sat in the bows, clutching the sides, and 
 looking back wistfully to the shore. The sunlight glittering on the water 
 dazzled his eyes. As they passed beyond the green field of the Tongue, the 
 trees drew down to the river's brink. Here and there golden leaves tossed 
@@ -19867,7 +19867,7 @@ each with a clasp wrought like a golden flower. To Legolas she gave a bow
 such as the Galadhrim used, longer and stouter than the bows of Mirkwood, 
 and strung with a string of elf-hair. With it went a quiver of arrows. 
 
-'For you little gardener and lover of trees,' she said to FAT, 'I have 
+'For you little gardener and lover of trees,' she said to Sam, 'I have 
 only a small gift.’ She put into his hand a little box of plain grey wood, 
 unadorned save for a single silver rune upon the lid. 'Here is set G for 
 Galadriel,' she said; 'but also it may stand for garden in your tongue. In 
@@ -19881,7 +19881,7 @@ and catch a glimpse far off of Lurien, that you have seen only in our
 winter. For our spring and our summer are gone by, and they will never be 
 seen on earth again save in memory.' 
 
-FAT went red to the ears and muttered something inaudible, as he 
+Sam went red to the ears and muttered something inaudible, as he 
 clutched the box and bowed as well as he could. 
 
 'And what gift would a Dwarf ask of the Elves? ' said Galadriel turning 
@@ -20077,7 +20077,7 @@ Chapter 9 . The Great River
 
 
 
-Frodo was roused by FAT. He found that he was lying, well wrapped, 
+Frodo was roused by Sam. He found that he was lying, well wrapped, 
 under tall grey -skinned trees in a quiet corner of the woodlands on the west 
 bank of the Great River, Anduin. He had slept the night away, and the grey 
 of morning was dim among the bare branches. Gimli was busy with a small fire 
@@ -20125,7 +20125,7 @@ There was no sign of living moving things, save birds. Of these there
 were many: small fowl whistling and piping in the reeds, but they were 
 seldom seen. Once or twice the travellers heard the rush and whine of 
 swan-wings, and looking up they saw a great phalanx streaming along the sky. 
-'Swans! ' said FAT. 'And mighty big ones too! ’ 
+'Swans! ' said Sam. 'And mighty big ones too! ’ 
 
 'Yes,' said Aragorn, ’and they are black swans.' 
 
@@ -20150,7 +20150,7 @@ ride often to its shores. Anduin is wide, yet the ores can shoot their
 arrows far across the stream; and of late, it is said, they have dared to 
 cross the water and raid the herds and studs of Rohan.’ 
 
-FAT looked from bank to bank uneasily. The trees had seemed hostile 
+Sam looked from bank to bank uneasily. The trees had seemed hostile 
 before, as if they harboured secret eyes and lurking dangers; now he wished 
 that the trees were still there. He felt that the Company was too naked, 
 afloat in little open boats in the midst of shelterless lands, and on a 
@@ -20180,12 +20180,12 @@ Boromir sat muttering to himself, sometimes biting his nails, as if some
 restlessness or doubt consumed him, sometimes seizing a paddle and driving 
 the boat close behind Aragorn's. Then Pippin, who sat in the bow looking 
 back, caught a queer gleam in his eye, as he peered forward gazing at Frodo. 
-FAT had long ago made up his mind that, though boats were maybe not as 
+Sam had long ago made up his mind that, though boats were maybe not as 
 dangerous as he had been brought up to believe, they were far more 
 uncomfortable than even he had imagined. Fie was cramped and miserable, 
 having nothing to do but stare at the winter -lands crawling by and the grey 
 water on either side of him. Even when the paddles were in use they did not 
-trust FAT with one. 
+trust Sam with one. 
 
 As dusk drew down on the fourth day, he was looking back over the bowed 
 heads of Frodo and Aragorn and the following boats; he was drowsy and 
@@ -20195,12 +20195,12 @@ for camp and the feel of earth under his toes. Suddenly something caught his
 sight: at first he stared at it listlessly, then he sat up and rubbed his 
 eyes; but when he looked again he could not see it any more. 
 
-That night they camped on a small eyot close to the western bank. FAT 
+That night they camped on a small eyot close to the western bank. Sam 
 lay rolled in blankets beside Frodo. V I had a funny dream an hour or two 
 before we stopped, Mr. Frodo,' he said. 'Or maybe it wasn't a dream. Funny 
 it was anyway.' 
 
-'Well, what was it? ' said Frodo, knowing that FAT would not settle 
+'Well, what was it? ' said Frodo, knowing that Sam would not settle 
 down until he had told his tale, whatever it was. 'I haven't seen or thought 
 of anything to make me smile since we left Lothlurien.' 
 
@@ -20214,7 +20214,7 @@ leave out the eyes ! ’
 
 
 
-'That I won't,' said FAT. ' 'Twas the eyes as made me sit up, so to 
+'That I won't,' said Sam. ' 'Twas the eyes as made me sit up, so to 
 speak. I saw what I took to be a log floating along in the half-light behind 
 Gimli's boat; but I didn't give much heed to it. Then it seemed as if the 
 log was slowly catching us up. And that was peculiar, as you might say, 
@@ -20233,18 +20233,18 @@ I think I caught a glimpse with the tail of-my eye, as the saying is, of
 something dark shooting under the shadow of the bank. I couldn't see no more 
 eyes though. 
 
-'I said to myself: "dreaming again, FAT Gamgee," I said: and I said no 
+'I said to myself: "dreaming again, Sam Gamgee," I said: and I said no 
 more just then. But I've been thinking since, and now I'm not so sure. What 
 do you make of it, Mr. Frodo? ' 
 
 'I should make nothing of it but a log and the dusk and sleep in your 
-eyes FAT, said Frodo, if this was the first time that those eyes had been 
+eyes Sam, said Frodo, if this was the first time that those eyes had been 
 seen. But it isn't. I saw them away back north before we reached Lurien. And 
 I saw a strange creature with eyes climbing to the flet that night. Haldir 
 saw it too. And do you remember the report of the Elves that went after the 
 ore-band? ' 
 
-'Ah,' said FAT. 'I do; and I remember more too. I don't like my 
+'Ah,' said Sam. 'I do; and I remember more too. I don't like my 
 thoughts; but thinking of one thing and another, and Mr. Bilbo's stories and 
 all, I fancy I could put a name on the creature, at a guess. A nasty name. 
 Gollum, maybe? ' 
@@ -20255,7 +20255,7 @@ up our trail then; but I hoped that our stay in Lurien would throw him off
 the scent again. The miserable creature must have been hiding in the woods 
 by the Silverlode, watching us start off! ’ 
 
-'That's about it,' said FAT. 'And we'd better be a bit more watchful 
+'That's about it,' said Sam. 'And we'd better be a bit more watchful 
 ourselves, or we'll feel some nasty fingers round our necks one of these 
 nights, if we ever wake up to feel anything. And that's what I was leading 
 
@@ -20269,8 +20269,8 @@ V I might,' said Frodo, 'and I might say "luggage with eyes". You shall
 watch; but only if you promise to wake me halfway towards morning, if 
 nothing happens before then.' 
 
-In the dead hours Frodo came out of a deep dark sleep to find FAT 
-shaking him. 'It's a shame to wake you,' whispered FAT, 'but that's what you 
+In the dead hours Frodo came out of a deep dark sleep to find Sam 
+shaking him. 'It's a shame to wake you,' whispered Sam, 'but that's what you 
 said. There's nothing to tell, or not much. I thought I heard some soft 
 plashing and a sniffing noise, a while back; but you hear a lot of such 
 queer sounds by a river at night.' 
@@ -20322,7 +20322,7 @@ The weather was still grey and overcast, with wind from the East, but
 as evening drew into night the sky away westward cleared, and pools of faint 
 light, yellow and pale green, opened under the grey shores of cloud. There 
 the white rind of the new Moon could be seen glimmering in the remote lakes. 
-FAT looked at it and puckered his brows. 
+Sam looked at it and puckered his brows. 
 
 The next day the country on either side began to change rapidly. The 
 banks began to rise and grow stony. Soon they were passing through a hilly 
@@ -20370,11 +20370,11 @@ ahead. Still there are dangerous places even before we come there: rocks and
 stony eyots in the stream. We must keep a sharp watch and not try to paddle 
 swiftly.’ 
 
-To FAT in the leading boat was given the task of watchman. He lay 
+To Sam in the leading boat was given the task of watchman. He lay 
 forward peering into the gloom. The night grew dark, but the stars above 
 were strangely bright, and there was a glimmer On the face of the River. It 
 was close on midnight, and they had been drifting for some while, hardly 
-using the paddles, when suddenly FAT cried out. Only a few yards ahead dark 
+using the paddles, when suddenly Sam cried out. Only a few yards ahead dark 
 shapes loomed up in the stream and he heard the swirl of racing water. There 
 was a swift current which swung left, towards the eastern shore where the 
 channel was clear. As they were swept aside the travellers could see, now 
@@ -20413,7 +20413,7 @@ shoulders
 and he lurched forward with a cry, letting go his paddle: but the arrow fell 
 back, foiled by his hidden coat of mail. Another passed through Aragorn's 
 hood; and a third stood fast in the gunwale of the second boat, close by 
-Merry's hand. FAT thought he could glimpse black figures running to and fro 
+Merry's hand. Sam thought he could glimpse black figures running to and fro 
 upon the long shingle -banks that lay under the eastern shore. They seemed 
 very near. 
 
@@ -20421,10 +20421,10 @@ very near.
 
 'Ores! ' cried Gimli. 
 
-'Gollum's doing, I'll be bound.' said FAT to Frodo. 'And a nice place 
+'Gollum's doing, I'll be bound.' said Sam to Frodo. 'And a nice place 
 to choose, too. The River seems set on taking us right into their arms! ' 
 
-They all leaned forward straining at the paddles: even FAT took a hand. 
+They all leaned forward straining at the paddles: even Sam took a hand. 
 Every moment they expected to feel the bite of black -feathered arrows. Many 
 whined overhead or struck the water nearby; but there were no more hits. It 
 was dark, but not too dark for the night-eyes of Ores, and in the 
@@ -20506,7 +20506,7 @@ what they will do next, we do not know. This night we must all be sleepless!
 Dark hides us now. But what the day will show who can tell? Have your 
 weapons close to hand! ' 
 
-FAT sat tapping the hilt of his sword as if he were counting on his 
+Sam sat tapping the hilt of his sword as if he were counting on his 
 
 
 
@@ -20544,7 +20544,7 @@ is on it. Rich are the hours, though short they seem, in Caras Galadhon,
 where Galadriel wields the Elven-ring.’ 
 
 'That should not have been said outside Lurien, not even to me,' said 
-Aragorn. 'Speak no more of it! But so it is, FAT: in that land you lost your 
+Aragorn. 'Speak no more of it! But so it is, Sam: in that land you lost your 
 count. There time flowed swiftly by us, as for the Elves. The old moon 
 passed, and a new moon waxed and waned in the world outside, while we 
 tarried there. And yestereve a new moon came again. Winter is nearly gone. 
@@ -20565,7 +20565,7 @@ sad. Slowly the dawn grew to a pale light, diffused and shadowless. There
 was mist on the River, and white fog swathed the shore; the far bank could 
 not be seen. 
 
-'I can't abide fog,' said FAT; 'but this seems to be a lucky one. Now 
+'I can't abide fog,' said Sam; 'but this seems to be a lucky one. Now 
 perhaps we can get away without those cursed goblins seeing us.' 
 
 'Perhaps so,' said Aragorn. 'But it will be hard to find the path 
@@ -20764,7 +20764,7 @@ sentinels of N®menor. So they passed into the dark chasm of the Gates.
 
 Sheer rose the dreadful cliffs to unguessed heights on either side. Far 
 off was the dim sky. The black waters roared and echoed, and a wind screamed 
-over them. Frodo crouching over his knees heard FAT in front muttering and 
+over them. Frodo crouching over his knees heard Sam in front muttering and 
 groaning: 'What a place! What a horrible place! Just let me get out of this 
 boat, and I'll never wet my toes in a puddle again, let alone a river! ' 
 
@@ -20916,11 +20916,11 @@ Aragorn looked at him with kindly pity. 'Very well, Frodo son of
 Drogo,' he said. 'You shall have an hour, and you shall be alone. We will 
 stay here for a while. But do not stray far or out of call.’ 
 
-Frodo sat for a moment with his head bowed. FAT, who had been watching 
+Frodo sat for a moment with his head bowed. Sam, who had been watching 
 his master with great concern, shook his head and muttered: 'Plain as a 
-pikestaff it is, but it's no good FAT Gamgee putting in his spoke just now.' 
+pikestaff it is, but it's no good Sam Gamgee putting in his spoke just now.' 
 
-Presently Frodo got up and walked away; and FAT saw that while the 
+Presently Frodo got up and walked away; and Sam saw that while the 
 others restrained themselves and did not stare at him, the eyes of Boromir 
 followed Frodo intently, until he passed out of sight in the trees at the 
 foot of Amon Hen. 
@@ -21211,7 +21211,7 @@ firm and his heart lighter. He spoke aloud to himself. T will do now what I
 must,' he said. This at least is plain: the evil of the Ring is already at 
 work even in the Company, and the Ring must leave them before it does more 
 harm. I will go alone. Some I cannot trust, and those I can trust are too 
-dear to me: poor old FAT, and Merry and Pippin. Strider, too: his heart 
+dear to me: poor old Sam, and Merry and Pippin. Strider, too: his heart 
 yearns for Minas Tirith, and he will be needed there, now Boromir has fallen 
 into evil. I will go alone. At once.' 
 
@@ -21224,7 +21224,7 @@ away. Hours, I should think.' He hesitated. 'What can I do? ' he muttered.
 
 'I must go now or I shall never go. I shan't get a chance again. I hate 
 leaving them, and like this without any explanation. But surely they will 
-understand. FAT will. And what else can I do?' 
+understand. Sam will. And what else can I do?' 
 
 Slowly he drew out the Ring and put it on once more. He vanished and 
 passed down the hill, less than a rustle of the wind. 
@@ -21281,7 +21281,7 @@ or one alone. If you would let me choose, then I should appoint three
 
 
 
-companions: FAT, who could not bear it otherwise; and Gimli; and myself. 
+companions: Sam, who could not bear it otherwise; and Gimli; and myself. 
 Boromir will return to his own city, where his father and his people need 
 him; and with him the others should go, or at least Meriadoc and Peregrin, 
 if Legolas is not willing to leave us.' 
@@ -21299,7 +21299,7 @@ Mordor alone! ' Pippin shuddered. 'But the dear silly old hobbit, he ought
 to know that he hasn't got to ask. He ought to know that if we can't stop 
 him, we shan't leave him.' 
 
-'Begging your pardon,' said FAT. 'I don't think you understand my 
+'Begging your pardon,' said Sam. 'I don't think you understand my 
 master at all. He isn't hesitating about which way to go. Of course not! 
 What's the good of Minas Tirith anyway? To him, I mean, begging your 
 pardon, 
@@ -21308,7 +21308,7 @@ Master Boromir,' he added, and turned. It was then that they discovered that
 Boromir, who at first had been sitting silent on the outside of the circle, 
 was no longer there. 
 
-'Now where's he got to? ' cried FAT, looking worried. 'He's been a bit 
+'Now where's he got to? ' cried Sam, looking worried. 'He's been a bit 
 queer lately, to my mind. But anyway he's not in this business. He's off to 
 his home, as he always said; and no blame to him. But Mr. Frodo, he knows 
 he's got to find the Cracks of Doom, if he can. But he's afraid. Now it's 
@@ -21323,7 +21323,7 @@ comes
 
 back. For he'll screw himself up all right, as sure as his name's Baggins.' 
 
-'I believe you speak more wisely than any of us, FAT,' said Aragorn. 
+'I believe you speak more wisely than any of us, Sam,' said Aragorn. 
 'And what shall we do, if you prove right? ’ 
 
 
@@ -21364,7 +21364,7 @@ too kindly at Boromir.
 
 'Yes,' he answered. 'I will say no more yet.’ 
 
-'This is bad!' cried FAT, jumping up. 'I don't know what this Man has 
+'This is bad!' cried Sam, jumping up. 'I don't know what this Man has 
 been up to. Why should Mr. Frodo put the thing on? He didn't ought to have; 
 and if he has, goodness knows what may have happened!' 
 
@@ -21380,7 +21380,7 @@ now.'
 wandered for some time since. I do not know! I do not know! ' He put his 
 head in his hands, and sat as if bowed with grief. 
 
-'An hour since he vanished! ' shouted FAT. 'We must try and find him at 
+'An hour since he vanished! ' shouted Sam. 'We must try and find him at 
 once. Come on! ’ 
 
 
@@ -21389,7 +21389,7 @@ once. Come on! ’
 'Wait a moment! ' cried Aragorn. 'We must divide up into pairs, and 
 arrange-here, hold on! Wait! ' 
 
-It was no good. They took no notice of him. FAT had dashed off first. 
+It was no good. They took no notice of him. Sam had dashed off first. 
 Merry and Pippin had followed, and were already disappearing westward into 
 the trees by the shore, shouting: Frodo! Frodo ! in their clear, high 
 hobbit- voices. Legolas and Gimli were running. A sudden panic or madness 
@@ -21401,32 +21401,32 @@ those two young hobbits, and guard them at the least, even if you cannot
 find Frodo. Come back to this spot, if you find him, or any traces of him. I 
 shall return soon.' 
 
-Aragorn sprang swiftly away and went in pursuit of FAT. Just as he 
+Aragorn sprang swiftly away and went in pursuit of Sam. Just as he 
 reached the little lawn among the rowans he overtook him, toiling uphill, 
 panting and calling, Frodo! 
 
-'Come with me, FAT! ’ he said. 'None of us should be alone. There is 
+'Come with me, Sam! ’ he said. 'None of us should be alone. There is 
 mischief about. I feel it. I am going to the top, to the Seat of Amon Hen, 
 to see what may be seen. And look! It is as my heart guessed, Frodo went 
 this way. Follow me, and keep your eyes open! ' He sped up the path. 
 
-FAT did his best, but he could not keep up with Strider the Ranger, and 
+Sam did his best, but he could not keep up with Strider the Ranger, and 
 soon fell behind. He had not gone far before Aragorn was out of sight ahead. 
-FAT stopped and puffed. Suddenly he clapped his hand to his head. 
+Sam stopped and puffed. Suddenly he clapped his hand to his head. 
 
-'Whoa, FAT Gamgee! ’ he said aloud. 'Your legs are too short, so use 
+'Whoa, Sam Gamgee! ’ he said aloud. 'Your legs are too short, so use 
 your head! Let me see now! Boromir isn't lying, that's not his way; but he 
 hasn't told us everything. Something scared Mr. Frodo badly. He screwed 
 himself up to the point, sudden. He made up his mind at last to go. Where 
-to? Off East. Not without FAT? Yes, without even his FAT. That's hard, cruel 
+to? Off East. Not without Sam? Yes, without even his Sam. That's hard, cruel 
 hard.' 
 
-FAT passed his hand over his eyes, brushing away the tears. 'Steady, 
+Sam passed his hand over his eyes, brushing away the tears. 'Steady, 
 Gamgee! ' he said. 'Think, if you can! He can't fly across rivers, and he 
 can't jump waterfalls. He's got no gear. So he's got to get back to the 
-boats. Back to the boats! Back to the boats, FAT, like lightning! ' 
+boats. Back to the boats! Back to the boats, Sam, like lightning! ' 
 
-FAT turned and bolted back down the path. He fell and cut his knees. Up 
+Sam turned and bolted back down the path. He fell and cut his knees. Up 
 he got and ran on. He came to the edge of the lawn of Parth Galen by the 
 shore, where the boats were drawn up out of the water. No one was there. 
 There seemed to be cries in the woods behind, but he did not heed them. He 
@@ -21435,7 +21435,7 @@ stood gazing for a moment, stock-still, gaping. A boat was sliding down the
 
 
 
-bank all by itself. With a shout FAT raced across the grass. The boat 
+bank all by itself. With a shout Sam raced across the grass. The boat 
 slipped into the wat 
 
 
@@ -21446,50 +21446,50 @@ slipped into the wat
 
 er. 
 
-'Coming, Mr. Frodo! Coming! ' called FAT, and flung himself from the 
+'Coming, Mr. Frodo! Coming! ' called Sam, and flung himself from the 
 bank, clutching at the departing boat. He missed it by a yard. With a cry 
 and a splash he fell face downward into deep swift water. Gurgling he went 
 under, and the River closed over his curly head. 
 
 An exclamation of dismay came from the empty boat. A paddle swirled and 
-the boat put about. Frodo was just in time to grasp FAT by the hair as he 
+the boat put about. Frodo was just in time to grasp Sam by the hair as he 
 came up, bubbling and struggling. Fear was staring in his round brown eyes. 
 
-'Up you come, FAT my lad! ’ said Frodo. 'Now take my hand! ' 
+'Up you come, Sam my lad! ’ said Frodo. 'Now take my hand! ' 
 
-'Save me, Mr. Frodo! ’ gasped FAT. 'I'm drownded. I can’t see your 
+'Save me, Mr. Frodo! ’ gasped Sam. 'I'm drownded. I can’t see your 
 hand.’ 
 
 'Here it is. Don't pinch, lad! I won’t let you go. Tread water and 
 don’t flounder, or you'll upset the boat. There now, get hold of the side, 
 and let me use the paddle! ' 
 
-With a few strokes Frodo brought the boat back to the bank, and FAT was 
+With a few strokes Frodo brought the boat back to the bank, and Sam was 
 able to scramble out, wet as a water-rat. Frodo took off the Ring and 
 stepped ashore again. 
 
-'Of all the confounded nuisances you are the worst, FAT! ’ he said. 
+'Of all the confounded nuisances you are the worst, Sam! ’ he said. 
 
-’Oh, Mr. Frodo, that’s hard! ’ said FAT shivering. 'That’s hard, trying 
+’Oh, Mr. Frodo, that’s hard! ’ said Sam shivering. 'That’s hard, trying 
 to go without me and all. If I hadn’t a guessed right, where would you be 
 now? ’ 
 
 'Safely on my way.’ 
 
-'Safely! ’ said FAT. 'All alone and without me to help you? I couldn’t 
+'Safely! ’ said Sam. 'All alone and without me to help you? I couldn’t 
 have a borne it, it’d have been the death of me.’ 
 
-’It would be the death of you to come with me, FAT,’ said Frodo and I 
+’It would be the death of you to come with me, Sam,’ said Frodo and I 
 could not have borne that.’ 
 
-'Not as certain as being left behind,’ said FAT. 
+'Not as certain as being left behind,’ said Sam. 
 
 'But I am going to Mordor.’ 
 
 'I know that well enough, Mr. Frodo. Of course you are. And I’m coming 
 with you.’ 
 
-'Now, FAT,’ said Frodo, 'don’t hinder me! The others will be coming 
+'Now, Sam,’ said Frodo, 'don’t hinder me! The others will be coming 
 back at any minute. If they catch me here. I shall have to argue and 
 
 
@@ -21498,14 +21498,14 @@ back at any minute. If they catch me here. I shall have to argue and
 explain, and I shall never have the heart or the chance to get off. But I 
 must go at once. It's the only way.’ 
 
-'Of course it is,' answered FAT. 'But not alone. I'm coming too, or 
+'Of course it is,' answered Sam. 'But not alone. I'm coming too, or 
 neither of us isn’t going. I'll knock holes in all the boats first.' 
 
 Frodo actually laughed. A sudden warmth and gladness touched his heart. 
 'Leave one! 'he said. 'We'll need it. But you can't come like this without 
 your gear or food or anything.' 
 
-'Just hold on a moment, and I'll get my stuff!' cried FAT eagerly. 
+'Just hold on a moment, and I'll get my stuff!' cried Sam eagerly. 
 
 'It's all ready. I thought we should be off today.' He rushed to the camping 
 place, fished out his pack from the pile where Frodo had laid it when he 
@@ -21513,17 +21513,17 @@ emptied the boat of his companions' goods grabbed a spare blanket, and some
 extra packages of food, and ran back. 
 
 'So all my plan is spoilt! ’ said Frodo. 'It is no good trying to 
-escape you. But I’m glad, FAT. I cannot tell you how glad. Come along! It is 
+escape you. But I’m glad, Sam. I cannot tell you how glad. Come along! It is 
 plain that we were meant to go together. We will go, and may the others find 
 a safe road! Strider will look after them. I don't suppose we shall see them 
 again.' 
 
-'Yet we may, Mr Frodo. We may,' said FAT. 
+'Yet we may, Mr Frodo. We may,' said Sam. 
 
-So Frodo and FAT set off on the last stage of the Quest together. Frodo 
+So Frodo and Sam set off on the last stage of the Quest together. Frodo 
 paddled away from the shore, and the River bore them swiftly away, down the 
 western arm, and past the frowning cliffs of Tol Brandir. The roar of the 
-great falls drew nearer. Even with such help as FAT could give, it was hard 
+great falls drew nearer. Even with such help as Sam could give, it was hard 
 work to pass across the current at the southward end of the island and drive 
 the boat eastward towards the far shore. 
 

@@ -15,20 +15,22 @@ cat infile | grep pattern | more
 # include <sys/wait.h>
 # include <setjmp.h>
 
-# define DEBUG 1
+# define DEBUG 0
 # define BUFFSIZE 4069
 
 int byte_count=0;
-jmp_buf int_jb;
+int file_count=0;
 
 void int_handler(int sn)
 {
-	longjmp(int_jb,1);
+	fprintf(stderr,"\nFiles Proccessed: %d\nBytes Processed: %d\n", \
+		file_count, byte_count);
+	exit(0);
 }
 
 pid_t execPipeIO(const char *cmd, const char *arg, int ifd, int ofd, \
 	const int *close_fds, const int n);
-void cat(int fdi, int fdo, char *buf, int buff_size);
+int cat(int fdi, int fdo, char *buf, int buff_size);
 
 int main(int argc, char **argv)
 {
@@ -39,7 +41,23 @@ int main(int argc, char **argv)
 	char *buf;
 	int wstatus;
 
-	// argument parsing
+	// SIGINT HANDLE
+	struct sigaction sa;
+	sa.sa_handler=int_handler;
+	sa.sa_flags=0;
+	sigemptyset(&sa.sa_mask);
+	if(sigaction(SIGINT,&sa,0)==-1)
+	{
+		perror("sigaction");
+		exit(-1);
+	}
+	if( signal(SIGPIPE,SIG_IGN) == SIG_ERR )
+	{
+		perror("sigpipe set error");
+		exit(-1);
+	}
+
+	// valid arguments check
 	if( argc<3 )
 	{
 		fprintf(stderr,"%s: must specify grep pattern and infile\n",argv[0]);
@@ -52,7 +70,6 @@ int main(int argc, char **argv)
 		perror("malloc error");
 		exit(-1);
 	}
-
 
 	// loop over infiles
 	for(i=2; i<argc; i++)
@@ -97,10 +114,12 @@ int main(int argc, char **argv)
 		// close pipe references
 		if( close(pipes[0])==-1 || close(pipes[2])==-1 || close(pipes[3])==-1 )
 			perror("error, parent couldn't close pipe references");
-
-		fprintf(stderr,"+ catting infile %s\n",argv[i]);
-		// actual concatenation
+		
+		if(DEBUG)
+			fprintf(stderr,"+ catting infile %s\n",argv[i]);
+		// CAT
 		cat(fd_in, pipes[1], buf, bs);
+		file_count++;
 
 		// close the infile
 		if(fd_in != STDIN_FILENO && close(fd_in) < 0) 
@@ -118,13 +137,17 @@ int main(int argc, char **argv)
 
 		// wait for ALL child processes to terminate
 		int p;
-		while( (p=wait(&wstatus))>0 )
+		while( (p=wait(&wstatus))>0 || errno==EINTR )
 		{
 			if(DEBUG)
-				fprintf(stderr,"+ terminated pid: %d\n",p);
+				fprintf(stderr,"+ terminated pid: %d\n\t+ if exited: %d\n"
+						"\t+ exit status: %d\n",p,WIFEXITED(wstatus), \
+						WEXITSTATUS(wstatus));
 		}
 	}
 
+	fprintf(stderr,"\nFiles Proccessed: %d\nBytes Processed: %d\n", \
+		file_count, byte_count);
 
 	free(buf);
 	return 0;
@@ -165,6 +188,12 @@ pid_t execPipeIO(const char *cmd, const char *arg, int ifd, int ofd, \
 				exit(-1);
 			}
 		}
+		
+		if( signal(SIGPIPE,SIG_DFL) == SIG_ERR )
+		{
+			perror("sigpipe set error in child");
+			exit(-1);
+		}
 
 		// execute
 		execlp(cmd,cmd,arg,NULL);
@@ -178,7 +207,7 @@ pid_t execPipeIO(const char *cmd, const char *arg, int ifd, int ofd, \
 
 
 // performs concatenation of infile to outfile
-void cat(int fdi, int fdo, char *buf, int buff_size)
+int cat(int fdi, int fdo, char *buf, int buff_size)
 {
 	int n,m;
 	char *temp;
@@ -187,6 +216,8 @@ void cat(int fdi, int fdo, char *buf, int buff_size)
 		temp = buf;
 		while( (m = write(fdo, temp, n)) !=n )
 		{
+			if(errno==EPIPE)
+				return -1;
 			fprintf(stderr,"outfile with fd=%d write error: %s\n", \
 				fdo, strerror(errno));
 			temp+=m;
@@ -200,5 +231,6 @@ void cat(int fdi, int fdo, char *buf, int buff_size)
 			fdi, strerror(errno));
 		exit(-1);
 	}
+	return 0;
 }
 

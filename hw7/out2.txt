@@ -1,0 +1,20 @@
+.data
+	str: .ascii "COOL\n"
+.text
+.global _start
+_start:
+	movq $1,   %rax	 # 1 -> sys_write
+	movq $1,   %rdi  # 1 -> stdout_fileno 
+	movq $str, %rsi 
+	movq $5,   %rdx  # 5 -> num chars 
+	syscall
+
+COOL
+Segmentation fault (core dumped)
+execve("./a.out", ["./a.out"], [/* 68 vars */]) = 0
+write(1, "COOL\n", 5COOL
+)                   = 5
+--- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x5} ---
++++ killed by SIGSEGV (core dumped) +++
+Segmentation fault (core dumped)
+139

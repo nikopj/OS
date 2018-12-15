@@ -1,0 +1,58 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage[margin=.8in]{geometry}
+\usepackage{listings} % for formatting code
+\lstset
+{
+    language=C,
+    basicstyle=\footnotesize\ttfamily,
+    numbers=left,
+    stepnumber=1,
+    showstringspaces=false,
+    tabsize=4,
+    breaklines=true,
+    breakatwhitespace=false,
+}
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+\author{Nikola Janju\v{s}evi\'{c}}
+\title{ECE357, Computer Operating Systems -- Problem Set \#7}
+
+\begin{document}
+\begin{Large}
+ECE357, Computer Operating Systems -- Problem Set \#7
+\end{Large} \\
+\begin{large}
+Nikola Janju\v{s}evi\'{c}
+\end{large} 
+\\
+\today
+
+\section*{assembly process: \texttt{as\_show.sh}}
+\lstinputlisting{../as_show.sh}
+
+\section*{Problem 2 -- pure assembly}
+\verb!$./as_show.sh p2.s!
+\lstinputlisting[numbers=none]{../out2.txt}
+
+\pagebreak
+
+\section*{Problem 3 -- exit code}
+The previous assembly code, \verb!p2.s!, did not make a call to the \verb!_exit! system call and was terminated by a segmentation fault as the processor attempted to continue to execute instructions beyond the defined text region, eventually attempting to access memory that was not currently mapped in (seen in \verb!si_code=SEGV_MAPERR!). The following code, \verb!p3.s!, uses the \verb!_exit! system call. \\\\
+\verb!$./as_show.sh p3.s!
+\lstinputlisting[numbers=none]{../out3.txt}
+Note that both \verb!strace! and \verb!$?! verify that the program exited with the specified value, 2.
+
+\section*{Problem 4 -- system call validation}
+The following program calls \verb!syscall! with an invalid system call number. \\\\
+\verb!$./as_show.sh p4.s!
+\lstinputlisting[numbers=none]{../out4.txt}
+\verb!strace! shows that the system call fails with \verb!errno=38!, which corresponds to failure due to an invalid system call number. The program still exits as per the specified \verb!_exit! system call.
+
+\end{document}

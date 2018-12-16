@@ -1,16 +1,7 @@
+#include "spinlib.h"
+#include "tas.h"
 #include <sched.h>
-#include <tas.h>
 
-#define N_PROC 64
-
-volatile char *lock=0;
-int spin_lock(volatile char *lock);
-int spin_unlock(volatile char *lock);
-
-int main(int argc, char **argv)
-{
-	
-}
 
 int spin_lock(volatile char *lock)
 {

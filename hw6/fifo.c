@@ -6,7 +6,6 @@ struct fifo
 	struct sem *smutex;
 }
 
-
 void fifo_init(struct fifo *f)
 {
 	sem_init(sfifo,

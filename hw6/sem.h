@@ -11,10 +11,9 @@ struct sem
 	volatile char countlock;
 };
 void handler(int sn);
-void debug_print(struct sem *s);
-void sem_init(struct sem *s, int count);
+void sem_init(struct sem *s, int count, int wait_len);
 int sem_try(struct sem *s);
-void sem_wait(struct sem *s, int n_vp);
+void sem_wait(struct sem *s);
 void sem_inc(struct sem *s);
 #define __SEM_H
 #endif

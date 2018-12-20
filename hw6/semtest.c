@@ -57,6 +57,7 @@ int main(int argc, char **argv)
 	}
 	while( (p=wait(&wstatus))>0 || errno==EINTR );
 	printf("count=%d\n",s->count);
+	printf("%d\n",N_PROC);
 		
 	return 0;
 }

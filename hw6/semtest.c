@@ -10,27 +10,23 @@
 #include "sem.h"
 
 #define N_PROC 64
-#define N_ITER 1e4
+#define N_ITER 100
 #define MEM_SIZE 4096
 #define DEBUG 1
 
 int main(int argc, char **argv)
 {
-	int i,p, wstatus;
-	int n_vp = 0;
-	char *mptr;
+	int i,p,wstatus;
 	pid_t pid;
 	struct sem *s;
-	struct sigaction sa;
 
-	if( (mptr=mmap(NULL,MEM_SIZE,PROT_READ|PROT_WRITE,\
+	if( (s=mmap(NULL,MEM_SIZE,PROT_READ|PROT_WRITE,\
 		MAP_SHARED|MAP_ANONYMOUS,-1,0))==MAP_FAILED )
 	{
 		perror("mmap error");
 		exit(-1);
 	}
 
-	s=mptr;
 	sem_init(s,1);
 
 	for(i=0;i<N_PROC;i++)
@@ -41,11 +37,10 @@ int main(int argc, char **argv)
 				fprintf(stderr,"i=%d fork error: %s\n",i,strerror(errno));
 				exit(-1);
 			case 0:
-				n_vp=i;
-				if(n_vp%2==0)
+				if(i%2==0)
 				{
 					for(i=0;i<N_ITER;i++)
-						sem_wait(s,n_vp);
+						sem_wait(s);
 				}
 				else
 				{
@@ -57,7 +52,6 @@ int main(int argc, char **argv)
 	}
 	while( (p=wait(&wstatus))>0 || errno==EINTR );
 	printf("count=%d\n",s->count);
-	printf("%d\n",N_PROC);
 		
 	return 0;
 }

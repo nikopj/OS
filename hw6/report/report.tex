@@ -1,0 +1,93 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage[margin=.8in]{geometry}
+\usepackage{listings} % for formatting code
+\lstset
+{
+    language=C,
+    basicstyle=\footnotesize\ttfamily,
+    numbers=left,
+    stepnumber=1,
+    showstringspaces=false,
+    tabsize=4,
+    breaklines=true,
+    breakatwhitespace=false,
+}
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+\author{Nikola Janju\v{s}evi\'{c}}
+\title{ECE357, Computer Operating Systems -- Problem Set \#6}
+
+\begin{document}
+\begin{Large}
+ECE357, Computer Operating Systems -- Problem Set \#6
+\end{Large} \\
+\begin{large}
+Nikola Janju\v{s}evi\'{c}
+\end{large} 
+\\
+\today
+
+\section*{EXAMPLE BREAKAGE}
+The \texttt{acidtest} code (presented in the next section) spawns several child processes that write to a FIFO. Writing happens as a sequence of datums containing the child processes virtual process number \verb!n_vp! and sequence number \verb!k!. The parent process reads from the FIFO and prints out the contents of the datums as they are read. In normal operation of the \verb!acidtest! program, datums are printed by the parent process in a seemingly random order, however, no datum from a single child process is ever out of order. \verb!acidbreak.txt! shows a sample output of the program \verb!acidtest.c! when the write mutex-lock is removed from the FIFO structure (removing lines 14 and 19 from \verb!fifo.c!).
+\subsubsection*{\texttt{acidbreak.txt}}
+\verb!$ ./acidtest.out! \\
+...
+\lstinputlisting[numbers=none]{../acidbreak.txt}
+... \\ \\
+If we \verb!grep! the output stream of the \verb!acidtest! program for a single virtual process, we can see that the absence of the write mutex-lock causes the datums to be out of order. \verb!acidbreak_grep.txt! shows a sample of the previous \verb!acidtest! output when grepped for virtual process number 13.
+
+\subsubsection*{\texttt{acidbreak\_grep.txt}}
+\verb!$ ./acidtest.out | grep 'n_vp: 13'!\\
+...
+\lstinputlisting[numbers=none]{../acidbreak_grep.txt}
+... \\
+
+\section*{ACID TEST}
+\subsection*{\texttt{acidtest.c}}
+\lstinputlisting{../acidtest.c}
+
+\pagebreak
+
+\section*{FIFO}
+\subsection*{\texttt{fifo.h}}
+\lstinputlisting{../fifo.h}
+\subsection*{\texttt{fifo.c}}
+\lstinputlisting{../fifo.c}
+
+\pagebreak
+
+\section*{SEMAPHORE}
+\subsection*{\texttt{sem.h}}
+\lstinputlisting{../sem.h}
+\subsection*{\texttt{sem.c}}
+\lstinputlisting{../sem.c}
+
+\pagebreak
+
+\section*{SPINLOCK}
+\subsection*{\texttt{spinlib.h}}
+\lstinputlisting{../spinlib.h}
+\subsection*{\texttt{spinlib.c}}
+\lstinputlisting{../spinlib.c}
+
+\section*{TAS}
+\subsection*{\texttt{tas.h}}
+\lstinputlisting{../tas.h}
+\subsection*{\texttt{tas.s}}
+\lstinputlisting{../tas.s}
+
+\pagebreak
+
+\section*{MAKEFILE}
+\subsection*{\texttt{Makefile}}
+\lstinputlisting{../Makefile}
+
+
+\end{document}

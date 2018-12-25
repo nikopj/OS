@@ -1,29 +1,28 @@
 #include "tas.h"
 #include "spinlib.h"
+#include "sem.h"
 #include <unistd.h>
-#include <sys/types.h>
 #include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MAX_WAIT 64
+static void handler(int sn){}
 
-struct node
+static pid_t pid_pop(struct sem *s)
 {
-	pid_t pid;
-	struct node *nptr;
+	if(s->waitlen<1)
+		return -1;
+	s->waitlen--;
+	return s->waitstack[s->waitlen];
 }
 
-struct sem
+static pid_t pid_push(struct sem *s, pid_t pid)
 {
-	volatile int count;
-	volatile pid_t waitlist[MAX_WAIT];
-	int wait_len;
-	volatile char waitlock;
-	volatile char countlock;
-};
-
-void handler(int sn){}
+	if(s->waitlen>=MAX_WAIT)
+		return -1;
+	s->waitstack[s->waitlen++] = pid;
+	return 0;
+}
 
 static void block(struct sem *s)
 {
@@ -40,16 +39,11 @@ static void block(struct sem *s)
 		}
 	spin_lock(&s->waitlock);
 		sigprocmask(SIG_BLOCK, &blk_mask, NULL);
-		while(waitlist[i]!=0)
+		if( pid_push(s, getpid())<0 )
 		{
-			if(i==MAX_WAIT-1)
-			{
-				fprintf(stderr,"error, waitlist too long!\n");
-				exit(-1);
-			}
-			i++;
+			fprintf(stderr,"pid_push(s,%d) error, stack too large\n",getpid());
+			exit(-1);
 		}
-		s->waitlist[i]=getpid();
 	spin_unlock(&s->waitlock);
 	spin_unlock(&s->countlock);
 
@@ -58,48 +52,20 @@ static void block(struct sem *s)
 
 static void wake(struct sem *s)
 {
-	int i=0;
+	pid_t pid;
 	spin_lock(&s->waitlock);
-	/*
-		for(i=0;i<N_PROC;i++)
-		{
-			if(s->waitlist[i]>0)
-			{
-				kill(s->waitlist[i],SIGUSR1);
-				s->waitlist[i]=0;
-			}
-		}
-	*/
-		while(s->waitlist[i]!=0)
-		{
-			if(i==MAX_WAIT-1)
-			{
-				fprintf(stderr,"error, waitlist too long!\n");
-				exit(-1);
-			}
-			kill(s->waitlist[i],SIGUSR1);
-			s->waitlist[i]=0;
-			i++;
-		}
+		while( (pid=pid_pop(s))>0 )
+			kill(pid,SIGUSR1);
 	spin_unlock(&s->waitlock);
 }
 
-void sem_init(struct sem *s, int count, int wait_len)
+void sem_init(struct sem *s, int count)
 {
 	s->count = count;
 	s->countlock = 0;
 	s->waitlock = 0;
-	s->wait_len = wait_len;
+	s->waitlen = 0;
 	signal(SIGUSR1,handler);
-	if(wait_len>MAX_WAIT)
-	{
-		fprintf(stderr,"wait length too large (%d>%d)\n",wait_len,MAX_WAIT);
-		exit(-1);
-	}
-	// initialize waitlist stack to zeros
-	int i=0;
-	while(i<wait_len)
-		waitlist[i++]=0;
 }
 
 int sem_try(struct sem *s)
@@ -115,7 +81,7 @@ int sem_try(struct sem *s)
 	return 1;
 }
 
-void sem_wait(struct sem *s, int n_vp)
+void sem_wait(struct sem *s)
 {
 	while(!sem_try(s))
 		block(s);
